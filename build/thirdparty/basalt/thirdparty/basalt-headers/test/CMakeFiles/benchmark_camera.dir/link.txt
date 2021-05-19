@@ -1,0 +1,1 @@
+/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native  -O3 -DBASALT_USE_CHOLMOD -DBASALT_DISABLE_ASSERTS -DNDEBUG   CMakeFiles/benchmark_camera.dir/src/benchmark_camera.cpp.o  -o benchmark_camera benchmark/src/libbenchmark.a -pthread /usr/lib/x86_64-linux-gnu/librt.so 

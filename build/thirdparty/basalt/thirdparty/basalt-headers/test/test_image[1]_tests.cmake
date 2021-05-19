@@ -1,0 +1,5 @@
+add_test( Image.ImageInterpolate /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/thirdparty/basalt/thirdparty/basalt-headers/test/test_image [==[--gtest_filter=Image.ImageInterpolate]==] --gtest_also_run_disabled_tests)
+set_tests_properties( Image.ImageInterpolate PROPERTIES WORKING_DIRECTORY /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/thirdparty/basalt/thirdparty/basalt-headers/test)
+add_test( Image.ImageInterpolateGrad /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/thirdparty/basalt/thirdparty/basalt-headers/test/test_image [==[--gtest_filter=Image.ImageInterpolateGrad]==] --gtest_also_run_disabled_tests)
+set_tests_properties( Image.ImageInterpolateGrad PROPERTIES WORKING_DIRECTORY /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/thirdparty/basalt/thirdparty/basalt-headers/test)
+set( test_image_TESTS Image.ImageInterpolate Image.ImageInterpolateGrad)

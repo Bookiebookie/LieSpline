@@ -1,0 +1,16 @@
+/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles/install/strip.dir
+/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles/install/local.dir
+/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles/test.dir
+/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles/list_install_components.dir
+/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles/uninstall.dir
+/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles/edit_cache.dir
+/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles/rebuild_cache.dir
+/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles/install.dir
+/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres/CMakeFiles/install/strip.dir
+/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres/CMakeFiles/install/local.dir
+/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres/CMakeFiles/test.dir
+/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres/CMakeFiles/ceres.dir
+/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres/CMakeFiles/list_install_components.dir
+/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres/CMakeFiles/edit_cache.dir
+/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres/CMakeFiles/rebuild_cache.dir
+/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres/CMakeFiles/install.dir

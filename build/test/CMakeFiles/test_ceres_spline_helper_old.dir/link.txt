@@ -1,0 +1,1 @@
+/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native  -O3 -DBASALT_USE_CHOLMOD -DBASALT_DISABLE_ASSERTS -DNDEBUG   CMakeFiles/test_ceres_spline_helper_old.dir/src/test_ceres_spline_helper_old.cpp.o  -o test_ceres_spline_helper_old ../lib/libgtest.a ../lib/libgtest_main.a ../lib/libgtest.a -lpthread 

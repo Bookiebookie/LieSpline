@@ -1,0 +1,109 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0ec2c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0ec2c.dir/build.make CMakeFiles/cmTC_0ec2c.dir/build
+make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ec2c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0ec2c.dir/CheckSymbolExists.c.o   -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0ec2c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ec2c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_0ec2c.dir/CheckSymbolExists.c.o  -o cmTC_0ec2c 
+CMakeFiles/cmTC_0ec2c.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0ec2c.dir/build.make:97: recipe for target 'cmTC_0ec2c' failed
+make[1]: *** [cmTC_0ec2c] Error 1
+make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0ec2c/fast' failed
+make: *** [cmTC_0ec2c/fast] Error 2
+
+File /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1655b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1655b.dir/build.make CMakeFiles/cmTC_1655b.dir/build
+make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1655b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1655b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1655b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1655b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_1655b.dir/CheckFunctionExists.c.o  -o cmTC_1655b -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1655b.dir/build.make:97: recipe for target 'cmTC_1655b' failed
+make[1]: *** [cmTC_1655b] Error 1
+make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1655b/fast' failed
+make: *** [cmTC_1655b/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
+Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a74e8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a74e8.dir/build.make CMakeFiles/cmTC_a74e8.dir/build
+make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a74e8.dir/src.cxx.o
+/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wshorten-64-to-32   -Wshorten-64-to-32 -o CMakeFiles/cmTC_a74e8.dir/src.cxx.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+CMakeFiles/cmTC_a74e8.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a74e8.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_a74e8.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a74e8/fast' failed
+make: *** [cmTC_a74e8/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2b7bd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2b7bd.dir/build.make CMakeFiles/cmTC_2b7bd.dir/build
+make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2b7bd.dir/src.cxx.o
+/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_WD654  -wd654   -wd654 -o CMakeFiles/cmTC_2b7bd.dir/src.cxx.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd654'
+c++: error: unrecognized command line option '-wd654'
+CMakeFiles/cmTC_2b7bd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2b7bd.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_2b7bd.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2b7bd/fast' failed
+make: *** [cmTC_2b7bd/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
+Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33f6f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_33f6f.dir/build.make CMakeFiles/cmTC_33f6f.dir/build
+make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_33f6f.dir/src.cxx.o
+/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wthread-safety   -Wthread-safety -o CMakeFiles/cmTC_33f6f.dir/src.cxx.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wthread-safety'; did you mean '-fthread-jumps'?
+c++: error: unrecognized command line option '-Wthread-safety'; did you mean '-fthread-jumps'?
+CMakeFiles/cmTC_33f6f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_33f6f.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_33f6f.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_33f6f/fast' failed
+make: *** [cmTC_33f6f/fast] Error 2
+
+Source file was:
+int main() { return 0; }

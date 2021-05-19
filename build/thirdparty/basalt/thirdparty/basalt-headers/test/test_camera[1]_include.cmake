@@ -1,0 +1,5 @@
+if(EXISTS "/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/thirdparty/basalt/thirdparty/basalt-headers/test/test_camera[1]_tests.cmake")
+  include("/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/thirdparty/basalt/thirdparty/basalt-headers/test/test_camera[1]_tests.cmake")
+else()
+  add_test(test_camera_NOT_BUILT test_camera_NOT_BUILT)
+endif()

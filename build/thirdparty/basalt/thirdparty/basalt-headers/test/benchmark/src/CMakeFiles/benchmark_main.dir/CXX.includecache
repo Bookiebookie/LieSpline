@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/include/benchmark/benchmark.h
+stdint.h
+-
+algorithm
+-
+cassert
+-
+cstddef
+-
+iosfwd
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+initializer_list
+-
+type_traits
+-
+utility
+-
+intrin.h
+-
+
+/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/benchmark_main.cc
+benchmark/benchmark.h
+/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/benchmark/benchmark.h
+
