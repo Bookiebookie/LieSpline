@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lyu/Documents/catkin_evis/lie-spline-experiments
+CMAKE_SOURCE_DIR = /home/lu/Desktop/PanoMotionEst/LieSpline
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lyu/Documents/catkin_evis/lie-spline-experiments/build
+CMAKE_BINARY_DIR = /home/lu/Desktop/PanoMotionEst/LieSpline/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/progress.marks
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 0
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles /home/lu/Desktop/PanoMotionEst/LieSpline/build/thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/progress.marks
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/clean
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/preinstall
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/preinstall
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/rule:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/rule
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/rule
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ benchmark_camera: thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/be
 
 # fast build rule for target.
 benchmark_camera/fast:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/build
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/build
 .PHONY : benchmark_camera/fast
 
 # Convenience name for target.
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/rule:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/rule
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/rule
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ test_ceres_spline_helper: thirdparty/basalt/thirdparty/basalt-headers/test/CMake
 
 # fast build rule for target.
 test_ceres_spline_helper/fast:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/build
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/build
 .PHONY : test_ceres_spline_helper/fast
 
 # Convenience name for target.
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/rule:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/rule
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/rule
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ test_spline: thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sp
 
 # fast build rule for target.
 test_spline/fast:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/build
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/build
 .PHONY : test_spline/fast
 
 # Convenience name for target.
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/rule:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/rule
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/rule
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ test_sophus: thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_so
 
 # fast build rule for target.
 test_sophus/fast:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/build
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/build
 .PHONY : test_sophus/fast
 
 # Convenience name for target.
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/rule:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/rule
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/rule
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ test_image: thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ima
 
 # fast build rule for target.
 test_image/fast:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/build
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/build
 .PHONY : test_image/fast
 
 # Convenience name for target.
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/rule:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/rule
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/rule
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ test_camera: thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ca
 
 # fast build rule for target.
 test_camera/fast:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/build
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/build
 .PHONY : test_camera/fast
 
 # Convenience name for target.
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/rule:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/rule
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/rule
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ test_spline_se3: thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/tes
 
 # fast build rule for target.
 test_spline_se3/fast:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/build
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/build
 .PHONY : test_spline_se3/fast
 
 # Convenience name for target.
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/rule:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/rule
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/rule
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/rule
 
 # Convenience name for target.
@@ -284,7 +284,7 @@ test_preintegration: thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles
 
 # fast build rule for target.
 test_preintegration/fast:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/build
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/build
 .PHONY : test_preintegration/fast
 
 src/benchmark_camera.o: src/benchmark_camera.cpp.o
@@ -293,7 +293,7 @@ src/benchmark_camera.o: src/benchmark_camera.cpp.o
 
 # target to build an object file
 src/benchmark_camera.cpp.o:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/src/benchmark_camera.cpp.o
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/src/benchmark_camera.cpp.o
 .PHONY : src/benchmark_camera.cpp.o
 
 src/benchmark_camera.i: src/benchmark_camera.cpp.i
@@ -302,7 +302,7 @@ src/benchmark_camera.i: src/benchmark_camera.cpp.i
 
 # target to preprocess a source file
 src/benchmark_camera.cpp.i:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/src/benchmark_camera.cpp.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/src/benchmark_camera.cpp.i
 .PHONY : src/benchmark_camera.cpp.i
 
 src/benchmark_camera.s: src/benchmark_camera.cpp.s
@@ -311,7 +311,7 @@ src/benchmark_camera.s: src/benchmark_camera.cpp.s
 
 # target to generate assembly for a file
 src/benchmark_camera.cpp.s:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/src/benchmark_camera.cpp.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/src/benchmark_camera.cpp.s
 .PHONY : src/benchmark_camera.cpp.s
 
 src/test_camera.o: src/test_camera.cpp.o
@@ -320,7 +320,7 @@ src/test_camera.o: src/test_camera.cpp.o
 
 # target to build an object file
 src/test_camera.cpp.o:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/src/test_camera.cpp.o
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/src/test_camera.cpp.o
 .PHONY : src/test_camera.cpp.o
 
 src/test_camera.i: src/test_camera.cpp.i
@@ -329,7 +329,7 @@ src/test_camera.i: src/test_camera.cpp.i
 
 # target to preprocess a source file
 src/test_camera.cpp.i:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/src/test_camera.cpp.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/src/test_camera.cpp.i
 .PHONY : src/test_camera.cpp.i
 
 src/test_camera.s: src/test_camera.cpp.s
@@ -338,7 +338,7 @@ src/test_camera.s: src/test_camera.cpp.s
 
 # target to generate assembly for a file
 src/test_camera.cpp.s:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/src/test_camera.cpp.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/src/test_camera.cpp.s
 .PHONY : src/test_camera.cpp.s
 
 src/test_ceres_spline_helper.o: src/test_ceres_spline_helper.cpp.o
@@ -347,7 +347,7 @@ src/test_ceres_spline_helper.o: src/test_ceres_spline_helper.cpp.o
 
 # target to build an object file
 src/test_ceres_spline_helper.cpp.o:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/src/test_ceres_spline_helper.cpp.o
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/src/test_ceres_spline_helper.cpp.o
 .PHONY : src/test_ceres_spline_helper.cpp.o
 
 src/test_ceres_spline_helper.i: src/test_ceres_spline_helper.cpp.i
@@ -356,7 +356,7 @@ src/test_ceres_spline_helper.i: src/test_ceres_spline_helper.cpp.i
 
 # target to preprocess a source file
 src/test_ceres_spline_helper.cpp.i:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/src/test_ceres_spline_helper.cpp.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/src/test_ceres_spline_helper.cpp.i
 .PHONY : src/test_ceres_spline_helper.cpp.i
 
 src/test_ceres_spline_helper.s: src/test_ceres_spline_helper.cpp.s
@@ -365,7 +365,7 @@ src/test_ceres_spline_helper.s: src/test_ceres_spline_helper.cpp.s
 
 # target to generate assembly for a file
 src/test_ceres_spline_helper.cpp.s:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/src/test_ceres_spline_helper.cpp.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/src/test_ceres_spline_helper.cpp.s
 .PHONY : src/test_ceres_spline_helper.cpp.s
 
 src/test_image.o: src/test_image.cpp.o
@@ -374,7 +374,7 @@ src/test_image.o: src/test_image.cpp.o
 
 # target to build an object file
 src/test_image.cpp.o:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/src/test_image.cpp.o
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/src/test_image.cpp.o
 .PHONY : src/test_image.cpp.o
 
 src/test_image.i: src/test_image.cpp.i
@@ -383,7 +383,7 @@ src/test_image.i: src/test_image.cpp.i
 
 # target to preprocess a source file
 src/test_image.cpp.i:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/src/test_image.cpp.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/src/test_image.cpp.i
 .PHONY : src/test_image.cpp.i
 
 src/test_image.s: src/test_image.cpp.s
@@ -392,7 +392,7 @@ src/test_image.s: src/test_image.cpp.s
 
 # target to generate assembly for a file
 src/test_image.cpp.s:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/src/test_image.cpp.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/src/test_image.cpp.s
 .PHONY : src/test_image.cpp.s
 
 src/test_preintegration.o: src/test_preintegration.cpp.o
@@ -401,7 +401,7 @@ src/test_preintegration.o: src/test_preintegration.cpp.o
 
 # target to build an object file
 src/test_preintegration.cpp.o:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/src/test_preintegration.cpp.o
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/src/test_preintegration.cpp.o
 .PHONY : src/test_preintegration.cpp.o
 
 src/test_preintegration.i: src/test_preintegration.cpp.i
@@ -410,7 +410,7 @@ src/test_preintegration.i: src/test_preintegration.cpp.i
 
 # target to preprocess a source file
 src/test_preintegration.cpp.i:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/src/test_preintegration.cpp.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/src/test_preintegration.cpp.i
 .PHONY : src/test_preintegration.cpp.i
 
 src/test_preintegration.s: src/test_preintegration.cpp.s
@@ -419,7 +419,7 @@ src/test_preintegration.s: src/test_preintegration.cpp.s
 
 # target to generate assembly for a file
 src/test_preintegration.cpp.s:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/src/test_preintegration.cpp.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/src/test_preintegration.cpp.s
 .PHONY : src/test_preintegration.cpp.s
 
 src/test_sophus.o: src/test_sophus.cpp.o
@@ -428,7 +428,7 @@ src/test_sophus.o: src/test_sophus.cpp.o
 
 # target to build an object file
 src/test_sophus.cpp.o:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/src/test_sophus.cpp.o
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/src/test_sophus.cpp.o
 .PHONY : src/test_sophus.cpp.o
 
 src/test_sophus.i: src/test_sophus.cpp.i
@@ -437,7 +437,7 @@ src/test_sophus.i: src/test_sophus.cpp.i
 
 # target to preprocess a source file
 src/test_sophus.cpp.i:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/src/test_sophus.cpp.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/src/test_sophus.cpp.i
 .PHONY : src/test_sophus.cpp.i
 
 src/test_sophus.s: src/test_sophus.cpp.s
@@ -446,7 +446,7 @@ src/test_sophus.s: src/test_sophus.cpp.s
 
 # target to generate assembly for a file
 src/test_sophus.cpp.s:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/src/test_sophus.cpp.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/src/test_sophus.cpp.s
 .PHONY : src/test_sophus.cpp.s
 
 src/test_spline.o: src/test_spline.cpp.o
@@ -455,7 +455,7 @@ src/test_spline.o: src/test_spline.cpp.o
 
 # target to build an object file
 src/test_spline.cpp.o:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/src/test_spline.cpp.o
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/src/test_spline.cpp.o
 .PHONY : src/test_spline.cpp.o
 
 src/test_spline.i: src/test_spline.cpp.i
@@ -464,7 +464,7 @@ src/test_spline.i: src/test_spline.cpp.i
 
 # target to preprocess a source file
 src/test_spline.cpp.i:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/src/test_spline.cpp.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/src/test_spline.cpp.i
 .PHONY : src/test_spline.cpp.i
 
 src/test_spline.s: src/test_spline.cpp.s
@@ -473,7 +473,7 @@ src/test_spline.s: src/test_spline.cpp.s
 
 # target to generate assembly for a file
 src/test_spline.cpp.s:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/src/test_spline.cpp.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/src/test_spline.cpp.s
 .PHONY : src/test_spline.cpp.s
 
 src/test_spline_se3.o: src/test_spline_se3.cpp.o
@@ -482,7 +482,7 @@ src/test_spline_se3.o: src/test_spline_se3.cpp.o
 
 # target to build an object file
 src/test_spline_se3.cpp.o:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/src/test_spline_se3.cpp.o
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/src/test_spline_se3.cpp.o
 .PHONY : src/test_spline_se3.cpp.o
 
 src/test_spline_se3.i: src/test_spline_se3.cpp.i
@@ -491,7 +491,7 @@ src/test_spline_se3.i: src/test_spline_se3.cpp.i
 
 # target to preprocess a source file
 src/test_spline_se3.cpp.i:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/src/test_spline_se3.cpp.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/src/test_spline_se3.cpp.i
 .PHONY : src/test_spline_se3.cpp.i
 
 src/test_spline_se3.s: src/test_spline_se3.cpp.s
@@ -500,7 +500,7 @@ src/test_spline_se3.s: src/test_spline_se3.cpp.s
 
 # target to generate assembly for a file
 src/test_spline_se3.cpp.s:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/src/test_spline_se3.cpp.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/src/test_spline_se3.cpp.s
 .PHONY : src/test_spline_se3.cpp.s
 
 # Help Target
@@ -559,6 +559,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

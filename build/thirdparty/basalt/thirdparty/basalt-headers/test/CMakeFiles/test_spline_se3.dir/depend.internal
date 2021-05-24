@@ -253,4 +253,4 @@ thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/
  ../thirdparty/basalt/thirdparty/basalt-headers/thirdparty/eigen/Eigen/src/plugins/CommonCwiseUnaryOps.h
  ../thirdparty/basalt/thirdparty/basalt-headers/thirdparty/eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.h
  ../thirdparty/basalt/thirdparty/basalt-headers/thirdparty/eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h
- /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/basalt/thirdparty/basalt-headers/test/src/test_spline_se3.cpp
+ /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/basalt/thirdparty/basalt-headers/test/src/test_spline_se3.cpp

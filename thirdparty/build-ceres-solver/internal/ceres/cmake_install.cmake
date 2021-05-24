@@ -1,4 +1,4 @@
-# Install script for directory: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres
+# Install script for directory: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/lib/libceres.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/lib/libceres.a")
 endif()
 

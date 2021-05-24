@@ -440,7 +440,7 @@ CMakeFiles/eval_calib.dir/src/eval_calib.cpp.o
  ../thirdparty/ceres-solver/include/ceres/solver.h
  ../thirdparty/ceres-solver/include/ceres/types.h
  ../thirdparty/ceres-solver/include/ceres/version.h
- /home/lyu/Documents/catkin_evis/lie-spline-experiments/src/eval_calib.cpp
+ /home/lu/Desktop/PanoMotionEst/LieSpline/src/eval_calib.cpp
  /usr/include/suitesparse/SuiteSparse_config.h
  /usr/include/suitesparse/cholmod.h
  /usr/include/suitesparse/cholmod_camd.h
@@ -721,4 +721,4 @@ CMakeFiles/eval_calib.dir/thirdparty/basalt/src/calibration/aprilgrid.cpp.o
  ../thirdparty/basalt/thirdparty/basalt-headers/thirdparty/eigen/Eigen/src/plugins/CommonCwiseUnaryOps.h
  ../thirdparty/basalt/thirdparty/basalt-headers/thirdparty/eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.h
  ../thirdparty/basalt/thirdparty/basalt-headers/thirdparty/eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h
- /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/basalt/src/calibration/aprilgrid.cpp
+ /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/basalt/src/calibration/aprilgrid.cpp

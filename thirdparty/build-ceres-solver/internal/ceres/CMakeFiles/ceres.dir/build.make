@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver
+CMAKE_SOURCE_DIR = /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver
+CMAKE_BINARY_DIR = /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver
 
 # Include any dependencies generated for this target.
 include internal/ceres/CMakeFiles/ceres.dir/depend.make
@@ -58,17 +58,17 @@ include internal/ceres/CMakeFiles/ceres.dir/progress.make
 include internal/ceres/CMakeFiles/ceres.dir/flags.make
 
 internal/ceres/CMakeFiles/ceres.dir/parallel_for_cxx.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/parallel_for_cxx.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/parallel_for_cxx.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/parallel_for_cxx.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/parallel_for_cxx.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/parallel_for_cxx.cc
+internal/ceres/CMakeFiles/ceres.dir/parallel_for_cxx.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/parallel_for_cxx.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/parallel_for_cxx.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/parallel_for_cxx.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/parallel_for_cxx.cc
 
 internal/ceres/CMakeFiles/ceres.dir/parallel_for_cxx.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/parallel_for_cxx.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/parallel_for_cxx.cc > CMakeFiles/ceres.dir/parallel_for_cxx.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/parallel_for_cxx.cc > CMakeFiles/ceres.dir/parallel_for_cxx.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/parallel_for_cxx.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/parallel_for_cxx.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/parallel_for_cxx.cc -o CMakeFiles/ceres.dir/parallel_for_cxx.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/parallel_for_cxx.cc -o CMakeFiles/ceres.dir/parallel_for_cxx.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/parallel_for_cxx.cc.o.requires:
 
@@ -82,17 +82,17 @@ internal/ceres/CMakeFiles/ceres.dir/parallel_for_cxx.cc.o.provides.build: intern
 
 
 internal/ceres/CMakeFiles/ceres.dir/thread_pool.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/thread_pool.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/thread_pool.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/thread_pool.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/thread_pool.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/thread_pool.cc
+internal/ceres/CMakeFiles/ceres.dir/thread_pool.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/thread_pool.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/thread_pool.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/thread_pool.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/thread_pool.cc
 
 internal/ceres/CMakeFiles/ceres.dir/thread_pool.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/thread_pool.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/thread_pool.cc > CMakeFiles/ceres.dir/thread_pool.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/thread_pool.cc > CMakeFiles/ceres.dir/thread_pool.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/thread_pool.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/thread_pool.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/thread_pool.cc -o CMakeFiles/ceres.dir/thread_pool.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/thread_pool.cc -o CMakeFiles/ceres.dir/thread_pool.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/thread_pool.cc.o.requires:
 
@@ -106,17 +106,17 @@ internal/ceres/CMakeFiles/ceres.dir/thread_pool.cc.o.provides.build: internal/ce
 
 
 internal/ceres/CMakeFiles/ceres.dir/accelerate_sparse.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/accelerate_sparse.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/accelerate_sparse.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/accelerate_sparse.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/accelerate_sparse.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/accelerate_sparse.cc
+internal/ceres/CMakeFiles/ceres.dir/accelerate_sparse.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/accelerate_sparse.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/accelerate_sparse.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/accelerate_sparse.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/accelerate_sparse.cc
 
 internal/ceres/CMakeFiles/ceres.dir/accelerate_sparse.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/accelerate_sparse.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/accelerate_sparse.cc > CMakeFiles/ceres.dir/accelerate_sparse.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/accelerate_sparse.cc > CMakeFiles/ceres.dir/accelerate_sparse.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/accelerate_sparse.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/accelerate_sparse.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/accelerate_sparse.cc -o CMakeFiles/ceres.dir/accelerate_sparse.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/accelerate_sparse.cc -o CMakeFiles/ceres.dir/accelerate_sparse.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/accelerate_sparse.cc.o.requires:
 
@@ -130,17 +130,17 @@ internal/ceres/CMakeFiles/ceres.dir/accelerate_sparse.cc.o.provides.build: inter
 
 
 internal/ceres/CMakeFiles/ceres.dir/array_utils.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/array_utils.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/array_utils.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/array_utils.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/array_utils.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/array_utils.cc
+internal/ceres/CMakeFiles/ceres.dir/array_utils.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/array_utils.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/array_utils.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/array_utils.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/array_utils.cc
 
 internal/ceres/CMakeFiles/ceres.dir/array_utils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/array_utils.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/array_utils.cc > CMakeFiles/ceres.dir/array_utils.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/array_utils.cc > CMakeFiles/ceres.dir/array_utils.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/array_utils.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/array_utils.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/array_utils.cc -o CMakeFiles/ceres.dir/array_utils.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/array_utils.cc -o CMakeFiles/ceres.dir/array_utils.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/array_utils.cc.o.requires:
 
@@ -154,17 +154,17 @@ internal/ceres/CMakeFiles/ceres.dir/array_utils.cc.o.provides.build: internal/ce
 
 
 internal/ceres/CMakeFiles/ceres.dir/blas.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/blas.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/blas.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/blas.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/blas.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/blas.cc
+internal/ceres/CMakeFiles/ceres.dir/blas.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/blas.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/blas.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/blas.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/blas.cc
 
 internal/ceres/CMakeFiles/ceres.dir/blas.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/blas.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/blas.cc > CMakeFiles/ceres.dir/blas.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/blas.cc > CMakeFiles/ceres.dir/blas.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/blas.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/blas.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/blas.cc -o CMakeFiles/ceres.dir/blas.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/blas.cc -o CMakeFiles/ceres.dir/blas.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/blas.cc.o.requires:
 
@@ -178,17 +178,17 @@ internal/ceres/CMakeFiles/ceres.dir/blas.cc.o.provides.build: internal/ceres/CMa
 
 
 internal/ceres/CMakeFiles/ceres.dir/block_evaluate_preparer.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/block_evaluate_preparer.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_evaluate_preparer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/block_evaluate_preparer.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/block_evaluate_preparer.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_evaluate_preparer.cc
+internal/ceres/CMakeFiles/ceres.dir/block_evaluate_preparer.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_evaluate_preparer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/block_evaluate_preparer.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/block_evaluate_preparer.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_evaluate_preparer.cc
 
 internal/ceres/CMakeFiles/ceres.dir/block_evaluate_preparer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/block_evaluate_preparer.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_evaluate_preparer.cc > CMakeFiles/ceres.dir/block_evaluate_preparer.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_evaluate_preparer.cc > CMakeFiles/ceres.dir/block_evaluate_preparer.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/block_evaluate_preparer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/block_evaluate_preparer.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_evaluate_preparer.cc -o CMakeFiles/ceres.dir/block_evaluate_preparer.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_evaluate_preparer.cc -o CMakeFiles/ceres.dir/block_evaluate_preparer.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/block_evaluate_preparer.cc.o.requires:
 
@@ -202,17 +202,17 @@ internal/ceres/CMakeFiles/ceres.dir/block_evaluate_preparer.cc.o.provides.build:
 
 
 internal/ceres/CMakeFiles/ceres.dir/block_jacobi_preconditioner.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/block_jacobi_preconditioner.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_jacobi_preconditioner.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/block_jacobi_preconditioner.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/block_jacobi_preconditioner.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_jacobi_preconditioner.cc
+internal/ceres/CMakeFiles/ceres.dir/block_jacobi_preconditioner.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_jacobi_preconditioner.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/block_jacobi_preconditioner.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/block_jacobi_preconditioner.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_jacobi_preconditioner.cc
 
 internal/ceres/CMakeFiles/ceres.dir/block_jacobi_preconditioner.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/block_jacobi_preconditioner.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_jacobi_preconditioner.cc > CMakeFiles/ceres.dir/block_jacobi_preconditioner.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_jacobi_preconditioner.cc > CMakeFiles/ceres.dir/block_jacobi_preconditioner.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/block_jacobi_preconditioner.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/block_jacobi_preconditioner.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_jacobi_preconditioner.cc -o CMakeFiles/ceres.dir/block_jacobi_preconditioner.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_jacobi_preconditioner.cc -o CMakeFiles/ceres.dir/block_jacobi_preconditioner.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/block_jacobi_preconditioner.cc.o.requires:
 
@@ -226,17 +226,17 @@ internal/ceres/CMakeFiles/ceres.dir/block_jacobi_preconditioner.cc.o.provides.bu
 
 
 internal/ceres/CMakeFiles/ceres.dir/block_jacobian_writer.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/block_jacobian_writer.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_jacobian_writer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/block_jacobian_writer.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/block_jacobian_writer.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_jacobian_writer.cc
+internal/ceres/CMakeFiles/ceres.dir/block_jacobian_writer.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_jacobian_writer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/block_jacobian_writer.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/block_jacobian_writer.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_jacobian_writer.cc
 
 internal/ceres/CMakeFiles/ceres.dir/block_jacobian_writer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/block_jacobian_writer.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_jacobian_writer.cc > CMakeFiles/ceres.dir/block_jacobian_writer.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_jacobian_writer.cc > CMakeFiles/ceres.dir/block_jacobian_writer.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/block_jacobian_writer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/block_jacobian_writer.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_jacobian_writer.cc -o CMakeFiles/ceres.dir/block_jacobian_writer.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_jacobian_writer.cc -o CMakeFiles/ceres.dir/block_jacobian_writer.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/block_jacobian_writer.cc.o.requires:
 
@@ -250,17 +250,17 @@ internal/ceres/CMakeFiles/ceres.dir/block_jacobian_writer.cc.o.provides.build: i
 
 
 internal/ceres/CMakeFiles/ceres.dir/block_random_access_dense_matrix.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/block_random_access_dense_matrix.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_random_access_dense_matrix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/block_random_access_dense_matrix.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/block_random_access_dense_matrix.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_random_access_dense_matrix.cc
+internal/ceres/CMakeFiles/ceres.dir/block_random_access_dense_matrix.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_random_access_dense_matrix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/block_random_access_dense_matrix.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/block_random_access_dense_matrix.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_random_access_dense_matrix.cc
 
 internal/ceres/CMakeFiles/ceres.dir/block_random_access_dense_matrix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/block_random_access_dense_matrix.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_random_access_dense_matrix.cc > CMakeFiles/ceres.dir/block_random_access_dense_matrix.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_random_access_dense_matrix.cc > CMakeFiles/ceres.dir/block_random_access_dense_matrix.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/block_random_access_dense_matrix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/block_random_access_dense_matrix.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_random_access_dense_matrix.cc -o CMakeFiles/ceres.dir/block_random_access_dense_matrix.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_random_access_dense_matrix.cc -o CMakeFiles/ceres.dir/block_random_access_dense_matrix.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/block_random_access_dense_matrix.cc.o.requires:
 
@@ -274,17 +274,17 @@ internal/ceres/CMakeFiles/ceres.dir/block_random_access_dense_matrix.cc.o.provid
 
 
 internal/ceres/CMakeFiles/ceres.dir/block_random_access_diagonal_matrix.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/block_random_access_diagonal_matrix.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_random_access_diagonal_matrix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/block_random_access_diagonal_matrix.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/block_random_access_diagonal_matrix.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_random_access_diagonal_matrix.cc
+internal/ceres/CMakeFiles/ceres.dir/block_random_access_diagonal_matrix.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_random_access_diagonal_matrix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/block_random_access_diagonal_matrix.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/block_random_access_diagonal_matrix.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_random_access_diagonal_matrix.cc
 
 internal/ceres/CMakeFiles/ceres.dir/block_random_access_diagonal_matrix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/block_random_access_diagonal_matrix.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_random_access_diagonal_matrix.cc > CMakeFiles/ceres.dir/block_random_access_diagonal_matrix.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_random_access_diagonal_matrix.cc > CMakeFiles/ceres.dir/block_random_access_diagonal_matrix.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/block_random_access_diagonal_matrix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/block_random_access_diagonal_matrix.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_random_access_diagonal_matrix.cc -o CMakeFiles/ceres.dir/block_random_access_diagonal_matrix.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_random_access_diagonal_matrix.cc -o CMakeFiles/ceres.dir/block_random_access_diagonal_matrix.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/block_random_access_diagonal_matrix.cc.o.requires:
 
@@ -298,17 +298,17 @@ internal/ceres/CMakeFiles/ceres.dir/block_random_access_diagonal_matrix.cc.o.pro
 
 
 internal/ceres/CMakeFiles/ceres.dir/block_random_access_matrix.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/block_random_access_matrix.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_random_access_matrix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/block_random_access_matrix.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/block_random_access_matrix.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_random_access_matrix.cc
+internal/ceres/CMakeFiles/ceres.dir/block_random_access_matrix.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_random_access_matrix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/block_random_access_matrix.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/block_random_access_matrix.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_random_access_matrix.cc
 
 internal/ceres/CMakeFiles/ceres.dir/block_random_access_matrix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/block_random_access_matrix.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_random_access_matrix.cc > CMakeFiles/ceres.dir/block_random_access_matrix.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_random_access_matrix.cc > CMakeFiles/ceres.dir/block_random_access_matrix.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/block_random_access_matrix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/block_random_access_matrix.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_random_access_matrix.cc -o CMakeFiles/ceres.dir/block_random_access_matrix.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_random_access_matrix.cc -o CMakeFiles/ceres.dir/block_random_access_matrix.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/block_random_access_matrix.cc.o.requires:
 
@@ -322,17 +322,17 @@ internal/ceres/CMakeFiles/ceres.dir/block_random_access_matrix.cc.o.provides.bui
 
 
 internal/ceres/CMakeFiles/ceres.dir/block_random_access_sparse_matrix.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/block_random_access_sparse_matrix.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_random_access_sparse_matrix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/block_random_access_sparse_matrix.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/block_random_access_sparse_matrix.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_random_access_sparse_matrix.cc
+internal/ceres/CMakeFiles/ceres.dir/block_random_access_sparse_matrix.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_random_access_sparse_matrix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/block_random_access_sparse_matrix.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/block_random_access_sparse_matrix.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_random_access_sparse_matrix.cc
 
 internal/ceres/CMakeFiles/ceres.dir/block_random_access_sparse_matrix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/block_random_access_sparse_matrix.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_random_access_sparse_matrix.cc > CMakeFiles/ceres.dir/block_random_access_sparse_matrix.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_random_access_sparse_matrix.cc > CMakeFiles/ceres.dir/block_random_access_sparse_matrix.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/block_random_access_sparse_matrix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/block_random_access_sparse_matrix.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_random_access_sparse_matrix.cc -o CMakeFiles/ceres.dir/block_random_access_sparse_matrix.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_random_access_sparse_matrix.cc -o CMakeFiles/ceres.dir/block_random_access_sparse_matrix.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/block_random_access_sparse_matrix.cc.o.requires:
 
@@ -346,17 +346,17 @@ internal/ceres/CMakeFiles/ceres.dir/block_random_access_sparse_matrix.cc.o.provi
 
 
 internal/ceres/CMakeFiles/ceres.dir/block_sparse_matrix.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/block_sparse_matrix.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_sparse_matrix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/block_sparse_matrix.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/block_sparse_matrix.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_sparse_matrix.cc
+internal/ceres/CMakeFiles/ceres.dir/block_sparse_matrix.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_sparse_matrix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/block_sparse_matrix.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/block_sparse_matrix.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_sparse_matrix.cc
 
 internal/ceres/CMakeFiles/ceres.dir/block_sparse_matrix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/block_sparse_matrix.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_sparse_matrix.cc > CMakeFiles/ceres.dir/block_sparse_matrix.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_sparse_matrix.cc > CMakeFiles/ceres.dir/block_sparse_matrix.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/block_sparse_matrix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/block_sparse_matrix.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_sparse_matrix.cc -o CMakeFiles/ceres.dir/block_sparse_matrix.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_sparse_matrix.cc -o CMakeFiles/ceres.dir/block_sparse_matrix.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/block_sparse_matrix.cc.o.requires:
 
@@ -370,17 +370,17 @@ internal/ceres/CMakeFiles/ceres.dir/block_sparse_matrix.cc.o.provides.build: int
 
 
 internal/ceres/CMakeFiles/ceres.dir/block_structure.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/block_structure.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_structure.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/block_structure.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/block_structure.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_structure.cc
+internal/ceres/CMakeFiles/ceres.dir/block_structure.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_structure.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/block_structure.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/block_structure.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_structure.cc
 
 internal/ceres/CMakeFiles/ceres.dir/block_structure.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/block_structure.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_structure.cc > CMakeFiles/ceres.dir/block_structure.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_structure.cc > CMakeFiles/ceres.dir/block_structure.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/block_structure.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/block_structure.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/block_structure.cc -o CMakeFiles/ceres.dir/block_structure.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/block_structure.cc -o CMakeFiles/ceres.dir/block_structure.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/block_structure.cc.o.requires:
 
@@ -394,17 +394,17 @@ internal/ceres/CMakeFiles/ceres.dir/block_structure.cc.o.provides.build: interna
 
 
 internal/ceres/CMakeFiles/ceres.dir/c_api.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/c_api.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/c_api.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/c_api.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/c_api.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/c_api.cc
+internal/ceres/CMakeFiles/ceres.dir/c_api.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/c_api.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/c_api.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/c_api.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/c_api.cc
 
 internal/ceres/CMakeFiles/ceres.dir/c_api.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/c_api.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/c_api.cc > CMakeFiles/ceres.dir/c_api.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/c_api.cc > CMakeFiles/ceres.dir/c_api.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/c_api.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/c_api.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/c_api.cc -o CMakeFiles/ceres.dir/c_api.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/c_api.cc -o CMakeFiles/ceres.dir/c_api.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/c_api.cc.o.requires:
 
@@ -418,17 +418,17 @@ internal/ceres/CMakeFiles/ceres.dir/c_api.cc.o.provides.build: internal/ceres/CM
 
 
 internal/ceres/CMakeFiles/ceres.dir/canonical_views_clustering.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/canonical_views_clustering.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/canonical_views_clustering.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/canonical_views_clustering.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/canonical_views_clustering.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/canonical_views_clustering.cc
+internal/ceres/CMakeFiles/ceres.dir/canonical_views_clustering.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/canonical_views_clustering.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/canonical_views_clustering.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/canonical_views_clustering.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/canonical_views_clustering.cc
 
 internal/ceres/CMakeFiles/ceres.dir/canonical_views_clustering.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/canonical_views_clustering.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/canonical_views_clustering.cc > CMakeFiles/ceres.dir/canonical_views_clustering.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/canonical_views_clustering.cc > CMakeFiles/ceres.dir/canonical_views_clustering.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/canonical_views_clustering.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/canonical_views_clustering.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/canonical_views_clustering.cc -o CMakeFiles/ceres.dir/canonical_views_clustering.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/canonical_views_clustering.cc -o CMakeFiles/ceres.dir/canonical_views_clustering.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/canonical_views_clustering.cc.o.requires:
 
@@ -442,17 +442,17 @@ internal/ceres/CMakeFiles/ceres.dir/canonical_views_clustering.cc.o.provides.bui
 
 
 internal/ceres/CMakeFiles/ceres.dir/cgnr_solver.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/cgnr_solver.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/cgnr_solver.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/cgnr_solver.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/cgnr_solver.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/cgnr_solver.cc
+internal/ceres/CMakeFiles/ceres.dir/cgnr_solver.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/cgnr_solver.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/cgnr_solver.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/cgnr_solver.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/cgnr_solver.cc
 
 internal/ceres/CMakeFiles/ceres.dir/cgnr_solver.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/cgnr_solver.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/cgnr_solver.cc > CMakeFiles/ceres.dir/cgnr_solver.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/cgnr_solver.cc > CMakeFiles/ceres.dir/cgnr_solver.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/cgnr_solver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/cgnr_solver.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/cgnr_solver.cc -o CMakeFiles/ceres.dir/cgnr_solver.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/cgnr_solver.cc -o CMakeFiles/ceres.dir/cgnr_solver.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/cgnr_solver.cc.o.requires:
 
@@ -466,17 +466,17 @@ internal/ceres/CMakeFiles/ceres.dir/cgnr_solver.cc.o.provides.build: internal/ce
 
 
 internal/ceres/CMakeFiles/ceres.dir/callbacks.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/callbacks.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/callbacks.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/callbacks.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/callbacks.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/callbacks.cc
+internal/ceres/CMakeFiles/ceres.dir/callbacks.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/callbacks.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/callbacks.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/callbacks.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/callbacks.cc
 
 internal/ceres/CMakeFiles/ceres.dir/callbacks.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/callbacks.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/callbacks.cc > CMakeFiles/ceres.dir/callbacks.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/callbacks.cc > CMakeFiles/ceres.dir/callbacks.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/callbacks.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/callbacks.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/callbacks.cc -o CMakeFiles/ceres.dir/callbacks.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/callbacks.cc -o CMakeFiles/ceres.dir/callbacks.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/callbacks.cc.o.requires:
 
@@ -490,17 +490,17 @@ internal/ceres/CMakeFiles/ceres.dir/callbacks.cc.o.provides.build: internal/cere
 
 
 internal/ceres/CMakeFiles/ceres.dir/compressed_col_sparse_matrix_utils.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/compressed_col_sparse_matrix_utils.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/compressed_col_sparse_matrix_utils.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/compressed_col_sparse_matrix_utils.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/compressed_col_sparse_matrix_utils.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/compressed_col_sparse_matrix_utils.cc
+internal/ceres/CMakeFiles/ceres.dir/compressed_col_sparse_matrix_utils.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/compressed_col_sparse_matrix_utils.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/compressed_col_sparse_matrix_utils.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/compressed_col_sparse_matrix_utils.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/compressed_col_sparse_matrix_utils.cc
 
 internal/ceres/CMakeFiles/ceres.dir/compressed_col_sparse_matrix_utils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/compressed_col_sparse_matrix_utils.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/compressed_col_sparse_matrix_utils.cc > CMakeFiles/ceres.dir/compressed_col_sparse_matrix_utils.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/compressed_col_sparse_matrix_utils.cc > CMakeFiles/ceres.dir/compressed_col_sparse_matrix_utils.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/compressed_col_sparse_matrix_utils.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/compressed_col_sparse_matrix_utils.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/compressed_col_sparse_matrix_utils.cc -o CMakeFiles/ceres.dir/compressed_col_sparse_matrix_utils.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/compressed_col_sparse_matrix_utils.cc -o CMakeFiles/ceres.dir/compressed_col_sparse_matrix_utils.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/compressed_col_sparse_matrix_utils.cc.o.requires:
 
@@ -514,17 +514,17 @@ internal/ceres/CMakeFiles/ceres.dir/compressed_col_sparse_matrix_utils.cc.o.prov
 
 
 internal/ceres/CMakeFiles/ceres.dir/compressed_row_jacobian_writer.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/compressed_row_jacobian_writer.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/compressed_row_jacobian_writer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/compressed_row_jacobian_writer.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/compressed_row_jacobian_writer.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/compressed_row_jacobian_writer.cc
+internal/ceres/CMakeFiles/ceres.dir/compressed_row_jacobian_writer.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/compressed_row_jacobian_writer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/compressed_row_jacobian_writer.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/compressed_row_jacobian_writer.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/compressed_row_jacobian_writer.cc
 
 internal/ceres/CMakeFiles/ceres.dir/compressed_row_jacobian_writer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/compressed_row_jacobian_writer.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/compressed_row_jacobian_writer.cc > CMakeFiles/ceres.dir/compressed_row_jacobian_writer.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/compressed_row_jacobian_writer.cc > CMakeFiles/ceres.dir/compressed_row_jacobian_writer.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/compressed_row_jacobian_writer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/compressed_row_jacobian_writer.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/compressed_row_jacobian_writer.cc -o CMakeFiles/ceres.dir/compressed_row_jacobian_writer.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/compressed_row_jacobian_writer.cc -o CMakeFiles/ceres.dir/compressed_row_jacobian_writer.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/compressed_row_jacobian_writer.cc.o.requires:
 
@@ -538,17 +538,17 @@ internal/ceres/CMakeFiles/ceres.dir/compressed_row_jacobian_writer.cc.o.provides
 
 
 internal/ceres/CMakeFiles/ceres.dir/compressed_row_sparse_matrix.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/compressed_row_sparse_matrix.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/compressed_row_sparse_matrix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/compressed_row_sparse_matrix.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/compressed_row_sparse_matrix.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/compressed_row_sparse_matrix.cc
+internal/ceres/CMakeFiles/ceres.dir/compressed_row_sparse_matrix.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/compressed_row_sparse_matrix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/compressed_row_sparse_matrix.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/compressed_row_sparse_matrix.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/compressed_row_sparse_matrix.cc
 
 internal/ceres/CMakeFiles/ceres.dir/compressed_row_sparse_matrix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/compressed_row_sparse_matrix.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/compressed_row_sparse_matrix.cc > CMakeFiles/ceres.dir/compressed_row_sparse_matrix.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/compressed_row_sparse_matrix.cc > CMakeFiles/ceres.dir/compressed_row_sparse_matrix.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/compressed_row_sparse_matrix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/compressed_row_sparse_matrix.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/compressed_row_sparse_matrix.cc -o CMakeFiles/ceres.dir/compressed_row_sparse_matrix.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/compressed_row_sparse_matrix.cc -o CMakeFiles/ceres.dir/compressed_row_sparse_matrix.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/compressed_row_sparse_matrix.cc.o.requires:
 
@@ -562,17 +562,17 @@ internal/ceres/CMakeFiles/ceres.dir/compressed_row_sparse_matrix.cc.o.provides.b
 
 
 internal/ceres/CMakeFiles/ceres.dir/conditioned_cost_function.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/conditioned_cost_function.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/conditioned_cost_function.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/conditioned_cost_function.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/conditioned_cost_function.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/conditioned_cost_function.cc
+internal/ceres/CMakeFiles/ceres.dir/conditioned_cost_function.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/conditioned_cost_function.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/conditioned_cost_function.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/conditioned_cost_function.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/conditioned_cost_function.cc
 
 internal/ceres/CMakeFiles/ceres.dir/conditioned_cost_function.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/conditioned_cost_function.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/conditioned_cost_function.cc > CMakeFiles/ceres.dir/conditioned_cost_function.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/conditioned_cost_function.cc > CMakeFiles/ceres.dir/conditioned_cost_function.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/conditioned_cost_function.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/conditioned_cost_function.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/conditioned_cost_function.cc -o CMakeFiles/ceres.dir/conditioned_cost_function.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/conditioned_cost_function.cc -o CMakeFiles/ceres.dir/conditioned_cost_function.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/conditioned_cost_function.cc.o.requires:
 
@@ -586,17 +586,17 @@ internal/ceres/CMakeFiles/ceres.dir/conditioned_cost_function.cc.o.provides.buil
 
 
 internal/ceres/CMakeFiles/ceres.dir/conjugate_gradients_solver.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/conjugate_gradients_solver.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/conjugate_gradients_solver.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/conjugate_gradients_solver.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/conjugate_gradients_solver.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/conjugate_gradients_solver.cc
+internal/ceres/CMakeFiles/ceres.dir/conjugate_gradients_solver.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/conjugate_gradients_solver.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/conjugate_gradients_solver.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/conjugate_gradients_solver.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/conjugate_gradients_solver.cc
 
 internal/ceres/CMakeFiles/ceres.dir/conjugate_gradients_solver.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/conjugate_gradients_solver.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/conjugate_gradients_solver.cc > CMakeFiles/ceres.dir/conjugate_gradients_solver.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/conjugate_gradients_solver.cc > CMakeFiles/ceres.dir/conjugate_gradients_solver.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/conjugate_gradients_solver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/conjugate_gradients_solver.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/conjugate_gradients_solver.cc -o CMakeFiles/ceres.dir/conjugate_gradients_solver.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/conjugate_gradients_solver.cc -o CMakeFiles/ceres.dir/conjugate_gradients_solver.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/conjugate_gradients_solver.cc.o.requires:
 
@@ -610,17 +610,17 @@ internal/ceres/CMakeFiles/ceres.dir/conjugate_gradients_solver.cc.o.provides.bui
 
 
 internal/ceres/CMakeFiles/ceres.dir/context.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/context.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/context.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/context.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/context.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/context.cc
+internal/ceres/CMakeFiles/ceres.dir/context.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/context.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/context.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/context.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/context.cc
 
 internal/ceres/CMakeFiles/ceres.dir/context.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/context.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/context.cc > CMakeFiles/ceres.dir/context.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/context.cc > CMakeFiles/ceres.dir/context.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/context.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/context.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/context.cc -o CMakeFiles/ceres.dir/context.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/context.cc -o CMakeFiles/ceres.dir/context.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/context.cc.o.requires:
 
@@ -634,17 +634,17 @@ internal/ceres/CMakeFiles/ceres.dir/context.cc.o.provides.build: internal/ceres/
 
 
 internal/ceres/CMakeFiles/ceres.dir/context_impl.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/context_impl.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/context_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/context_impl.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/context_impl.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/context_impl.cc
+internal/ceres/CMakeFiles/ceres.dir/context_impl.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/context_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/context_impl.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/context_impl.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/context_impl.cc
 
 internal/ceres/CMakeFiles/ceres.dir/context_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/context_impl.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/context_impl.cc > CMakeFiles/ceres.dir/context_impl.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/context_impl.cc > CMakeFiles/ceres.dir/context_impl.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/context_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/context_impl.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/context_impl.cc -o CMakeFiles/ceres.dir/context_impl.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/context_impl.cc -o CMakeFiles/ceres.dir/context_impl.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/context_impl.cc.o.requires:
 
@@ -658,17 +658,17 @@ internal/ceres/CMakeFiles/ceres.dir/context_impl.cc.o.provides.build: internal/c
 
 
 internal/ceres/CMakeFiles/ceres.dir/coordinate_descent_minimizer.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/coordinate_descent_minimizer.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/coordinate_descent_minimizer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/coordinate_descent_minimizer.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/coordinate_descent_minimizer.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/coordinate_descent_minimizer.cc
+internal/ceres/CMakeFiles/ceres.dir/coordinate_descent_minimizer.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/coordinate_descent_minimizer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/coordinate_descent_minimizer.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/coordinate_descent_minimizer.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/coordinate_descent_minimizer.cc
 
 internal/ceres/CMakeFiles/ceres.dir/coordinate_descent_minimizer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/coordinate_descent_minimizer.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/coordinate_descent_minimizer.cc > CMakeFiles/ceres.dir/coordinate_descent_minimizer.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/coordinate_descent_minimizer.cc > CMakeFiles/ceres.dir/coordinate_descent_minimizer.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/coordinate_descent_minimizer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/coordinate_descent_minimizer.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/coordinate_descent_minimizer.cc -o CMakeFiles/ceres.dir/coordinate_descent_minimizer.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/coordinate_descent_minimizer.cc -o CMakeFiles/ceres.dir/coordinate_descent_minimizer.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/coordinate_descent_minimizer.cc.o.requires:
 
@@ -682,17 +682,17 @@ internal/ceres/CMakeFiles/ceres.dir/coordinate_descent_minimizer.cc.o.provides.b
 
 
 internal/ceres/CMakeFiles/ceres.dir/corrector.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/corrector.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/corrector.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/corrector.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/corrector.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/corrector.cc
+internal/ceres/CMakeFiles/ceres.dir/corrector.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/corrector.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/corrector.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/corrector.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/corrector.cc
 
 internal/ceres/CMakeFiles/ceres.dir/corrector.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/corrector.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/corrector.cc > CMakeFiles/ceres.dir/corrector.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/corrector.cc > CMakeFiles/ceres.dir/corrector.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/corrector.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/corrector.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/corrector.cc -o CMakeFiles/ceres.dir/corrector.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/corrector.cc -o CMakeFiles/ceres.dir/corrector.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/corrector.cc.o.requires:
 
@@ -706,17 +706,17 @@ internal/ceres/CMakeFiles/ceres.dir/corrector.cc.o.provides.build: internal/cere
 
 
 internal/ceres/CMakeFiles/ceres.dir/covariance.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/covariance.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/covariance.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/covariance.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/covariance.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/covariance.cc
+internal/ceres/CMakeFiles/ceres.dir/covariance.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/covariance.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/covariance.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/covariance.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/covariance.cc
 
 internal/ceres/CMakeFiles/ceres.dir/covariance.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/covariance.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/covariance.cc > CMakeFiles/ceres.dir/covariance.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/covariance.cc > CMakeFiles/ceres.dir/covariance.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/covariance.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/covariance.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/covariance.cc -o CMakeFiles/ceres.dir/covariance.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/covariance.cc -o CMakeFiles/ceres.dir/covariance.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/covariance.cc.o.requires:
 
@@ -730,17 +730,17 @@ internal/ceres/CMakeFiles/ceres.dir/covariance.cc.o.provides.build: internal/cer
 
 
 internal/ceres/CMakeFiles/ceres.dir/covariance_impl.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/covariance_impl.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/covariance_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/covariance_impl.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/covariance_impl.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/covariance_impl.cc
+internal/ceres/CMakeFiles/ceres.dir/covariance_impl.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/covariance_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/covariance_impl.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/covariance_impl.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/covariance_impl.cc
 
 internal/ceres/CMakeFiles/ceres.dir/covariance_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/covariance_impl.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/covariance_impl.cc > CMakeFiles/ceres.dir/covariance_impl.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/covariance_impl.cc > CMakeFiles/ceres.dir/covariance_impl.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/covariance_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/covariance_impl.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/covariance_impl.cc -o CMakeFiles/ceres.dir/covariance_impl.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/covariance_impl.cc -o CMakeFiles/ceres.dir/covariance_impl.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/covariance_impl.cc.o.requires:
 
@@ -754,17 +754,17 @@ internal/ceres/CMakeFiles/ceres.dir/covariance_impl.cc.o.provides.build: interna
 
 
 internal/ceres/CMakeFiles/ceres.dir/cxsparse.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/cxsparse.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/cxsparse.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/cxsparse.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/cxsparse.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/cxsparse.cc
+internal/ceres/CMakeFiles/ceres.dir/cxsparse.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/cxsparse.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/cxsparse.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/cxsparse.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/cxsparse.cc
 
 internal/ceres/CMakeFiles/ceres.dir/cxsparse.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/cxsparse.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/cxsparse.cc > CMakeFiles/ceres.dir/cxsparse.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/cxsparse.cc > CMakeFiles/ceres.dir/cxsparse.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/cxsparse.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/cxsparse.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/cxsparse.cc -o CMakeFiles/ceres.dir/cxsparse.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/cxsparse.cc -o CMakeFiles/ceres.dir/cxsparse.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/cxsparse.cc.o.requires:
 
@@ -778,17 +778,17 @@ internal/ceres/CMakeFiles/ceres.dir/cxsparse.cc.o.provides.build: internal/ceres
 
 
 internal/ceres/CMakeFiles/ceres.dir/dense_normal_cholesky_solver.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/dense_normal_cholesky_solver.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dense_normal_cholesky_solver.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/dense_normal_cholesky_solver.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/dense_normal_cholesky_solver.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dense_normal_cholesky_solver.cc
+internal/ceres/CMakeFiles/ceres.dir/dense_normal_cholesky_solver.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dense_normal_cholesky_solver.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/dense_normal_cholesky_solver.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/dense_normal_cholesky_solver.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dense_normal_cholesky_solver.cc
 
 internal/ceres/CMakeFiles/ceres.dir/dense_normal_cholesky_solver.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/dense_normal_cholesky_solver.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dense_normal_cholesky_solver.cc > CMakeFiles/ceres.dir/dense_normal_cholesky_solver.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dense_normal_cholesky_solver.cc > CMakeFiles/ceres.dir/dense_normal_cholesky_solver.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/dense_normal_cholesky_solver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/dense_normal_cholesky_solver.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dense_normal_cholesky_solver.cc -o CMakeFiles/ceres.dir/dense_normal_cholesky_solver.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dense_normal_cholesky_solver.cc -o CMakeFiles/ceres.dir/dense_normal_cholesky_solver.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/dense_normal_cholesky_solver.cc.o.requires:
 
@@ -802,17 +802,17 @@ internal/ceres/CMakeFiles/ceres.dir/dense_normal_cholesky_solver.cc.o.provides.b
 
 
 internal/ceres/CMakeFiles/ceres.dir/dense_qr_solver.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/dense_qr_solver.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dense_qr_solver.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/dense_qr_solver.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/dense_qr_solver.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dense_qr_solver.cc
+internal/ceres/CMakeFiles/ceres.dir/dense_qr_solver.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dense_qr_solver.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/dense_qr_solver.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/dense_qr_solver.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dense_qr_solver.cc
 
 internal/ceres/CMakeFiles/ceres.dir/dense_qr_solver.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/dense_qr_solver.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dense_qr_solver.cc > CMakeFiles/ceres.dir/dense_qr_solver.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dense_qr_solver.cc > CMakeFiles/ceres.dir/dense_qr_solver.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/dense_qr_solver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/dense_qr_solver.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dense_qr_solver.cc -o CMakeFiles/ceres.dir/dense_qr_solver.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dense_qr_solver.cc -o CMakeFiles/ceres.dir/dense_qr_solver.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/dense_qr_solver.cc.o.requires:
 
@@ -826,17 +826,17 @@ internal/ceres/CMakeFiles/ceres.dir/dense_qr_solver.cc.o.provides.build: interna
 
 
 internal/ceres/CMakeFiles/ceres.dir/dense_sparse_matrix.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/dense_sparse_matrix.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dense_sparse_matrix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/dense_sparse_matrix.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/dense_sparse_matrix.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dense_sparse_matrix.cc
+internal/ceres/CMakeFiles/ceres.dir/dense_sparse_matrix.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dense_sparse_matrix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/dense_sparse_matrix.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/dense_sparse_matrix.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dense_sparse_matrix.cc
 
 internal/ceres/CMakeFiles/ceres.dir/dense_sparse_matrix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/dense_sparse_matrix.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dense_sparse_matrix.cc > CMakeFiles/ceres.dir/dense_sparse_matrix.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dense_sparse_matrix.cc > CMakeFiles/ceres.dir/dense_sparse_matrix.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/dense_sparse_matrix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/dense_sparse_matrix.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dense_sparse_matrix.cc -o CMakeFiles/ceres.dir/dense_sparse_matrix.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dense_sparse_matrix.cc -o CMakeFiles/ceres.dir/dense_sparse_matrix.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/dense_sparse_matrix.cc.o.requires:
 
@@ -850,17 +850,17 @@ internal/ceres/CMakeFiles/ceres.dir/dense_sparse_matrix.cc.o.provides.build: int
 
 
 internal/ceres/CMakeFiles/ceres.dir/detect_structure.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/detect_structure.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/detect_structure.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/detect_structure.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/detect_structure.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/detect_structure.cc
+internal/ceres/CMakeFiles/ceres.dir/detect_structure.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/detect_structure.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/detect_structure.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/detect_structure.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/detect_structure.cc
 
 internal/ceres/CMakeFiles/ceres.dir/detect_structure.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/detect_structure.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/detect_structure.cc > CMakeFiles/ceres.dir/detect_structure.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/detect_structure.cc > CMakeFiles/ceres.dir/detect_structure.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/detect_structure.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/detect_structure.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/detect_structure.cc -o CMakeFiles/ceres.dir/detect_structure.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/detect_structure.cc -o CMakeFiles/ceres.dir/detect_structure.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/detect_structure.cc.o.requires:
 
@@ -874,17 +874,17 @@ internal/ceres/CMakeFiles/ceres.dir/detect_structure.cc.o.provides.build: intern
 
 
 internal/ceres/CMakeFiles/ceres.dir/dogleg_strategy.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/dogleg_strategy.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dogleg_strategy.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/dogleg_strategy.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/dogleg_strategy.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dogleg_strategy.cc
+internal/ceres/CMakeFiles/ceres.dir/dogleg_strategy.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dogleg_strategy.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/dogleg_strategy.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/dogleg_strategy.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dogleg_strategy.cc
 
 internal/ceres/CMakeFiles/ceres.dir/dogleg_strategy.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/dogleg_strategy.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dogleg_strategy.cc > CMakeFiles/ceres.dir/dogleg_strategy.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dogleg_strategy.cc > CMakeFiles/ceres.dir/dogleg_strategy.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/dogleg_strategy.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/dogleg_strategy.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dogleg_strategy.cc -o CMakeFiles/ceres.dir/dogleg_strategy.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dogleg_strategy.cc -o CMakeFiles/ceres.dir/dogleg_strategy.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/dogleg_strategy.cc.o.requires:
 
@@ -898,17 +898,17 @@ internal/ceres/CMakeFiles/ceres.dir/dogleg_strategy.cc.o.provides.build: interna
 
 
 internal/ceres/CMakeFiles/ceres.dir/dynamic_compressed_row_jacobian_writer.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/dynamic_compressed_row_jacobian_writer.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dynamic_compressed_row_jacobian_writer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/dynamic_compressed_row_jacobian_writer.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/dynamic_compressed_row_jacobian_writer.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dynamic_compressed_row_jacobian_writer.cc
+internal/ceres/CMakeFiles/ceres.dir/dynamic_compressed_row_jacobian_writer.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dynamic_compressed_row_jacobian_writer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/dynamic_compressed_row_jacobian_writer.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/dynamic_compressed_row_jacobian_writer.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dynamic_compressed_row_jacobian_writer.cc
 
 internal/ceres/CMakeFiles/ceres.dir/dynamic_compressed_row_jacobian_writer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/dynamic_compressed_row_jacobian_writer.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dynamic_compressed_row_jacobian_writer.cc > CMakeFiles/ceres.dir/dynamic_compressed_row_jacobian_writer.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dynamic_compressed_row_jacobian_writer.cc > CMakeFiles/ceres.dir/dynamic_compressed_row_jacobian_writer.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/dynamic_compressed_row_jacobian_writer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/dynamic_compressed_row_jacobian_writer.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dynamic_compressed_row_jacobian_writer.cc -o CMakeFiles/ceres.dir/dynamic_compressed_row_jacobian_writer.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dynamic_compressed_row_jacobian_writer.cc -o CMakeFiles/ceres.dir/dynamic_compressed_row_jacobian_writer.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/dynamic_compressed_row_jacobian_writer.cc.o.requires:
 
@@ -922,17 +922,17 @@ internal/ceres/CMakeFiles/ceres.dir/dynamic_compressed_row_jacobian_writer.cc.o.
 
 
 internal/ceres/CMakeFiles/ceres.dir/dynamic_compressed_row_sparse_matrix.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/dynamic_compressed_row_sparse_matrix.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dynamic_compressed_row_sparse_matrix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/dynamic_compressed_row_sparse_matrix.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/dynamic_compressed_row_sparse_matrix.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dynamic_compressed_row_sparse_matrix.cc
+internal/ceres/CMakeFiles/ceres.dir/dynamic_compressed_row_sparse_matrix.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dynamic_compressed_row_sparse_matrix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/dynamic_compressed_row_sparse_matrix.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/dynamic_compressed_row_sparse_matrix.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dynamic_compressed_row_sparse_matrix.cc
 
 internal/ceres/CMakeFiles/ceres.dir/dynamic_compressed_row_sparse_matrix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/dynamic_compressed_row_sparse_matrix.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dynamic_compressed_row_sparse_matrix.cc > CMakeFiles/ceres.dir/dynamic_compressed_row_sparse_matrix.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dynamic_compressed_row_sparse_matrix.cc > CMakeFiles/ceres.dir/dynamic_compressed_row_sparse_matrix.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/dynamic_compressed_row_sparse_matrix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/dynamic_compressed_row_sparse_matrix.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dynamic_compressed_row_sparse_matrix.cc -o CMakeFiles/ceres.dir/dynamic_compressed_row_sparse_matrix.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dynamic_compressed_row_sparse_matrix.cc -o CMakeFiles/ceres.dir/dynamic_compressed_row_sparse_matrix.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/dynamic_compressed_row_sparse_matrix.cc.o.requires:
 
@@ -946,17 +946,17 @@ internal/ceres/CMakeFiles/ceres.dir/dynamic_compressed_row_sparse_matrix.cc.o.pr
 
 
 internal/ceres/CMakeFiles/ceres.dir/dynamic_sparse_normal_cholesky_solver.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/dynamic_sparse_normal_cholesky_solver.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dynamic_sparse_normal_cholesky_solver.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/dynamic_sparse_normal_cholesky_solver.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/dynamic_sparse_normal_cholesky_solver.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dynamic_sparse_normal_cholesky_solver.cc
+internal/ceres/CMakeFiles/ceres.dir/dynamic_sparse_normal_cholesky_solver.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dynamic_sparse_normal_cholesky_solver.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/dynamic_sparse_normal_cholesky_solver.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/dynamic_sparse_normal_cholesky_solver.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dynamic_sparse_normal_cholesky_solver.cc
 
 internal/ceres/CMakeFiles/ceres.dir/dynamic_sparse_normal_cholesky_solver.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/dynamic_sparse_normal_cholesky_solver.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dynamic_sparse_normal_cholesky_solver.cc > CMakeFiles/ceres.dir/dynamic_sparse_normal_cholesky_solver.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dynamic_sparse_normal_cholesky_solver.cc > CMakeFiles/ceres.dir/dynamic_sparse_normal_cholesky_solver.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/dynamic_sparse_normal_cholesky_solver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/dynamic_sparse_normal_cholesky_solver.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/dynamic_sparse_normal_cholesky_solver.cc -o CMakeFiles/ceres.dir/dynamic_sparse_normal_cholesky_solver.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/dynamic_sparse_normal_cholesky_solver.cc -o CMakeFiles/ceres.dir/dynamic_sparse_normal_cholesky_solver.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/dynamic_sparse_normal_cholesky_solver.cc.o.requires:
 
@@ -970,17 +970,17 @@ internal/ceres/CMakeFiles/ceres.dir/dynamic_sparse_normal_cholesky_solver.cc.o.p
 
 
 internal/ceres/CMakeFiles/ceres.dir/evaluator.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/evaluator.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/evaluator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/evaluator.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/evaluator.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/evaluator.cc
+internal/ceres/CMakeFiles/ceres.dir/evaluator.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/evaluator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/evaluator.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/evaluator.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/evaluator.cc
 
 internal/ceres/CMakeFiles/ceres.dir/evaluator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/evaluator.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/evaluator.cc > CMakeFiles/ceres.dir/evaluator.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/evaluator.cc > CMakeFiles/ceres.dir/evaluator.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/evaluator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/evaluator.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/evaluator.cc -o CMakeFiles/ceres.dir/evaluator.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/evaluator.cc -o CMakeFiles/ceres.dir/evaluator.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/evaluator.cc.o.requires:
 
@@ -994,17 +994,17 @@ internal/ceres/CMakeFiles/ceres.dir/evaluator.cc.o.provides.build: internal/cere
 
 
 internal/ceres/CMakeFiles/ceres.dir/eigensparse.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/eigensparse.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/eigensparse.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/eigensparse.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/eigensparse.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/eigensparse.cc
+internal/ceres/CMakeFiles/ceres.dir/eigensparse.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/eigensparse.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/eigensparse.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/eigensparse.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/eigensparse.cc
 
 internal/ceres/CMakeFiles/ceres.dir/eigensparse.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/eigensparse.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/eigensparse.cc > CMakeFiles/ceres.dir/eigensparse.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/eigensparse.cc > CMakeFiles/ceres.dir/eigensparse.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/eigensparse.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/eigensparse.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/eigensparse.cc -o CMakeFiles/ceres.dir/eigensparse.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/eigensparse.cc -o CMakeFiles/ceres.dir/eigensparse.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/eigensparse.cc.o.requires:
 
@@ -1018,17 +1018,17 @@ internal/ceres/CMakeFiles/ceres.dir/eigensparse.cc.o.provides.build: internal/ce
 
 
 internal/ceres/CMakeFiles/ceres.dir/file.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/file.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/file.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/file.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/file.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/file.cc
+internal/ceres/CMakeFiles/ceres.dir/file.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/file.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/file.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/file.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/file.cc
 
 internal/ceres/CMakeFiles/ceres.dir/file.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/file.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/file.cc > CMakeFiles/ceres.dir/file.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/file.cc > CMakeFiles/ceres.dir/file.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/file.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/file.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/file.cc -o CMakeFiles/ceres.dir/file.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/file.cc -o CMakeFiles/ceres.dir/file.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/file.cc.o.requires:
 
@@ -1042,17 +1042,17 @@ internal/ceres/CMakeFiles/ceres.dir/file.cc.o.provides.build: internal/ceres/CMa
 
 
 internal/ceres/CMakeFiles/ceres.dir/float_suitesparse.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/float_suitesparse.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/float_suitesparse.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/float_suitesparse.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/float_suitesparse.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/float_suitesparse.cc
+internal/ceres/CMakeFiles/ceres.dir/float_suitesparse.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/float_suitesparse.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/float_suitesparse.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/float_suitesparse.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/float_suitesparse.cc
 
 internal/ceres/CMakeFiles/ceres.dir/float_suitesparse.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/float_suitesparse.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/float_suitesparse.cc > CMakeFiles/ceres.dir/float_suitesparse.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/float_suitesparse.cc > CMakeFiles/ceres.dir/float_suitesparse.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/float_suitesparse.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/float_suitesparse.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/float_suitesparse.cc -o CMakeFiles/ceres.dir/float_suitesparse.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/float_suitesparse.cc -o CMakeFiles/ceres.dir/float_suitesparse.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/float_suitesparse.cc.o.requires:
 
@@ -1066,17 +1066,17 @@ internal/ceres/CMakeFiles/ceres.dir/float_suitesparse.cc.o.provides.build: inter
 
 
 internal/ceres/CMakeFiles/ceres.dir/float_cxsparse.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/float_cxsparse.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/float_cxsparse.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/float_cxsparse.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/float_cxsparse.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/float_cxsparse.cc
+internal/ceres/CMakeFiles/ceres.dir/float_cxsparse.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/float_cxsparse.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/float_cxsparse.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/float_cxsparse.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/float_cxsparse.cc
 
 internal/ceres/CMakeFiles/ceres.dir/float_cxsparse.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/float_cxsparse.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/float_cxsparse.cc > CMakeFiles/ceres.dir/float_cxsparse.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/float_cxsparse.cc > CMakeFiles/ceres.dir/float_cxsparse.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/float_cxsparse.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/float_cxsparse.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/float_cxsparse.cc -o CMakeFiles/ceres.dir/float_cxsparse.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/float_cxsparse.cc -o CMakeFiles/ceres.dir/float_cxsparse.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/float_cxsparse.cc.o.requires:
 
@@ -1090,17 +1090,17 @@ internal/ceres/CMakeFiles/ceres.dir/float_cxsparse.cc.o.provides.build: internal
 
 
 internal/ceres/CMakeFiles/ceres.dir/function_sample.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/function_sample.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/function_sample.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/function_sample.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/function_sample.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/function_sample.cc
+internal/ceres/CMakeFiles/ceres.dir/function_sample.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/function_sample.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/function_sample.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/function_sample.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/function_sample.cc
 
 internal/ceres/CMakeFiles/ceres.dir/function_sample.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/function_sample.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/function_sample.cc > CMakeFiles/ceres.dir/function_sample.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/function_sample.cc > CMakeFiles/ceres.dir/function_sample.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/function_sample.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/function_sample.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/function_sample.cc -o CMakeFiles/ceres.dir/function_sample.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/function_sample.cc -o CMakeFiles/ceres.dir/function_sample.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/function_sample.cc.o.requires:
 
@@ -1114,17 +1114,17 @@ internal/ceres/CMakeFiles/ceres.dir/function_sample.cc.o.provides.build: interna
 
 
 internal/ceres/CMakeFiles/ceres.dir/gradient_checker.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/gradient_checker.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/gradient_checker.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/gradient_checker.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/gradient_checker.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/gradient_checker.cc
+internal/ceres/CMakeFiles/ceres.dir/gradient_checker.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/gradient_checker.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/gradient_checker.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/gradient_checker.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/gradient_checker.cc
 
 internal/ceres/CMakeFiles/ceres.dir/gradient_checker.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/gradient_checker.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/gradient_checker.cc > CMakeFiles/ceres.dir/gradient_checker.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/gradient_checker.cc > CMakeFiles/ceres.dir/gradient_checker.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/gradient_checker.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/gradient_checker.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/gradient_checker.cc -o CMakeFiles/ceres.dir/gradient_checker.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/gradient_checker.cc -o CMakeFiles/ceres.dir/gradient_checker.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/gradient_checker.cc.o.requires:
 
@@ -1138,17 +1138,17 @@ internal/ceres/CMakeFiles/ceres.dir/gradient_checker.cc.o.provides.build: intern
 
 
 internal/ceres/CMakeFiles/ceres.dir/gradient_checking_cost_function.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/gradient_checking_cost_function.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/gradient_checking_cost_function.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/gradient_checking_cost_function.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/gradient_checking_cost_function.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/gradient_checking_cost_function.cc
+internal/ceres/CMakeFiles/ceres.dir/gradient_checking_cost_function.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/gradient_checking_cost_function.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/gradient_checking_cost_function.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/gradient_checking_cost_function.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/gradient_checking_cost_function.cc
 
 internal/ceres/CMakeFiles/ceres.dir/gradient_checking_cost_function.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/gradient_checking_cost_function.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/gradient_checking_cost_function.cc > CMakeFiles/ceres.dir/gradient_checking_cost_function.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/gradient_checking_cost_function.cc > CMakeFiles/ceres.dir/gradient_checking_cost_function.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/gradient_checking_cost_function.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/gradient_checking_cost_function.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/gradient_checking_cost_function.cc -o CMakeFiles/ceres.dir/gradient_checking_cost_function.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/gradient_checking_cost_function.cc -o CMakeFiles/ceres.dir/gradient_checking_cost_function.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/gradient_checking_cost_function.cc.o.requires:
 
@@ -1162,17 +1162,17 @@ internal/ceres/CMakeFiles/ceres.dir/gradient_checking_cost_function.cc.o.provide
 
 
 internal/ceres/CMakeFiles/ceres.dir/gradient_problem.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/gradient_problem.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/gradient_problem.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/gradient_problem.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/gradient_problem.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/gradient_problem.cc
+internal/ceres/CMakeFiles/ceres.dir/gradient_problem.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/gradient_problem.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/gradient_problem.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/gradient_problem.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/gradient_problem.cc
 
 internal/ceres/CMakeFiles/ceres.dir/gradient_problem.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/gradient_problem.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/gradient_problem.cc > CMakeFiles/ceres.dir/gradient_problem.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/gradient_problem.cc > CMakeFiles/ceres.dir/gradient_problem.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/gradient_problem.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/gradient_problem.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/gradient_problem.cc -o CMakeFiles/ceres.dir/gradient_problem.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/gradient_problem.cc -o CMakeFiles/ceres.dir/gradient_problem.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/gradient_problem.cc.o.requires:
 
@@ -1186,17 +1186,17 @@ internal/ceres/CMakeFiles/ceres.dir/gradient_problem.cc.o.provides.build: intern
 
 
 internal/ceres/CMakeFiles/ceres.dir/gradient_problem_solver.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/gradient_problem_solver.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/gradient_problem_solver.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/gradient_problem_solver.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/gradient_problem_solver.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/gradient_problem_solver.cc
+internal/ceres/CMakeFiles/ceres.dir/gradient_problem_solver.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/gradient_problem_solver.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/gradient_problem_solver.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/gradient_problem_solver.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/gradient_problem_solver.cc
 
 internal/ceres/CMakeFiles/ceres.dir/gradient_problem_solver.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/gradient_problem_solver.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/gradient_problem_solver.cc > CMakeFiles/ceres.dir/gradient_problem_solver.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/gradient_problem_solver.cc > CMakeFiles/ceres.dir/gradient_problem_solver.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/gradient_problem_solver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/gradient_problem_solver.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/gradient_problem_solver.cc -o CMakeFiles/ceres.dir/gradient_problem_solver.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/gradient_problem_solver.cc -o CMakeFiles/ceres.dir/gradient_problem_solver.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/gradient_problem_solver.cc.o.requires:
 
@@ -1210,17 +1210,17 @@ internal/ceres/CMakeFiles/ceres.dir/gradient_problem_solver.cc.o.provides.build:
 
 
 internal/ceres/CMakeFiles/ceres.dir/implicit_schur_complement.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/implicit_schur_complement.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/implicit_schur_complement.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/implicit_schur_complement.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/implicit_schur_complement.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/implicit_schur_complement.cc
+internal/ceres/CMakeFiles/ceres.dir/implicit_schur_complement.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/implicit_schur_complement.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/implicit_schur_complement.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/implicit_schur_complement.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/implicit_schur_complement.cc
 
 internal/ceres/CMakeFiles/ceres.dir/implicit_schur_complement.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/implicit_schur_complement.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/implicit_schur_complement.cc > CMakeFiles/ceres.dir/implicit_schur_complement.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/implicit_schur_complement.cc > CMakeFiles/ceres.dir/implicit_schur_complement.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/implicit_schur_complement.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/implicit_schur_complement.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/implicit_schur_complement.cc -o CMakeFiles/ceres.dir/implicit_schur_complement.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/implicit_schur_complement.cc -o CMakeFiles/ceres.dir/implicit_schur_complement.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/implicit_schur_complement.cc.o.requires:
 
@@ -1234,17 +1234,17 @@ internal/ceres/CMakeFiles/ceres.dir/implicit_schur_complement.cc.o.provides.buil
 
 
 internal/ceres/CMakeFiles/ceres.dir/inner_product_computer.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/inner_product_computer.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/inner_product_computer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/inner_product_computer.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/inner_product_computer.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/inner_product_computer.cc
+internal/ceres/CMakeFiles/ceres.dir/inner_product_computer.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/inner_product_computer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/inner_product_computer.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/inner_product_computer.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/inner_product_computer.cc
 
 internal/ceres/CMakeFiles/ceres.dir/inner_product_computer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/inner_product_computer.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/inner_product_computer.cc > CMakeFiles/ceres.dir/inner_product_computer.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/inner_product_computer.cc > CMakeFiles/ceres.dir/inner_product_computer.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/inner_product_computer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/inner_product_computer.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/inner_product_computer.cc -o CMakeFiles/ceres.dir/inner_product_computer.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/inner_product_computer.cc -o CMakeFiles/ceres.dir/inner_product_computer.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/inner_product_computer.cc.o.requires:
 
@@ -1258,17 +1258,17 @@ internal/ceres/CMakeFiles/ceres.dir/inner_product_computer.cc.o.provides.build: 
 
 
 internal/ceres/CMakeFiles/ceres.dir/is_close.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/is_close.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/is_close.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/is_close.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/is_close.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/is_close.cc
+internal/ceres/CMakeFiles/ceres.dir/is_close.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/is_close.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/is_close.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/is_close.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/is_close.cc
 
 internal/ceres/CMakeFiles/ceres.dir/is_close.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/is_close.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/is_close.cc > CMakeFiles/ceres.dir/is_close.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/is_close.cc > CMakeFiles/ceres.dir/is_close.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/is_close.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/is_close.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/is_close.cc -o CMakeFiles/ceres.dir/is_close.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/is_close.cc -o CMakeFiles/ceres.dir/is_close.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/is_close.cc.o.requires:
 
@@ -1282,17 +1282,17 @@ internal/ceres/CMakeFiles/ceres.dir/is_close.cc.o.provides.build: internal/ceres
 
 
 internal/ceres/CMakeFiles/ceres.dir/iterative_refiner.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/iterative_refiner.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/iterative_refiner.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/iterative_refiner.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/iterative_refiner.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/iterative_refiner.cc
+internal/ceres/CMakeFiles/ceres.dir/iterative_refiner.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/iterative_refiner.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/iterative_refiner.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/iterative_refiner.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/iterative_refiner.cc
 
 internal/ceres/CMakeFiles/ceres.dir/iterative_refiner.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/iterative_refiner.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/iterative_refiner.cc > CMakeFiles/ceres.dir/iterative_refiner.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/iterative_refiner.cc > CMakeFiles/ceres.dir/iterative_refiner.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/iterative_refiner.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/iterative_refiner.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/iterative_refiner.cc -o CMakeFiles/ceres.dir/iterative_refiner.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/iterative_refiner.cc -o CMakeFiles/ceres.dir/iterative_refiner.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/iterative_refiner.cc.o.requires:
 
@@ -1306,17 +1306,17 @@ internal/ceres/CMakeFiles/ceres.dir/iterative_refiner.cc.o.provides.build: inter
 
 
 internal/ceres/CMakeFiles/ceres.dir/iterative_schur_complement_solver.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/iterative_schur_complement_solver.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/iterative_schur_complement_solver.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/iterative_schur_complement_solver.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/iterative_schur_complement_solver.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/iterative_schur_complement_solver.cc
+internal/ceres/CMakeFiles/ceres.dir/iterative_schur_complement_solver.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/iterative_schur_complement_solver.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/iterative_schur_complement_solver.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/iterative_schur_complement_solver.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/iterative_schur_complement_solver.cc
 
 internal/ceres/CMakeFiles/ceres.dir/iterative_schur_complement_solver.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/iterative_schur_complement_solver.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/iterative_schur_complement_solver.cc > CMakeFiles/ceres.dir/iterative_schur_complement_solver.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/iterative_schur_complement_solver.cc > CMakeFiles/ceres.dir/iterative_schur_complement_solver.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/iterative_schur_complement_solver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/iterative_schur_complement_solver.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/iterative_schur_complement_solver.cc -o CMakeFiles/ceres.dir/iterative_schur_complement_solver.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/iterative_schur_complement_solver.cc -o CMakeFiles/ceres.dir/iterative_schur_complement_solver.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/iterative_schur_complement_solver.cc.o.requires:
 
@@ -1330,17 +1330,17 @@ internal/ceres/CMakeFiles/ceres.dir/iterative_schur_complement_solver.cc.o.provi
 
 
 internal/ceres/CMakeFiles/ceres.dir/levenberg_marquardt_strategy.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/levenberg_marquardt_strategy.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/levenberg_marquardt_strategy.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/levenberg_marquardt_strategy.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/levenberg_marquardt_strategy.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/levenberg_marquardt_strategy.cc
+internal/ceres/CMakeFiles/ceres.dir/levenberg_marquardt_strategy.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/levenberg_marquardt_strategy.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/levenberg_marquardt_strategy.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/levenberg_marquardt_strategy.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/levenberg_marquardt_strategy.cc
 
 internal/ceres/CMakeFiles/ceres.dir/levenberg_marquardt_strategy.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/levenberg_marquardt_strategy.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/levenberg_marquardt_strategy.cc > CMakeFiles/ceres.dir/levenberg_marquardt_strategy.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/levenberg_marquardt_strategy.cc > CMakeFiles/ceres.dir/levenberg_marquardt_strategy.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/levenberg_marquardt_strategy.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/levenberg_marquardt_strategy.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/levenberg_marquardt_strategy.cc -o CMakeFiles/ceres.dir/levenberg_marquardt_strategy.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/levenberg_marquardt_strategy.cc -o CMakeFiles/ceres.dir/levenberg_marquardt_strategy.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/levenberg_marquardt_strategy.cc.o.requires:
 
@@ -1354,17 +1354,17 @@ internal/ceres/CMakeFiles/ceres.dir/levenberg_marquardt_strategy.cc.o.provides.b
 
 
 internal/ceres/CMakeFiles/ceres.dir/lapack.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/lapack.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/lapack.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/lapack.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/lapack.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/lapack.cc
+internal/ceres/CMakeFiles/ceres.dir/lapack.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/lapack.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/lapack.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/lapack.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/lapack.cc
 
 internal/ceres/CMakeFiles/ceres.dir/lapack.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/lapack.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/lapack.cc > CMakeFiles/ceres.dir/lapack.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/lapack.cc > CMakeFiles/ceres.dir/lapack.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/lapack.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/lapack.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/lapack.cc -o CMakeFiles/ceres.dir/lapack.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/lapack.cc -o CMakeFiles/ceres.dir/lapack.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/lapack.cc.o.requires:
 
@@ -1378,17 +1378,17 @@ internal/ceres/CMakeFiles/ceres.dir/lapack.cc.o.provides.build: internal/ceres/C
 
 
 internal/ceres/CMakeFiles/ceres.dir/line_search.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/line_search.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/line_search.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/line_search.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/line_search.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/line_search.cc
+internal/ceres/CMakeFiles/ceres.dir/line_search.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/line_search.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/line_search.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/line_search.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/line_search.cc
 
 internal/ceres/CMakeFiles/ceres.dir/line_search.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/line_search.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/line_search.cc > CMakeFiles/ceres.dir/line_search.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/line_search.cc > CMakeFiles/ceres.dir/line_search.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/line_search.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/line_search.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/line_search.cc -o CMakeFiles/ceres.dir/line_search.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/line_search.cc -o CMakeFiles/ceres.dir/line_search.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/line_search.cc.o.requires:
 
@@ -1402,17 +1402,17 @@ internal/ceres/CMakeFiles/ceres.dir/line_search.cc.o.provides.build: internal/ce
 
 
 internal/ceres/CMakeFiles/ceres.dir/line_search_direction.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/line_search_direction.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/line_search_direction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/line_search_direction.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/line_search_direction.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/line_search_direction.cc
+internal/ceres/CMakeFiles/ceres.dir/line_search_direction.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/line_search_direction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/line_search_direction.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/line_search_direction.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/line_search_direction.cc
 
 internal/ceres/CMakeFiles/ceres.dir/line_search_direction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/line_search_direction.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/line_search_direction.cc > CMakeFiles/ceres.dir/line_search_direction.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/line_search_direction.cc > CMakeFiles/ceres.dir/line_search_direction.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/line_search_direction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/line_search_direction.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/line_search_direction.cc -o CMakeFiles/ceres.dir/line_search_direction.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/line_search_direction.cc -o CMakeFiles/ceres.dir/line_search_direction.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/line_search_direction.cc.o.requires:
 
@@ -1426,17 +1426,17 @@ internal/ceres/CMakeFiles/ceres.dir/line_search_direction.cc.o.provides.build: i
 
 
 internal/ceres/CMakeFiles/ceres.dir/line_search_minimizer.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/line_search_minimizer.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/line_search_minimizer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/line_search_minimizer.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/line_search_minimizer.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/line_search_minimizer.cc
+internal/ceres/CMakeFiles/ceres.dir/line_search_minimizer.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/line_search_minimizer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/line_search_minimizer.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/line_search_minimizer.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/line_search_minimizer.cc
 
 internal/ceres/CMakeFiles/ceres.dir/line_search_minimizer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/line_search_minimizer.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/line_search_minimizer.cc > CMakeFiles/ceres.dir/line_search_minimizer.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/line_search_minimizer.cc > CMakeFiles/ceres.dir/line_search_minimizer.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/line_search_minimizer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/line_search_minimizer.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/line_search_minimizer.cc -o CMakeFiles/ceres.dir/line_search_minimizer.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/line_search_minimizer.cc -o CMakeFiles/ceres.dir/line_search_minimizer.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/line_search_minimizer.cc.o.requires:
 
@@ -1450,17 +1450,17 @@ internal/ceres/CMakeFiles/ceres.dir/line_search_minimizer.cc.o.provides.build: i
 
 
 internal/ceres/CMakeFiles/ceres.dir/line_search_preprocessor.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/line_search_preprocessor.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/line_search_preprocessor.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/line_search_preprocessor.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/line_search_preprocessor.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/line_search_preprocessor.cc
+internal/ceres/CMakeFiles/ceres.dir/line_search_preprocessor.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/line_search_preprocessor.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/line_search_preprocessor.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/line_search_preprocessor.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/line_search_preprocessor.cc
 
 internal/ceres/CMakeFiles/ceres.dir/line_search_preprocessor.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/line_search_preprocessor.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/line_search_preprocessor.cc > CMakeFiles/ceres.dir/line_search_preprocessor.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/line_search_preprocessor.cc > CMakeFiles/ceres.dir/line_search_preprocessor.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/line_search_preprocessor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/line_search_preprocessor.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/line_search_preprocessor.cc -o CMakeFiles/ceres.dir/line_search_preprocessor.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/line_search_preprocessor.cc -o CMakeFiles/ceres.dir/line_search_preprocessor.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/line_search_preprocessor.cc.o.requires:
 
@@ -1474,17 +1474,17 @@ internal/ceres/CMakeFiles/ceres.dir/line_search_preprocessor.cc.o.provides.build
 
 
 internal/ceres/CMakeFiles/ceres.dir/linear_least_squares_problems.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/linear_least_squares_problems.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/linear_least_squares_problems.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/linear_least_squares_problems.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/linear_least_squares_problems.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/linear_least_squares_problems.cc
+internal/ceres/CMakeFiles/ceres.dir/linear_least_squares_problems.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/linear_least_squares_problems.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/linear_least_squares_problems.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/linear_least_squares_problems.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/linear_least_squares_problems.cc
 
 internal/ceres/CMakeFiles/ceres.dir/linear_least_squares_problems.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/linear_least_squares_problems.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/linear_least_squares_problems.cc > CMakeFiles/ceres.dir/linear_least_squares_problems.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/linear_least_squares_problems.cc > CMakeFiles/ceres.dir/linear_least_squares_problems.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/linear_least_squares_problems.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/linear_least_squares_problems.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/linear_least_squares_problems.cc -o CMakeFiles/ceres.dir/linear_least_squares_problems.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/linear_least_squares_problems.cc -o CMakeFiles/ceres.dir/linear_least_squares_problems.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/linear_least_squares_problems.cc.o.requires:
 
@@ -1498,17 +1498,17 @@ internal/ceres/CMakeFiles/ceres.dir/linear_least_squares_problems.cc.o.provides.
 
 
 internal/ceres/CMakeFiles/ceres.dir/linear_operator.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/linear_operator.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/linear_operator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/linear_operator.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/linear_operator.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/linear_operator.cc
+internal/ceres/CMakeFiles/ceres.dir/linear_operator.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/linear_operator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/linear_operator.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/linear_operator.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/linear_operator.cc
 
 internal/ceres/CMakeFiles/ceres.dir/linear_operator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/linear_operator.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/linear_operator.cc > CMakeFiles/ceres.dir/linear_operator.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/linear_operator.cc > CMakeFiles/ceres.dir/linear_operator.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/linear_operator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/linear_operator.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/linear_operator.cc -o CMakeFiles/ceres.dir/linear_operator.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/linear_operator.cc -o CMakeFiles/ceres.dir/linear_operator.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/linear_operator.cc.o.requires:
 
@@ -1522,17 +1522,17 @@ internal/ceres/CMakeFiles/ceres.dir/linear_operator.cc.o.provides.build: interna
 
 
 internal/ceres/CMakeFiles/ceres.dir/linear_solver.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/linear_solver.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/linear_solver.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/linear_solver.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/linear_solver.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/linear_solver.cc
+internal/ceres/CMakeFiles/ceres.dir/linear_solver.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/linear_solver.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/linear_solver.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/linear_solver.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/linear_solver.cc
 
 internal/ceres/CMakeFiles/ceres.dir/linear_solver.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/linear_solver.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/linear_solver.cc > CMakeFiles/ceres.dir/linear_solver.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/linear_solver.cc > CMakeFiles/ceres.dir/linear_solver.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/linear_solver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/linear_solver.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/linear_solver.cc -o CMakeFiles/ceres.dir/linear_solver.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/linear_solver.cc -o CMakeFiles/ceres.dir/linear_solver.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/linear_solver.cc.o.requires:
 
@@ -1546,17 +1546,17 @@ internal/ceres/CMakeFiles/ceres.dir/linear_solver.cc.o.provides.build: internal/
 
 
 internal/ceres/CMakeFiles/ceres.dir/local_parameterization.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/local_parameterization.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/local_parameterization.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/local_parameterization.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/local_parameterization.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/local_parameterization.cc
+internal/ceres/CMakeFiles/ceres.dir/local_parameterization.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/local_parameterization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/local_parameterization.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/local_parameterization.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/local_parameterization.cc
 
 internal/ceres/CMakeFiles/ceres.dir/local_parameterization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/local_parameterization.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/local_parameterization.cc > CMakeFiles/ceres.dir/local_parameterization.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/local_parameterization.cc > CMakeFiles/ceres.dir/local_parameterization.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/local_parameterization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/local_parameterization.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/local_parameterization.cc -o CMakeFiles/ceres.dir/local_parameterization.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/local_parameterization.cc -o CMakeFiles/ceres.dir/local_parameterization.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/local_parameterization.cc.o.requires:
 
@@ -1570,17 +1570,17 @@ internal/ceres/CMakeFiles/ceres.dir/local_parameterization.cc.o.provides.build: 
 
 
 internal/ceres/CMakeFiles/ceres.dir/loss_function.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/loss_function.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/loss_function.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/loss_function.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/loss_function.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/loss_function.cc
+internal/ceres/CMakeFiles/ceres.dir/loss_function.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/loss_function.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/loss_function.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/loss_function.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/loss_function.cc
 
 internal/ceres/CMakeFiles/ceres.dir/loss_function.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/loss_function.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/loss_function.cc > CMakeFiles/ceres.dir/loss_function.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/loss_function.cc > CMakeFiles/ceres.dir/loss_function.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/loss_function.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/loss_function.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/loss_function.cc -o CMakeFiles/ceres.dir/loss_function.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/loss_function.cc -o CMakeFiles/ceres.dir/loss_function.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/loss_function.cc.o.requires:
 
@@ -1594,17 +1594,17 @@ internal/ceres/CMakeFiles/ceres.dir/loss_function.cc.o.provides.build: internal/
 
 
 internal/ceres/CMakeFiles/ceres.dir/low_rank_inverse_hessian.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/low_rank_inverse_hessian.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/low_rank_inverse_hessian.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/low_rank_inverse_hessian.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/low_rank_inverse_hessian.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/low_rank_inverse_hessian.cc
+internal/ceres/CMakeFiles/ceres.dir/low_rank_inverse_hessian.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/low_rank_inverse_hessian.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/low_rank_inverse_hessian.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/low_rank_inverse_hessian.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/low_rank_inverse_hessian.cc
 
 internal/ceres/CMakeFiles/ceres.dir/low_rank_inverse_hessian.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/low_rank_inverse_hessian.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/low_rank_inverse_hessian.cc > CMakeFiles/ceres.dir/low_rank_inverse_hessian.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/low_rank_inverse_hessian.cc > CMakeFiles/ceres.dir/low_rank_inverse_hessian.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/low_rank_inverse_hessian.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/low_rank_inverse_hessian.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/low_rank_inverse_hessian.cc -o CMakeFiles/ceres.dir/low_rank_inverse_hessian.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/low_rank_inverse_hessian.cc -o CMakeFiles/ceres.dir/low_rank_inverse_hessian.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/low_rank_inverse_hessian.cc.o.requires:
 
@@ -1618,17 +1618,17 @@ internal/ceres/CMakeFiles/ceres.dir/low_rank_inverse_hessian.cc.o.provides.build
 
 
 internal/ceres/CMakeFiles/ceres.dir/minimizer.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/minimizer.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/minimizer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/minimizer.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/minimizer.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/minimizer.cc
+internal/ceres/CMakeFiles/ceres.dir/minimizer.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/minimizer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/minimizer.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/minimizer.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/minimizer.cc
 
 internal/ceres/CMakeFiles/ceres.dir/minimizer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/minimizer.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/minimizer.cc > CMakeFiles/ceres.dir/minimizer.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/minimizer.cc > CMakeFiles/ceres.dir/minimizer.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/minimizer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/minimizer.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/minimizer.cc -o CMakeFiles/ceres.dir/minimizer.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/minimizer.cc -o CMakeFiles/ceres.dir/minimizer.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/minimizer.cc.o.requires:
 
@@ -1642,17 +1642,17 @@ internal/ceres/CMakeFiles/ceres.dir/minimizer.cc.o.provides.build: internal/cere
 
 
 internal/ceres/CMakeFiles/ceres.dir/normal_prior.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/normal_prior.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/normal_prior.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/normal_prior.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/normal_prior.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/normal_prior.cc
+internal/ceres/CMakeFiles/ceres.dir/normal_prior.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/normal_prior.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/normal_prior.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/normal_prior.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/normal_prior.cc
 
 internal/ceres/CMakeFiles/ceres.dir/normal_prior.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/normal_prior.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/normal_prior.cc > CMakeFiles/ceres.dir/normal_prior.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/normal_prior.cc > CMakeFiles/ceres.dir/normal_prior.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/normal_prior.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/normal_prior.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/normal_prior.cc -o CMakeFiles/ceres.dir/normal_prior.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/normal_prior.cc -o CMakeFiles/ceres.dir/normal_prior.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/normal_prior.cc.o.requires:
 
@@ -1666,17 +1666,17 @@ internal/ceres/CMakeFiles/ceres.dir/normal_prior.cc.o.provides.build: internal/c
 
 
 internal/ceres/CMakeFiles/ceres.dir/parallel_utils.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/parallel_utils.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/parallel_utils.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/parallel_utils.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/parallel_utils.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/parallel_utils.cc
+internal/ceres/CMakeFiles/ceres.dir/parallel_utils.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/parallel_utils.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/parallel_utils.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/parallel_utils.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/parallel_utils.cc
 
 internal/ceres/CMakeFiles/ceres.dir/parallel_utils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/parallel_utils.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/parallel_utils.cc > CMakeFiles/ceres.dir/parallel_utils.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/parallel_utils.cc > CMakeFiles/ceres.dir/parallel_utils.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/parallel_utils.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/parallel_utils.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/parallel_utils.cc -o CMakeFiles/ceres.dir/parallel_utils.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/parallel_utils.cc -o CMakeFiles/ceres.dir/parallel_utils.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/parallel_utils.cc.o.requires:
 
@@ -1690,17 +1690,17 @@ internal/ceres/CMakeFiles/ceres.dir/parallel_utils.cc.o.provides.build: internal
 
 
 internal/ceres/CMakeFiles/ceres.dir/parameter_block_ordering.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/parameter_block_ordering.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/parameter_block_ordering.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/parameter_block_ordering.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/parameter_block_ordering.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/parameter_block_ordering.cc
+internal/ceres/CMakeFiles/ceres.dir/parameter_block_ordering.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/parameter_block_ordering.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/parameter_block_ordering.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/parameter_block_ordering.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/parameter_block_ordering.cc
 
 internal/ceres/CMakeFiles/ceres.dir/parameter_block_ordering.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/parameter_block_ordering.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/parameter_block_ordering.cc > CMakeFiles/ceres.dir/parameter_block_ordering.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/parameter_block_ordering.cc > CMakeFiles/ceres.dir/parameter_block_ordering.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/parameter_block_ordering.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/parameter_block_ordering.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/parameter_block_ordering.cc -o CMakeFiles/ceres.dir/parameter_block_ordering.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/parameter_block_ordering.cc -o CMakeFiles/ceres.dir/parameter_block_ordering.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/parameter_block_ordering.cc.o.requires:
 
@@ -1714,17 +1714,17 @@ internal/ceres/CMakeFiles/ceres.dir/parameter_block_ordering.cc.o.provides.build
 
 
 internal/ceres/CMakeFiles/ceres.dir/partitioned_matrix_view.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/partitioned_matrix_view.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/partitioned_matrix_view.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/partitioned_matrix_view.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/partitioned_matrix_view.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/partitioned_matrix_view.cc
+internal/ceres/CMakeFiles/ceres.dir/partitioned_matrix_view.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/partitioned_matrix_view.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/partitioned_matrix_view.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/partitioned_matrix_view.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/partitioned_matrix_view.cc
 
 internal/ceres/CMakeFiles/ceres.dir/partitioned_matrix_view.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/partitioned_matrix_view.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/partitioned_matrix_view.cc > CMakeFiles/ceres.dir/partitioned_matrix_view.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/partitioned_matrix_view.cc > CMakeFiles/ceres.dir/partitioned_matrix_view.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/partitioned_matrix_view.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/partitioned_matrix_view.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/partitioned_matrix_view.cc -o CMakeFiles/ceres.dir/partitioned_matrix_view.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/partitioned_matrix_view.cc -o CMakeFiles/ceres.dir/partitioned_matrix_view.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/partitioned_matrix_view.cc.o.requires:
 
@@ -1738,17 +1738,17 @@ internal/ceres/CMakeFiles/ceres.dir/partitioned_matrix_view.cc.o.provides.build:
 
 
 internal/ceres/CMakeFiles/ceres.dir/polynomial.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/polynomial.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/polynomial.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/polynomial.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/polynomial.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/polynomial.cc
+internal/ceres/CMakeFiles/ceres.dir/polynomial.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/polynomial.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/polynomial.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/polynomial.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/polynomial.cc
 
 internal/ceres/CMakeFiles/ceres.dir/polynomial.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/polynomial.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/polynomial.cc > CMakeFiles/ceres.dir/polynomial.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/polynomial.cc > CMakeFiles/ceres.dir/polynomial.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/polynomial.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/polynomial.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/polynomial.cc -o CMakeFiles/ceres.dir/polynomial.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/polynomial.cc -o CMakeFiles/ceres.dir/polynomial.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/polynomial.cc.o.requires:
 
@@ -1762,17 +1762,17 @@ internal/ceres/CMakeFiles/ceres.dir/polynomial.cc.o.provides.build: internal/cer
 
 
 internal/ceres/CMakeFiles/ceres.dir/preconditioner.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/preconditioner.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/preconditioner.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/preconditioner.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/preconditioner.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/preconditioner.cc
+internal/ceres/CMakeFiles/ceres.dir/preconditioner.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/preconditioner.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/preconditioner.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/preconditioner.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/preconditioner.cc
 
 internal/ceres/CMakeFiles/ceres.dir/preconditioner.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/preconditioner.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/preconditioner.cc > CMakeFiles/ceres.dir/preconditioner.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/preconditioner.cc > CMakeFiles/ceres.dir/preconditioner.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/preconditioner.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/preconditioner.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/preconditioner.cc -o CMakeFiles/ceres.dir/preconditioner.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/preconditioner.cc -o CMakeFiles/ceres.dir/preconditioner.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/preconditioner.cc.o.requires:
 
@@ -1786,17 +1786,17 @@ internal/ceres/CMakeFiles/ceres.dir/preconditioner.cc.o.provides.build: internal
 
 
 internal/ceres/CMakeFiles/ceres.dir/preprocessor.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/preprocessor.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/preprocessor.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/preprocessor.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/preprocessor.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/preprocessor.cc
+internal/ceres/CMakeFiles/ceres.dir/preprocessor.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/preprocessor.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/preprocessor.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/preprocessor.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/preprocessor.cc
 
 internal/ceres/CMakeFiles/ceres.dir/preprocessor.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/preprocessor.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/preprocessor.cc > CMakeFiles/ceres.dir/preprocessor.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/preprocessor.cc > CMakeFiles/ceres.dir/preprocessor.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/preprocessor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/preprocessor.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/preprocessor.cc -o CMakeFiles/ceres.dir/preprocessor.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/preprocessor.cc -o CMakeFiles/ceres.dir/preprocessor.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/preprocessor.cc.o.requires:
 
@@ -1810,17 +1810,17 @@ internal/ceres/CMakeFiles/ceres.dir/preprocessor.cc.o.provides.build: internal/c
 
 
 internal/ceres/CMakeFiles/ceres.dir/problem.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/problem.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/problem.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/problem.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/problem.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/problem.cc
+internal/ceres/CMakeFiles/ceres.dir/problem.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/problem.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/problem.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/problem.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/problem.cc
 
 internal/ceres/CMakeFiles/ceres.dir/problem.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/problem.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/problem.cc > CMakeFiles/ceres.dir/problem.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/problem.cc > CMakeFiles/ceres.dir/problem.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/problem.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/problem.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/problem.cc -o CMakeFiles/ceres.dir/problem.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/problem.cc -o CMakeFiles/ceres.dir/problem.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/problem.cc.o.requires:
 
@@ -1834,17 +1834,17 @@ internal/ceres/CMakeFiles/ceres.dir/problem.cc.o.provides.build: internal/ceres/
 
 
 internal/ceres/CMakeFiles/ceres.dir/problem_impl.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/problem_impl.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/problem_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/problem_impl.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/problem_impl.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/problem_impl.cc
+internal/ceres/CMakeFiles/ceres.dir/problem_impl.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/problem_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/problem_impl.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/problem_impl.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/problem_impl.cc
 
 internal/ceres/CMakeFiles/ceres.dir/problem_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/problem_impl.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/problem_impl.cc > CMakeFiles/ceres.dir/problem_impl.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/problem_impl.cc > CMakeFiles/ceres.dir/problem_impl.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/problem_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/problem_impl.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/problem_impl.cc -o CMakeFiles/ceres.dir/problem_impl.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/problem_impl.cc -o CMakeFiles/ceres.dir/problem_impl.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/problem_impl.cc.o.requires:
 
@@ -1858,17 +1858,17 @@ internal/ceres/CMakeFiles/ceres.dir/problem_impl.cc.o.provides.build: internal/c
 
 
 internal/ceres/CMakeFiles/ceres.dir/program.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/program.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/program.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/program.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/program.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/program.cc
+internal/ceres/CMakeFiles/ceres.dir/program.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/program.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/program.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/program.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/program.cc
 
 internal/ceres/CMakeFiles/ceres.dir/program.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/program.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/program.cc > CMakeFiles/ceres.dir/program.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/program.cc > CMakeFiles/ceres.dir/program.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/program.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/program.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/program.cc -o CMakeFiles/ceres.dir/program.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/program.cc -o CMakeFiles/ceres.dir/program.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/program.cc.o.requires:
 
@@ -1882,17 +1882,17 @@ internal/ceres/CMakeFiles/ceres.dir/program.cc.o.provides.build: internal/ceres/
 
 
 internal/ceres/CMakeFiles/ceres.dir/reorder_program.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/reorder_program.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/reorder_program.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/reorder_program.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/reorder_program.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/reorder_program.cc
+internal/ceres/CMakeFiles/ceres.dir/reorder_program.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/reorder_program.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/reorder_program.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/reorder_program.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/reorder_program.cc
 
 internal/ceres/CMakeFiles/ceres.dir/reorder_program.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/reorder_program.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/reorder_program.cc > CMakeFiles/ceres.dir/reorder_program.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/reorder_program.cc > CMakeFiles/ceres.dir/reorder_program.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/reorder_program.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/reorder_program.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/reorder_program.cc -o CMakeFiles/ceres.dir/reorder_program.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/reorder_program.cc -o CMakeFiles/ceres.dir/reorder_program.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/reorder_program.cc.o.requires:
 
@@ -1906,17 +1906,17 @@ internal/ceres/CMakeFiles/ceres.dir/reorder_program.cc.o.provides.build: interna
 
 
 internal/ceres/CMakeFiles/ceres.dir/residual_block.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/residual_block.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/residual_block.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/residual_block.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/residual_block.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/residual_block.cc
+internal/ceres/CMakeFiles/ceres.dir/residual_block.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/residual_block.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/residual_block.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/residual_block.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/residual_block.cc
 
 internal/ceres/CMakeFiles/ceres.dir/residual_block.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/residual_block.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/residual_block.cc > CMakeFiles/ceres.dir/residual_block.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/residual_block.cc > CMakeFiles/ceres.dir/residual_block.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/residual_block.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/residual_block.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/residual_block.cc -o CMakeFiles/ceres.dir/residual_block.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/residual_block.cc -o CMakeFiles/ceres.dir/residual_block.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/residual_block.cc.o.requires:
 
@@ -1930,17 +1930,17 @@ internal/ceres/CMakeFiles/ceres.dir/residual_block.cc.o.provides.build: internal
 
 
 internal/ceres/CMakeFiles/ceres.dir/residual_block_utils.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/residual_block_utils.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/residual_block_utils.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/residual_block_utils.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/residual_block_utils.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/residual_block_utils.cc
+internal/ceres/CMakeFiles/ceres.dir/residual_block_utils.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/residual_block_utils.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/residual_block_utils.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/residual_block_utils.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/residual_block_utils.cc
 
 internal/ceres/CMakeFiles/ceres.dir/residual_block_utils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/residual_block_utils.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/residual_block_utils.cc > CMakeFiles/ceres.dir/residual_block_utils.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/residual_block_utils.cc > CMakeFiles/ceres.dir/residual_block_utils.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/residual_block_utils.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/residual_block_utils.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/residual_block_utils.cc -o CMakeFiles/ceres.dir/residual_block_utils.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/residual_block_utils.cc -o CMakeFiles/ceres.dir/residual_block_utils.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/residual_block_utils.cc.o.requires:
 
@@ -1954,17 +1954,17 @@ internal/ceres/CMakeFiles/ceres.dir/residual_block_utils.cc.o.provides.build: in
 
 
 internal/ceres/CMakeFiles/ceres.dir/schur_complement_solver.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/schur_complement_solver.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/schur_complement_solver.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/schur_complement_solver.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/schur_complement_solver.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/schur_complement_solver.cc
+internal/ceres/CMakeFiles/ceres.dir/schur_complement_solver.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/schur_complement_solver.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/schur_complement_solver.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/schur_complement_solver.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/schur_complement_solver.cc
 
 internal/ceres/CMakeFiles/ceres.dir/schur_complement_solver.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/schur_complement_solver.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/schur_complement_solver.cc > CMakeFiles/ceres.dir/schur_complement_solver.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/schur_complement_solver.cc > CMakeFiles/ceres.dir/schur_complement_solver.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/schur_complement_solver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/schur_complement_solver.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/schur_complement_solver.cc -o CMakeFiles/ceres.dir/schur_complement_solver.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/schur_complement_solver.cc -o CMakeFiles/ceres.dir/schur_complement_solver.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/schur_complement_solver.cc.o.requires:
 
@@ -1978,17 +1978,17 @@ internal/ceres/CMakeFiles/ceres.dir/schur_complement_solver.cc.o.provides.build:
 
 
 internal/ceres/CMakeFiles/ceres.dir/schur_eliminator.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/schur_eliminator.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/schur_eliminator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/schur_eliminator.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/schur_eliminator.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/schur_eliminator.cc
+internal/ceres/CMakeFiles/ceres.dir/schur_eliminator.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/schur_eliminator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/schur_eliminator.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/schur_eliminator.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/schur_eliminator.cc
 
 internal/ceres/CMakeFiles/ceres.dir/schur_eliminator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/schur_eliminator.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/schur_eliminator.cc > CMakeFiles/ceres.dir/schur_eliminator.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/schur_eliminator.cc > CMakeFiles/ceres.dir/schur_eliminator.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/schur_eliminator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/schur_eliminator.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/schur_eliminator.cc -o CMakeFiles/ceres.dir/schur_eliminator.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/schur_eliminator.cc -o CMakeFiles/ceres.dir/schur_eliminator.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/schur_eliminator.cc.o.requires:
 
@@ -2002,17 +2002,17 @@ internal/ceres/CMakeFiles/ceres.dir/schur_eliminator.cc.o.provides.build: intern
 
 
 internal/ceres/CMakeFiles/ceres.dir/schur_jacobi_preconditioner.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/schur_jacobi_preconditioner.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/schur_jacobi_preconditioner.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/schur_jacobi_preconditioner.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/schur_jacobi_preconditioner.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/schur_jacobi_preconditioner.cc
+internal/ceres/CMakeFiles/ceres.dir/schur_jacobi_preconditioner.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/schur_jacobi_preconditioner.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/schur_jacobi_preconditioner.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/schur_jacobi_preconditioner.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/schur_jacobi_preconditioner.cc
 
 internal/ceres/CMakeFiles/ceres.dir/schur_jacobi_preconditioner.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/schur_jacobi_preconditioner.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/schur_jacobi_preconditioner.cc > CMakeFiles/ceres.dir/schur_jacobi_preconditioner.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/schur_jacobi_preconditioner.cc > CMakeFiles/ceres.dir/schur_jacobi_preconditioner.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/schur_jacobi_preconditioner.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/schur_jacobi_preconditioner.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/schur_jacobi_preconditioner.cc -o CMakeFiles/ceres.dir/schur_jacobi_preconditioner.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/schur_jacobi_preconditioner.cc -o CMakeFiles/ceres.dir/schur_jacobi_preconditioner.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/schur_jacobi_preconditioner.cc.o.requires:
 
@@ -2026,17 +2026,17 @@ internal/ceres/CMakeFiles/ceres.dir/schur_jacobi_preconditioner.cc.o.provides.bu
 
 
 internal/ceres/CMakeFiles/ceres.dir/schur_templates.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/schur_templates.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/schur_templates.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/schur_templates.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/schur_templates.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/schur_templates.cc
+internal/ceres/CMakeFiles/ceres.dir/schur_templates.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/schur_templates.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/schur_templates.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/schur_templates.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/schur_templates.cc
 
 internal/ceres/CMakeFiles/ceres.dir/schur_templates.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/schur_templates.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/schur_templates.cc > CMakeFiles/ceres.dir/schur_templates.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/schur_templates.cc > CMakeFiles/ceres.dir/schur_templates.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/schur_templates.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/schur_templates.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/schur_templates.cc -o CMakeFiles/ceres.dir/schur_templates.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/schur_templates.cc -o CMakeFiles/ceres.dir/schur_templates.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/schur_templates.cc.o.requires:
 
@@ -2050,17 +2050,17 @@ internal/ceres/CMakeFiles/ceres.dir/schur_templates.cc.o.provides.build: interna
 
 
 internal/ceres/CMakeFiles/ceres.dir/scratch_evaluate_preparer.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/scratch_evaluate_preparer.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/scratch_evaluate_preparer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/scratch_evaluate_preparer.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/scratch_evaluate_preparer.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/scratch_evaluate_preparer.cc
+internal/ceres/CMakeFiles/ceres.dir/scratch_evaluate_preparer.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/scratch_evaluate_preparer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/scratch_evaluate_preparer.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/scratch_evaluate_preparer.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/scratch_evaluate_preparer.cc
 
 internal/ceres/CMakeFiles/ceres.dir/scratch_evaluate_preparer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/scratch_evaluate_preparer.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/scratch_evaluate_preparer.cc > CMakeFiles/ceres.dir/scratch_evaluate_preparer.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/scratch_evaluate_preparer.cc > CMakeFiles/ceres.dir/scratch_evaluate_preparer.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/scratch_evaluate_preparer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/scratch_evaluate_preparer.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/scratch_evaluate_preparer.cc -o CMakeFiles/ceres.dir/scratch_evaluate_preparer.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/scratch_evaluate_preparer.cc -o CMakeFiles/ceres.dir/scratch_evaluate_preparer.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/scratch_evaluate_preparer.cc.o.requires:
 
@@ -2074,17 +2074,17 @@ internal/ceres/CMakeFiles/ceres.dir/scratch_evaluate_preparer.cc.o.provides.buil
 
 
 internal/ceres/CMakeFiles/ceres.dir/single_linkage_clustering.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/single_linkage_clustering.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/single_linkage_clustering.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/single_linkage_clustering.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/single_linkage_clustering.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/single_linkage_clustering.cc
+internal/ceres/CMakeFiles/ceres.dir/single_linkage_clustering.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/single_linkage_clustering.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/single_linkage_clustering.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/single_linkage_clustering.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/single_linkage_clustering.cc
 
 internal/ceres/CMakeFiles/ceres.dir/single_linkage_clustering.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/single_linkage_clustering.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/single_linkage_clustering.cc > CMakeFiles/ceres.dir/single_linkage_clustering.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/single_linkage_clustering.cc > CMakeFiles/ceres.dir/single_linkage_clustering.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/single_linkage_clustering.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/single_linkage_clustering.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/single_linkage_clustering.cc -o CMakeFiles/ceres.dir/single_linkage_clustering.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/single_linkage_clustering.cc -o CMakeFiles/ceres.dir/single_linkage_clustering.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/single_linkage_clustering.cc.o.requires:
 
@@ -2098,17 +2098,17 @@ internal/ceres/CMakeFiles/ceres.dir/single_linkage_clustering.cc.o.provides.buil
 
 
 internal/ceres/CMakeFiles/ceres.dir/solver.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/solver.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/solver.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/solver.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/solver.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/solver.cc
+internal/ceres/CMakeFiles/ceres.dir/solver.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/solver.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/solver.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/solver.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/solver.cc
 
 internal/ceres/CMakeFiles/ceres.dir/solver.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/solver.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/solver.cc > CMakeFiles/ceres.dir/solver.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/solver.cc > CMakeFiles/ceres.dir/solver.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/solver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/solver.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/solver.cc -o CMakeFiles/ceres.dir/solver.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/solver.cc -o CMakeFiles/ceres.dir/solver.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/solver.cc.o.requires:
 
@@ -2122,17 +2122,17 @@ internal/ceres/CMakeFiles/ceres.dir/solver.cc.o.provides.build: internal/ceres/C
 
 
 internal/ceres/CMakeFiles/ceres.dir/solver_utils.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/solver_utils.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/solver_utils.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/solver_utils.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/solver_utils.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/solver_utils.cc
+internal/ceres/CMakeFiles/ceres.dir/solver_utils.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/solver_utils.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/solver_utils.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/solver_utils.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/solver_utils.cc
 
 internal/ceres/CMakeFiles/ceres.dir/solver_utils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/solver_utils.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/solver_utils.cc > CMakeFiles/ceres.dir/solver_utils.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/solver_utils.cc > CMakeFiles/ceres.dir/solver_utils.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/solver_utils.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/solver_utils.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/solver_utils.cc -o CMakeFiles/ceres.dir/solver_utils.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/solver_utils.cc -o CMakeFiles/ceres.dir/solver_utils.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/solver_utils.cc.o.requires:
 
@@ -2146,17 +2146,17 @@ internal/ceres/CMakeFiles/ceres.dir/solver_utils.cc.o.provides.build: internal/c
 
 
 internal/ceres/CMakeFiles/ceres.dir/sparse_matrix.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/sparse_matrix.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/sparse_matrix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/sparse_matrix.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/sparse_matrix.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/sparse_matrix.cc
+internal/ceres/CMakeFiles/ceres.dir/sparse_matrix.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/sparse_matrix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/sparse_matrix.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/sparse_matrix.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/sparse_matrix.cc
 
 internal/ceres/CMakeFiles/ceres.dir/sparse_matrix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/sparse_matrix.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/sparse_matrix.cc > CMakeFiles/ceres.dir/sparse_matrix.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/sparse_matrix.cc > CMakeFiles/ceres.dir/sparse_matrix.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/sparse_matrix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/sparse_matrix.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/sparse_matrix.cc -o CMakeFiles/ceres.dir/sparse_matrix.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/sparse_matrix.cc -o CMakeFiles/ceres.dir/sparse_matrix.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/sparse_matrix.cc.o.requires:
 
@@ -2170,17 +2170,17 @@ internal/ceres/CMakeFiles/ceres.dir/sparse_matrix.cc.o.provides.build: internal/
 
 
 internal/ceres/CMakeFiles/ceres.dir/sparse_cholesky.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/sparse_cholesky.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/sparse_cholesky.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/sparse_cholesky.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/sparse_cholesky.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/sparse_cholesky.cc
+internal/ceres/CMakeFiles/ceres.dir/sparse_cholesky.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/sparse_cholesky.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/sparse_cholesky.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/sparse_cholesky.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/sparse_cholesky.cc
 
 internal/ceres/CMakeFiles/ceres.dir/sparse_cholesky.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/sparse_cholesky.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/sparse_cholesky.cc > CMakeFiles/ceres.dir/sparse_cholesky.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/sparse_cholesky.cc > CMakeFiles/ceres.dir/sparse_cholesky.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/sparse_cholesky.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/sparse_cholesky.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/sparse_cholesky.cc -o CMakeFiles/ceres.dir/sparse_cholesky.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/sparse_cholesky.cc -o CMakeFiles/ceres.dir/sparse_cholesky.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/sparse_cholesky.cc.o.requires:
 
@@ -2194,17 +2194,17 @@ internal/ceres/CMakeFiles/ceres.dir/sparse_cholesky.cc.o.provides.build: interna
 
 
 internal/ceres/CMakeFiles/ceres.dir/sparse_normal_cholesky_solver.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/sparse_normal_cholesky_solver.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/sparse_normal_cholesky_solver.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/sparse_normal_cholesky_solver.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/sparse_normal_cholesky_solver.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/sparse_normal_cholesky_solver.cc
+internal/ceres/CMakeFiles/ceres.dir/sparse_normal_cholesky_solver.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/sparse_normal_cholesky_solver.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/sparse_normal_cholesky_solver.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/sparse_normal_cholesky_solver.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/sparse_normal_cholesky_solver.cc
 
 internal/ceres/CMakeFiles/ceres.dir/sparse_normal_cholesky_solver.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/sparse_normal_cholesky_solver.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/sparse_normal_cholesky_solver.cc > CMakeFiles/ceres.dir/sparse_normal_cholesky_solver.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/sparse_normal_cholesky_solver.cc > CMakeFiles/ceres.dir/sparse_normal_cholesky_solver.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/sparse_normal_cholesky_solver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/sparse_normal_cholesky_solver.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/sparse_normal_cholesky_solver.cc -o CMakeFiles/ceres.dir/sparse_normal_cholesky_solver.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/sparse_normal_cholesky_solver.cc -o CMakeFiles/ceres.dir/sparse_normal_cholesky_solver.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/sparse_normal_cholesky_solver.cc.o.requires:
 
@@ -2218,17 +2218,17 @@ internal/ceres/CMakeFiles/ceres.dir/sparse_normal_cholesky_solver.cc.o.provides.
 
 
 internal/ceres/CMakeFiles/ceres.dir/subset_preconditioner.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/subset_preconditioner.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/subset_preconditioner.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/subset_preconditioner.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/subset_preconditioner.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/subset_preconditioner.cc
+internal/ceres/CMakeFiles/ceres.dir/subset_preconditioner.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/subset_preconditioner.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/subset_preconditioner.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/subset_preconditioner.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/subset_preconditioner.cc
 
 internal/ceres/CMakeFiles/ceres.dir/subset_preconditioner.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/subset_preconditioner.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/subset_preconditioner.cc > CMakeFiles/ceres.dir/subset_preconditioner.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/subset_preconditioner.cc > CMakeFiles/ceres.dir/subset_preconditioner.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/subset_preconditioner.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/subset_preconditioner.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/subset_preconditioner.cc -o CMakeFiles/ceres.dir/subset_preconditioner.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/subset_preconditioner.cc -o CMakeFiles/ceres.dir/subset_preconditioner.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/subset_preconditioner.cc.o.requires:
 
@@ -2242,17 +2242,17 @@ internal/ceres/CMakeFiles/ceres.dir/subset_preconditioner.cc.o.provides.build: i
 
 
 internal/ceres/CMakeFiles/ceres.dir/split.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/split.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/split.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/split.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/split.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/split.cc
+internal/ceres/CMakeFiles/ceres.dir/split.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/split.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/split.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/split.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/split.cc
 
 internal/ceres/CMakeFiles/ceres.dir/split.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/split.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/split.cc > CMakeFiles/ceres.dir/split.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/split.cc > CMakeFiles/ceres.dir/split.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/split.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/split.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/split.cc -o CMakeFiles/ceres.dir/split.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/split.cc -o CMakeFiles/ceres.dir/split.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/split.cc.o.requires:
 
@@ -2266,17 +2266,17 @@ internal/ceres/CMakeFiles/ceres.dir/split.cc.o.provides.build: internal/ceres/CM
 
 
 internal/ceres/CMakeFiles/ceres.dir/stringprintf.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/stringprintf.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/stringprintf.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/stringprintf.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/stringprintf.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/stringprintf.cc
+internal/ceres/CMakeFiles/ceres.dir/stringprintf.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/stringprintf.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/stringprintf.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/stringprintf.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/stringprintf.cc
 
 internal/ceres/CMakeFiles/ceres.dir/stringprintf.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/stringprintf.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/stringprintf.cc > CMakeFiles/ceres.dir/stringprintf.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/stringprintf.cc > CMakeFiles/ceres.dir/stringprintf.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/stringprintf.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/stringprintf.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/stringprintf.cc -o CMakeFiles/ceres.dir/stringprintf.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/stringprintf.cc -o CMakeFiles/ceres.dir/stringprintf.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/stringprintf.cc.o.requires:
 
@@ -2290,17 +2290,17 @@ internal/ceres/CMakeFiles/ceres.dir/stringprintf.cc.o.provides.build: internal/c
 
 
 internal/ceres/CMakeFiles/ceres.dir/suitesparse.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/suitesparse.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/suitesparse.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/suitesparse.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/suitesparse.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/suitesparse.cc
+internal/ceres/CMakeFiles/ceres.dir/suitesparse.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/suitesparse.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/suitesparse.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/suitesparse.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/suitesparse.cc
 
 internal/ceres/CMakeFiles/ceres.dir/suitesparse.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/suitesparse.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/suitesparse.cc > CMakeFiles/ceres.dir/suitesparse.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/suitesparse.cc > CMakeFiles/ceres.dir/suitesparse.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/suitesparse.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/suitesparse.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/suitesparse.cc -o CMakeFiles/ceres.dir/suitesparse.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/suitesparse.cc -o CMakeFiles/ceres.dir/suitesparse.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/suitesparse.cc.o.requires:
 
@@ -2314,17 +2314,17 @@ internal/ceres/CMakeFiles/ceres.dir/suitesparse.cc.o.provides.build: internal/ce
 
 
 internal/ceres/CMakeFiles/ceres.dir/thread_token_provider.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/thread_token_provider.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/thread_token_provider.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/thread_token_provider.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/thread_token_provider.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/thread_token_provider.cc
+internal/ceres/CMakeFiles/ceres.dir/thread_token_provider.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/thread_token_provider.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/thread_token_provider.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/thread_token_provider.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/thread_token_provider.cc
 
 internal/ceres/CMakeFiles/ceres.dir/thread_token_provider.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/thread_token_provider.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/thread_token_provider.cc > CMakeFiles/ceres.dir/thread_token_provider.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/thread_token_provider.cc > CMakeFiles/ceres.dir/thread_token_provider.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/thread_token_provider.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/thread_token_provider.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/thread_token_provider.cc -o CMakeFiles/ceres.dir/thread_token_provider.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/thread_token_provider.cc -o CMakeFiles/ceres.dir/thread_token_provider.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/thread_token_provider.cc.o.requires:
 
@@ -2338,17 +2338,17 @@ internal/ceres/CMakeFiles/ceres.dir/thread_token_provider.cc.o.provides.build: i
 
 
 internal/ceres/CMakeFiles/ceres.dir/triplet_sparse_matrix.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/triplet_sparse_matrix.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/triplet_sparse_matrix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/triplet_sparse_matrix.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/triplet_sparse_matrix.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/triplet_sparse_matrix.cc
+internal/ceres/CMakeFiles/ceres.dir/triplet_sparse_matrix.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/triplet_sparse_matrix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/triplet_sparse_matrix.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/triplet_sparse_matrix.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/triplet_sparse_matrix.cc
 
 internal/ceres/CMakeFiles/ceres.dir/triplet_sparse_matrix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/triplet_sparse_matrix.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/triplet_sparse_matrix.cc > CMakeFiles/ceres.dir/triplet_sparse_matrix.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/triplet_sparse_matrix.cc > CMakeFiles/ceres.dir/triplet_sparse_matrix.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/triplet_sparse_matrix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/triplet_sparse_matrix.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/triplet_sparse_matrix.cc -o CMakeFiles/ceres.dir/triplet_sparse_matrix.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/triplet_sparse_matrix.cc -o CMakeFiles/ceres.dir/triplet_sparse_matrix.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/triplet_sparse_matrix.cc.o.requires:
 
@@ -2362,17 +2362,17 @@ internal/ceres/CMakeFiles/ceres.dir/triplet_sparse_matrix.cc.o.provides.build: i
 
 
 internal/ceres/CMakeFiles/ceres.dir/trust_region_preprocessor.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/trust_region_preprocessor.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/trust_region_preprocessor.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/trust_region_preprocessor.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/trust_region_preprocessor.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/trust_region_preprocessor.cc
+internal/ceres/CMakeFiles/ceres.dir/trust_region_preprocessor.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/trust_region_preprocessor.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/trust_region_preprocessor.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/trust_region_preprocessor.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/trust_region_preprocessor.cc
 
 internal/ceres/CMakeFiles/ceres.dir/trust_region_preprocessor.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/trust_region_preprocessor.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/trust_region_preprocessor.cc > CMakeFiles/ceres.dir/trust_region_preprocessor.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/trust_region_preprocessor.cc > CMakeFiles/ceres.dir/trust_region_preprocessor.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/trust_region_preprocessor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/trust_region_preprocessor.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/trust_region_preprocessor.cc -o CMakeFiles/ceres.dir/trust_region_preprocessor.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/trust_region_preprocessor.cc -o CMakeFiles/ceres.dir/trust_region_preprocessor.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/trust_region_preprocessor.cc.o.requires:
 
@@ -2386,17 +2386,17 @@ internal/ceres/CMakeFiles/ceres.dir/trust_region_preprocessor.cc.o.provides.buil
 
 
 internal/ceres/CMakeFiles/ceres.dir/trust_region_minimizer.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/trust_region_minimizer.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/trust_region_minimizer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/trust_region_minimizer.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/trust_region_minimizer.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/trust_region_minimizer.cc
+internal/ceres/CMakeFiles/ceres.dir/trust_region_minimizer.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/trust_region_minimizer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/trust_region_minimizer.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/trust_region_minimizer.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/trust_region_minimizer.cc
 
 internal/ceres/CMakeFiles/ceres.dir/trust_region_minimizer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/trust_region_minimizer.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/trust_region_minimizer.cc > CMakeFiles/ceres.dir/trust_region_minimizer.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/trust_region_minimizer.cc > CMakeFiles/ceres.dir/trust_region_minimizer.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/trust_region_minimizer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/trust_region_minimizer.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/trust_region_minimizer.cc -o CMakeFiles/ceres.dir/trust_region_minimizer.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/trust_region_minimizer.cc -o CMakeFiles/ceres.dir/trust_region_minimizer.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/trust_region_minimizer.cc.o.requires:
 
@@ -2410,17 +2410,17 @@ internal/ceres/CMakeFiles/ceres.dir/trust_region_minimizer.cc.o.provides.build: 
 
 
 internal/ceres/CMakeFiles/ceres.dir/trust_region_step_evaluator.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/trust_region_step_evaluator.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/trust_region_step_evaluator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/trust_region_step_evaluator.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/trust_region_step_evaluator.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/trust_region_step_evaluator.cc
+internal/ceres/CMakeFiles/ceres.dir/trust_region_step_evaluator.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/trust_region_step_evaluator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/trust_region_step_evaluator.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/trust_region_step_evaluator.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/trust_region_step_evaluator.cc
 
 internal/ceres/CMakeFiles/ceres.dir/trust_region_step_evaluator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/trust_region_step_evaluator.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/trust_region_step_evaluator.cc > CMakeFiles/ceres.dir/trust_region_step_evaluator.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/trust_region_step_evaluator.cc > CMakeFiles/ceres.dir/trust_region_step_evaluator.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/trust_region_step_evaluator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/trust_region_step_evaluator.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/trust_region_step_evaluator.cc -o CMakeFiles/ceres.dir/trust_region_step_evaluator.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/trust_region_step_evaluator.cc -o CMakeFiles/ceres.dir/trust_region_step_evaluator.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/trust_region_step_evaluator.cc.o.requires:
 
@@ -2434,17 +2434,17 @@ internal/ceres/CMakeFiles/ceres.dir/trust_region_step_evaluator.cc.o.provides.bu
 
 
 internal/ceres/CMakeFiles/ceres.dir/trust_region_strategy.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/trust_region_strategy.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/trust_region_strategy.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/trust_region_strategy.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/trust_region_strategy.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/trust_region_strategy.cc
+internal/ceres/CMakeFiles/ceres.dir/trust_region_strategy.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/trust_region_strategy.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/trust_region_strategy.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/trust_region_strategy.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/trust_region_strategy.cc
 
 internal/ceres/CMakeFiles/ceres.dir/trust_region_strategy.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/trust_region_strategy.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/trust_region_strategy.cc > CMakeFiles/ceres.dir/trust_region_strategy.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/trust_region_strategy.cc > CMakeFiles/ceres.dir/trust_region_strategy.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/trust_region_strategy.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/trust_region_strategy.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/trust_region_strategy.cc -o CMakeFiles/ceres.dir/trust_region_strategy.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/trust_region_strategy.cc -o CMakeFiles/ceres.dir/trust_region_strategy.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/trust_region_strategy.cc.o.requires:
 
@@ -2458,17 +2458,17 @@ internal/ceres/CMakeFiles/ceres.dir/trust_region_strategy.cc.o.provides.build: i
 
 
 internal/ceres/CMakeFiles/ceres.dir/types.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/types.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/types.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/types.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/types.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/types.cc
+internal/ceres/CMakeFiles/ceres.dir/types.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/types.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/types.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/types.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/types.cc
 
 internal/ceres/CMakeFiles/ceres.dir/types.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/types.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/types.cc > CMakeFiles/ceres.dir/types.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/types.cc > CMakeFiles/ceres.dir/types.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/types.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/types.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/types.cc -o CMakeFiles/ceres.dir/types.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/types.cc -o CMakeFiles/ceres.dir/types.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/types.cc.o.requires:
 
@@ -2482,17 +2482,17 @@ internal/ceres/CMakeFiles/ceres.dir/types.cc.o.provides.build: internal/ceres/CM
 
 
 internal/ceres/CMakeFiles/ceres.dir/visibility.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/visibility.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/visibility.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/visibility.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/visibility.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/visibility.cc
+internal/ceres/CMakeFiles/ceres.dir/visibility.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/visibility.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/visibility.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/visibility.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/visibility.cc
 
 internal/ceres/CMakeFiles/ceres.dir/visibility.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/visibility.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/visibility.cc > CMakeFiles/ceres.dir/visibility.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/visibility.cc > CMakeFiles/ceres.dir/visibility.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/visibility.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/visibility.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/visibility.cc -o CMakeFiles/ceres.dir/visibility.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/visibility.cc -o CMakeFiles/ceres.dir/visibility.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/visibility.cc.o.requires:
 
@@ -2506,17 +2506,17 @@ internal/ceres/CMakeFiles/ceres.dir/visibility.cc.o.provides.build: internal/cer
 
 
 internal/ceres/CMakeFiles/ceres.dir/visibility_based_preconditioner.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/visibility_based_preconditioner.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/visibility_based_preconditioner.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/visibility_based_preconditioner.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/visibility_based_preconditioner.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/visibility_based_preconditioner.cc
+internal/ceres/CMakeFiles/ceres.dir/visibility_based_preconditioner.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/visibility_based_preconditioner.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/visibility_based_preconditioner.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/visibility_based_preconditioner.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/visibility_based_preconditioner.cc
 
 internal/ceres/CMakeFiles/ceres.dir/visibility_based_preconditioner.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/visibility_based_preconditioner.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/visibility_based_preconditioner.cc > CMakeFiles/ceres.dir/visibility_based_preconditioner.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/visibility_based_preconditioner.cc > CMakeFiles/ceres.dir/visibility_based_preconditioner.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/visibility_based_preconditioner.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/visibility_based_preconditioner.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/visibility_based_preconditioner.cc -o CMakeFiles/ceres.dir/visibility_based_preconditioner.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/visibility_based_preconditioner.cc -o CMakeFiles/ceres.dir/visibility_based_preconditioner.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/visibility_based_preconditioner.cc.o.requires:
 
@@ -2530,17 +2530,17 @@ internal/ceres/CMakeFiles/ceres.dir/visibility_based_preconditioner.cc.o.provide
 
 
 internal/ceres/CMakeFiles/ceres.dir/wall_time.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/wall_time.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/wall_time.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/wall_time.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/wall_time.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/wall_time.cc
+internal/ceres/CMakeFiles/ceres.dir/wall_time.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/wall_time.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/wall_time.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/wall_time.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/wall_time.cc
 
 internal/ceres/CMakeFiles/ceres.dir/wall_time.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/wall_time.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/wall_time.cc > CMakeFiles/ceres.dir/wall_time.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/wall_time.cc > CMakeFiles/ceres.dir/wall_time.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/wall_time.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/wall_time.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/wall_time.cc -o CMakeFiles/ceres.dir/wall_time.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/wall_time.cc -o CMakeFiles/ceres.dir/wall_time.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/wall_time.cc.o.requires:
 
@@ -2554,17 +2554,17 @@ internal/ceres/CMakeFiles/ceres.dir/wall_time.cc.o.provides.build: internal/cere
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_2.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_2.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_2.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_2.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_2.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_2.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_2.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_2.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_2.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_2.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_2.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_2.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_2.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_2.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_2.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_2.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_2.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_2.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_2.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_2.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_2.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_2.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_2.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_2.cc.o.requires:
 
@@ -2578,17 +2578,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_2.cc.o
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_3.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_3.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_3.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_3.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_3.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_3.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_3.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_3.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_3.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_3.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_3.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_3.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_3.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_3.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_3.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_3.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_3.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_3.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_3.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_3.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_3.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_3.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_3.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_3.cc.o.requires:
 
@@ -2602,17 +2602,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_3.cc.o
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_4.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_4.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_4.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_4.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_4.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_4.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_4.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_4.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_4.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_4.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_4.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_4.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_4.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_4.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_4.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_4.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_4.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_4.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_4.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_4.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_4.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_4.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_4.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_4.cc.o.requires:
 
@@ -2626,17 +2626,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_4.cc.o
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_d.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_d.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_d.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_d.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_d.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_d.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_d.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_d.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_d.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_d.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_d.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_d.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_d.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_d.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_d.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_d.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_d.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_d.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_d.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_d.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_d.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_d.cc.o.requires:
 
@@ -2650,17 +2650,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_2_d.cc.o
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_3.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_3.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_3.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_3.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_3.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_3.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_3.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_3.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_3.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_3.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_3.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_3.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_3.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_3.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_3.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_3.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_3.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_3.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_3.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_3.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_3.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_3.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_3.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_3.cc.o.requires:
 
@@ -2674,17 +2674,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_3.cc.o
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_4.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_4.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_4.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_4.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_4.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_4.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_4.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_4.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_4.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_4.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_4.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_4.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_4.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_4.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_4.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_4.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_4.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_4.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_4.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_4.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_4.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_4.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_4.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_4.cc.o.requires:
 
@@ -2698,17 +2698,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_4.cc.o
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_6.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_6.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_6.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_6.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_6.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_6.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_6.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_6.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_6.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_6.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_6.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_6.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_6.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_6.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_6.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_6.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_6.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_6.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_6.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_6.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_6.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_6.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_6.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_6.cc.o.requires:
 
@@ -2722,17 +2722,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_6.cc.o
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_9.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_9.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_9.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_9.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_9.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_9.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_9.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_9.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_9.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_9.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_9.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_9.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_9.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_9.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_9.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_9.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_9.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_9.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_9.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_9.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_9.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_9.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_9.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_9.cc.o.requires:
 
@@ -2746,17 +2746,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_9.cc.o
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_d.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_d.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_d.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_d.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_d.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_d.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_d.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_d.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_d.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_d.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_d.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_d.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_d.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_d.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_d.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_d.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_d.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_d.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_d.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_d.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_d.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_d.cc.o.requires:
 
@@ -2770,17 +2770,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_3_d.cc.o
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_3.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_3.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_3.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_3.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_3.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_3.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_3.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_3.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_3.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_3.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_3.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_3.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_3.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_3.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_3.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_3.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_3.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_3.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_3.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_3.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_3.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_3.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_3.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_3.cc.o.requires:
 
@@ -2794,17 +2794,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_3.cc.o
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_4.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_4.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_4.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_4.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_4.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_4.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_4.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_4.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_4.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_4.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_4.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_4.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_4.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_4.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_4.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_4.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_4.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_4.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_4.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_4.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_4.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_4.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_4.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_4.cc.o.requires:
 
@@ -2818,17 +2818,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_4.cc.o
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_6.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_6.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_6.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_6.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_6.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_6.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_6.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_6.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_6.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_6.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_6.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_6.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_6.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_6.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_6.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_6.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_6.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_6.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_6.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_6.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_6.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_6.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_6.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_6.cc.o.requires:
 
@@ -2842,17 +2842,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_6.cc.o
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_8.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_8.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_8.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_8.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_8.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_8.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_8.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_8.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_8.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_8.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_8.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_8.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_8.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_8.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_8.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_8.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_8.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_8.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_8.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_8.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_8.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_8.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_8.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_8.cc.o.requires:
 
@@ -2866,17 +2866,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_8.cc.o
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_9.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_9.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_9.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_9.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_9.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_9.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_9.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_9.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_9.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_9.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_9.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_9.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_9.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_9.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_9.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_9.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_9.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_9.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_9.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_9.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_9.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_9.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_9.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_9.cc.o.requires:
 
@@ -2890,17 +2890,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_9.cc.o
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_d.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_d.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_d.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_d.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_d.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_d.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_d.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_d.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_d.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_d.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_d.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_d.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_d.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_d.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_d.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_d.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_d.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_d.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_d.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_d.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_d.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_d.cc.o.requires:
 
@@ -2914,17 +2914,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_4_d.cc.o
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_d_d.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_d_d.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_d_d.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_d_d.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_d_d.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_d_d.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_d_d.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_d_d.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_d_d.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_d_d.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_d_d.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_d_d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_d_d.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_d_d.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_d_d.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_d_d.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_d_d.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_d_d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_d_d.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_d_d.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_d_d.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_d_d.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_d_d.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_d_d.cc.o.requires:
 
@@ -2938,17 +2938,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_2_d_d.cc.o
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_3_3_3.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_3_3_3.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_3_3_3.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_3_3_3.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_3_3_3.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_3_3_3.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_3_3_3.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_3_3_3.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_3_3_3.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_3_3_3.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_3_3_3.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_3_3_3.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/partitioned_matrix_view_3_3_3.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_3_3_3.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_3_3_3.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_3_3_3.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_3_3_3.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_3_3_3.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/partitioned_matrix_view_3_3_3.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_3_3_3.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_3_3_3.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_3_3_3.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_3_3_3.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_3_3_3.cc.o.requires:
 
@@ -2962,17 +2962,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_3_3_3.cc.o
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_2.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_2.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_2.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_2.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_2.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_2.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_2.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_2.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_2.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_2.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_2.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_2.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_2.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_2.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_2.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_2.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_2.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_2.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_2.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_2.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_2.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_2.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_2.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_2.cc.o.requires:
 
@@ -2986,17 +2986,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_2.cc.o
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_3.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_3.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_3.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_3.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_3.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_3.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_3.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_3.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_3.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_3.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_3.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_3.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_3.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_3.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_3.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_3.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_3.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_3.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_3.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_3.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_3.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_3.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_3.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_3.cc.o.requires:
 
@@ -3010,17 +3010,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_3.cc.o
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_4.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_4.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_4.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_4.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_4.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_4.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_4.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_4.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_4.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_4.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_4.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_4.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_4.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_4.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_4.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_4.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_4.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_4.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_4.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_4.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_4.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_4.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_4.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_4.cc.o.requires:
 
@@ -3034,17 +3034,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_4.cc.o
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_d.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_d.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_d.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_d.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_d.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_d.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_d.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_d.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_d.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_d.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_d.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_d.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_d.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_d.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_d.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_d.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_d.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_d.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_d.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_d.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_d.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_d.cc.o.requires:
 
@@ -3058,17 +3058,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_4_4_d.cc.o
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_d_d_d.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_d_d_d.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_d_d_d.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_d_d_d.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_d_d_d.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_d_d_d.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_d_d_d.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_d_d_d.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_d_d_d.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_d_d_d.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_d_d_d.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_d_d_d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/partitioned_matrix_view_d_d_d.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_d_d_d.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_d_d_d.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_d_d_d.cc > CMakeFiles/ceres.dir/generated/partitioned_matrix_view_d_d_d.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_d_d_d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/partitioned_matrix_view_d_d_d.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_d_d_d.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_d_d_d.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/partitioned_matrix_view_d_d_d.cc -o CMakeFiles/ceres.dir/generated/partitioned_matrix_view_d_d_d.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_d_d_d.cc.o.requires:
 
@@ -3082,17 +3082,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/partitioned_matrix_view_d_d_d.cc.o
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_2.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_2.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_2.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_2.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_2.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_2.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_2.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_2.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_2.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_2.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_2.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_2.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_2.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_2.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_2.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_2.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_2.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_2.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_2.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_2.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_2.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_2.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_2.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_2.cc.o.requires:
 
@@ -3106,17 +3106,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_2.cc.o.provid
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_3.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_3.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_3.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_3.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_3.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_3.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_3.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_3.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_3.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_3.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_3.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_3.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_3.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_3.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_3.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_3.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_3.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_3.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_3.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_3.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_3.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_3.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_3.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_3.cc.o.requires:
 
@@ -3130,17 +3130,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_3.cc.o.provid
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_4.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_4.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_4.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_4.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_4.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_4.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_4.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_4.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_4.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_4.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_4.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_4.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_4.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_4.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_4.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_4.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_4.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_4.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_4.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_4.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_4.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_4.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_4.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_4.cc.o.requires:
 
@@ -3154,17 +3154,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_4.cc.o.provid
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_d.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_d.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_d.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_d.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_d.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_d.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_d.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_d.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_d.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_d.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_d.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_d.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_d.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_d.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_d.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_d.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_d.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_d.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_d.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_d.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_d.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_d.cc.o.requires:
 
@@ -3178,17 +3178,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_2_d.cc.o.provid
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_3.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_3.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_3.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_3.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_3.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_3.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_3.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_3.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_3.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_3.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_3.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_3.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_3.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_3.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_3.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_3.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_3.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_3.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_3.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_3.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_3.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_3.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_3.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_3.cc.o.requires:
 
@@ -3202,17 +3202,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_3.cc.o.provid
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_4.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_4.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_4.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_4.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_4.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_4.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_4.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_4.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_4.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_4.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_4.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_4.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_4.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_4.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_4.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_4.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_4.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_4.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_4.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_4.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_4.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_4.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_4.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_4.cc.o.requires:
 
@@ -3226,17 +3226,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_4.cc.o.provid
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_6.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_6.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_6.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_6.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_6.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_6.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_6.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_6.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_6.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_6.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_6.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_6.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_6.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_6.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_6.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_6.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_6.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_6.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_6.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_6.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_6.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_6.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_6.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_6.cc.o.requires:
 
@@ -3250,17 +3250,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_6.cc.o.provid
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_9.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_9.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_9.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_9.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_9.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_9.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_9.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_9.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_9.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_9.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_9.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_9.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_9.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_9.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_9.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_9.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_9.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_9.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_9.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_9.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_9.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_9.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_9.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_9.cc.o.requires:
 
@@ -3274,17 +3274,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_9.cc.o.provid
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_d.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_d.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_d.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_d.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_d.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_d.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_d.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_d.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_d.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_d.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_d.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_d.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_d.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_d.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_d.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_d.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_d.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_d.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_d.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_d.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_d.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_d.cc.o.requires:
 
@@ -3298,17 +3298,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_3_d.cc.o.provid
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_3.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_3.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_3.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_3.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_3.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_3.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_3.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_3.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_3.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_3.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_3.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_3.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_3.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_3.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_3.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_3.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_3.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_3.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_3.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_3.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_3.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_3.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_3.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_3.cc.o.requires:
 
@@ -3322,17 +3322,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_3.cc.o.provid
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_4.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_4.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_4.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_4.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_4.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_4.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_4.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_4.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_4.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_4.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_4.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_4.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_4.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_4.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_4.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_4.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_4.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_4.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_4.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_4.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_4.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_4.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_4.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_4.cc.o.requires:
 
@@ -3346,17 +3346,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_4.cc.o.provid
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_6.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_6.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_6.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_6.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_6.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_6.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_6.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_6.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_6.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_6.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_6.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_6.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_6.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_6.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_6.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_6.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_6.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_6.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_6.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_6.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_6.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_6.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_6.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_6.cc.o.requires:
 
@@ -3370,17 +3370,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_6.cc.o.provid
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_8.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_8.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_8.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_8.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_8.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_8.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_8.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_8.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_8.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_8.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_8.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_8.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_8.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_8.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_8.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_8.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_8.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_8.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_8.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_8.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_8.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_8.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_8.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_8.cc.o.requires:
 
@@ -3394,17 +3394,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_8.cc.o.provid
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_9.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_9.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_9.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_9.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_9.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_9.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_9.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_9.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_9.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_9.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_9.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_9.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_9.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_9.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_9.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_9.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_9.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_9.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_9.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_9.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_9.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_9.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_9.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_9.cc.o.requires:
 
@@ -3418,17 +3418,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_9.cc.o.provid
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_d.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_d.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_d.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_d.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_d.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_d.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_d.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_d.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_d.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_d.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_d.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_d.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_d.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_d.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_d.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_d.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_d.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_d.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_d.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_d.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_d.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_d.cc.o.requires:
 
@@ -3442,17 +3442,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_4_d.cc.o.provid
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_d_d.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_d_d.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_d_d.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_d_d.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_d_d.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_d_d.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_d_d.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_d_d.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_d_d.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_d_d.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_d_d.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_d_d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/schur_eliminator_2_d_d.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_d_d.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_d_d.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_d_d.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_2_d_d.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_d_d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/schur_eliminator_2_d_d.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_d_d.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_d_d.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_2_d_d.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_2_d_d.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_d_d.cc.o.requires:
 
@@ -3466,17 +3466,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_2_d_d.cc.o.provid
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_3_3_3.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_3_3_3.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_3_3_3.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_3_3_3.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_3_3_3.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_3_3_3.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_3_3_3.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_3_3_3.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_3_3_3.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_3_3_3.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_3_3_3.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_3_3_3.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/schur_eliminator_3_3_3.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_3_3_3.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_3_3_3.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_3_3_3.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_3_3_3.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_3_3_3.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/schur_eliminator_3_3_3.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_3_3_3.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_3_3_3.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_3_3_3.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_3_3_3.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_3_3_3.cc.o.requires:
 
@@ -3490,17 +3490,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_3_3_3.cc.o.provid
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_2.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_2.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_2.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_2.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_2.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_2.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_2.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_2.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_2.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_2.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_2.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_2.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_2.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_2.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_2.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_2.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_2.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_2.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_2.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_2.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_2.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_2.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_2.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_2.cc.o.requires:
 
@@ -3514,17 +3514,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_2.cc.o.provid
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_3.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_3.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_3.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_3.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_3.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_3.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_3.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_3.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_3.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_3.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_3.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_3.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_3.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_3.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_3.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_3.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_3.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_3.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_3.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_3.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_3.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_3.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_3.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_3.cc.o.requires:
 
@@ -3538,17 +3538,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_3.cc.o.provid
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_4.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_4.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_4.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_4.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_4.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_4.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_4.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_4.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_4.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_4.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_4.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_4.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_4.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_4.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_4.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_4.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_4.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_4.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_4.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_4.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_4.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_4.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_4.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_4.cc.o.requires:
 
@@ -3562,17 +3562,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_4.cc.o.provid
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_d.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_d.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_d.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_d.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_d.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_d.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_d.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_d.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_d.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_d.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_d.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_d.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_d.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_d.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_d.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_d.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_d.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_d.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_d.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_d.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_d.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_d.cc.o.requires:
 
@@ -3586,17 +3586,17 @@ internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4_4_d.cc.o.provid
 
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_d_d_d.cc.o: internal/ceres/CMakeFiles/ceres.dir/flags.make
-internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_d_d_d.cc.o: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_d_d_d.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_d_d_d.cc.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_d_d_d.cc.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_d_d_d.cc
+internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_d_d_d.cc.o: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_d_d_d.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_d_d_d.cc.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceres.dir/generated/schur_eliminator_d_d_d.cc.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_d_d_d.cc
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_d_d_d.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceres.dir/generated/schur_eliminator_d_d_d.cc.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_d_d_d.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_d_d_d.cc.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_d_d_d.cc > CMakeFiles/ceres.dir/generated/schur_eliminator_d_d_d.cc.i
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_d_d_d.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceres.dir/generated/schur_eliminator_d_d_d.cc.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_d_d_d.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_d_d_d.cc.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres/generated/schur_eliminator_d_d_d.cc -o CMakeFiles/ceres.dir/generated/schur_eliminator_d_d_d.cc.s
 
 internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_d_d_d.cc.o.requires:
 
@@ -3913,9 +3913,9 @@ lib/libceres.a: internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_4
 lib/libceres.a: internal/ceres/CMakeFiles/ceres.dir/generated/schur_eliminator_d_d_d.cc.o
 lib/libceres.a: internal/ceres/CMakeFiles/ceres.dir/build.make
 lib/libceres.a: internal/ceres/CMakeFiles/ceres.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Linking CXX static library ../../lib/libceres.a"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && $(CMAKE_COMMAND) -P CMakeFiles/ceres.dir/cmake_clean_target.cmake
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ceres.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Linking CXX static library ../../lib/libceres.a"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && $(CMAKE_COMMAND) -P CMakeFiles/ceres.dir/cmake_clean_target.cmake
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ceres.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 internal/ceres/CMakeFiles/ceres.dir/build: lib/libceres.a
@@ -4074,10 +4074,10 @@ internal/ceres/CMakeFiles/ceres.dir/requires: internal/ceres/CMakeFiles/ceres.di
 .PHONY : internal/ceres/CMakeFiles/ceres.dir/requires
 
 internal/ceres/CMakeFiles/ceres.dir/clean:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres && $(CMAKE_COMMAND) -P CMakeFiles/ceres.dir/cmake_clean.cmake
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres && $(CMAKE_COMMAND) -P CMakeFiles/ceres.dir/cmake_clean.cmake
 .PHONY : internal/ceres/CMakeFiles/ceres.dir/clean
 
 internal/ceres/CMakeFiles/ceres.dir/depend:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal/ceres /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/internal/ceres/CMakeFiles/ceres.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal/ceres /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/internal/ceres/CMakeFiles/ceres.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : internal/ceres/CMakeFiles/ceres.dir/depend
 

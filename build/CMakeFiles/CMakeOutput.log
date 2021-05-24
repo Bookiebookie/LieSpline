@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_228c5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_228c5.dir/build.make CMakeFiles/cmTC_228c5.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_228c5.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_228c5.dir/testCCompiler.c.o   -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_228c5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_228c5.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_228c5.dir/testCCompiler.c.o  -o cmTC_228c5 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_27d73/fast"
+/usr/bin/make -f CMakeFiles/cmTC_27d73.dir/build.make CMakeFiles/cmTC_27d73.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27d73.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_27d73.dir/testCCompiler.c.o   -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_27d73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27d73.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_27d73.dir/testCCompiler.c.o  -o cmTC_27d73 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_934a3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_934a3.dir/build.make CMakeFiles/cmTC_934a3.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_934a3.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_934a3.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_934a3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_934a3.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_934a3.dir/CMakeCCompilerABI.c.o  -o cmTC_934a3 
+Run Build Command:"/usr/bin/make" "cmTC_8d9ee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8d9ee.dir/build.make CMakeFiles/cmTC_8d9ee.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d9ee.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8d9ee.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_8d9ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d9ee.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_8d9ee.dir/CMakeCCompilerABI.c.o  -o cmTC_8d9ee 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_934a3' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbIHsnx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_934a3 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_934a3.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_934a3' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8d9ee' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdoyCzn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8d9ee /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8d9ee.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8d9ee' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_934a3/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_934a3.dir/build.make CMakeFiles/cmTC_934a3.dir/build]
-  ignore line: [make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_934a3.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_934a3.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_934a3]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_934a3.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_934a3.dir/CMakeCCompilerABI.c.o  -o cmTC_934a3 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8d9ee/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8d9ee.dir/build.make CMakeFiles/cmTC_8d9ee.dir/build]
+  ignore line: [make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_8d9ee.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_8d9ee.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_8d9ee]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d9ee.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_8d9ee.dir/CMakeCCompilerABI.c.o  -o cmTC_8d9ee ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_934a3' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbIHsnx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_934a3 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_934a3.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8d9ee' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdoyCzn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8d9ee /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8d9ee.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccbIHsnx.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccdoyCzn.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -114,7 +114,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_934a3] ==> ignore
+    arg [cmTC_8d9ee] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -126,7 +126,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_934a3.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_8d9ee.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -156,17 +156,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_220c3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_220c3.dir/build.make CMakeFiles/cmTC_220c3.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_220c3.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_220c3.dir/feature_tests.c.o   -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_220c3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_220c3.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_220c3.dir/feature_tests.c.o  -o cmTC_220c3 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_9c962/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9c962.dir/build.make CMakeFiles/cmTC_9c962.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c962.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_9c962.dir/feature_tests.c.o   -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9c962
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c962.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_9c962.dir/feature_tests.c.o  -o cmTC_9c962 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -176,17 +176,17 @@ make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experimen
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_50384/fast"
-/usr/bin/make -f CMakeFiles/cmTC_50384.dir/build.make CMakeFiles/cmTC_50384.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_50384.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_50384.dir/feature_tests.c.o   -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_50384
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50384.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_50384.dir/feature_tests.c.o  -o cmTC_50384 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_901a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_901a7.dir/build.make CMakeFiles/cmTC_901a7.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_901a7.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_901a7.dir/feature_tests.c.o   -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_901a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_901a7.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_901a7.dir/feature_tests.c.o  -o cmTC_901a7 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -196,17 +196,17 @@ make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experimen
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_123dc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_123dc.dir/build.make CMakeFiles/cmTC_123dc.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_123dc.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_123dc.dir/feature_tests.c.o   -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_123dc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_123dc.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_123dc.dir/feature_tests.c.o  -o cmTC_123dc 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_03627/fast"
+/usr/bin/make -f CMakeFiles/cmTC_03627.dir/build.make CMakeFiles/cmTC_03627.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03627.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_03627.dir/feature_tests.c.o   -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_03627
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03627.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_03627.dir/feature_tests.c.o  -o cmTC_03627 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -214,30 +214,30 @@ make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experimen
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a05b9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a05b9.dir/build.make CMakeFiles/cmTC_a05b9.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a05b9.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_a05b9.dir/testCXXCompiler.cxx.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_a05b9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a05b9.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_a05b9.dir/testCXXCompiler.cxx.o  -o cmTC_a05b9 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_559b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_559b0.dir/build.make CMakeFiles/cmTC_559b0.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_559b0.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_559b0.dir/testCXXCompiler.cxx.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_559b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_559b0.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_559b0.dir/testCXXCompiler.cxx.o  -o cmTC_559b0 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d9278/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d9278.dir/build.make CMakeFiles/cmTC_d9278.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d9278.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_d9278.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_d9278
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9278.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_d9278.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d9278 
+Run Build Command:"/usr/bin/make" "cmTC_513d0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_513d0.dir/build.make CMakeFiles/cmTC_513d0.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_513d0.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_513d0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_513d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_513d0.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_513d0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_513d0 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -249,24 +249,24 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d9278' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccd3WAuV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d9278 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_d9278.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d9278' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_513d0' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccf68IEP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_513d0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_513d0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_513d0' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d9278/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d9278.dir/build.make CMakeFiles/cmTC_d9278.dir/build]
-  ignore line: [make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_d9278.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_d9278.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_d9278]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9278.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_d9278.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d9278 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_513d0/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_513d0.dir/build.make CMakeFiles/cmTC_513d0.dir/build]
+  ignore line: [make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_513d0.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_513d0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_513d0]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_513d0.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_513d0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_513d0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -278,13 +278,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d9278' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccd3WAuV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d9278 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_d9278.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_513d0' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccf68IEP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_513d0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_513d0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccd3WAuV.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccf68IEP.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -302,7 +302,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d9278] ==> ignore
+    arg [cmTC_513d0] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -314,7 +314,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_d9278.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_513d0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -340,17 +340,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_33c39/fast"
-/usr/bin/make -f CMakeFiles/cmTC_33c39.dir/build.make CMakeFiles/cmTC_33c39.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_33c39.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_33c39.dir/feature_tests.cxx.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_33c39
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33c39.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_33c39.dir/feature_tests.cxx.o  -o cmTC_33c39 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_97ef1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_97ef1.dir/build.make CMakeFiles/cmTC_97ef1.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_97ef1.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_97ef1.dir/feature_tests.cxx.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_97ef1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97ef1.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_97ef1.dir/feature_tests.cxx.o  -o cmTC_97ef1 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -413,17 +413,17 @@ make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experimen
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8b9f4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8b9f4.dir/build.make CMakeFiles/cmTC_8b9f4.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8b9f4.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_8b9f4.dir/feature_tests.cxx.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8b9f4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b9f4.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_8b9f4.dir/feature_tests.cxx.o  -o cmTC_8b9f4 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d1ec8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1ec8.dir/build.make CMakeFiles/cmTC_d1ec8.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d1ec8.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_d1ec8.dir/feature_tests.cxx.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d1ec8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1ec8.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_d1ec8.dir/feature_tests.cxx.o  -o cmTC_d1ec8 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -486,17 +486,17 @@ make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experimen
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_73620/fast"
-/usr/bin/make -f CMakeFiles/cmTC_73620.dir/build.make CMakeFiles/cmTC_73620.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_73620.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_73620.dir/feature_tests.cxx.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_73620
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73620.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_73620.dir/feature_tests.cxx.o  -o cmTC_73620 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f82c0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f82c0.dir/build.make CMakeFiles/cmTC_f82c0.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f82c0.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_f82c0.dir/feature_tests.cxx.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f82c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f82c0.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_f82c0.dir/feature_tests.cxx.o  -o cmTC_f82c0 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -559,17 +559,17 @@ make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experimen
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ae4e2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ae4e2.dir/build.make CMakeFiles/cmTC_ae4e2.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ae4e2.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_ae4e2.dir/feature_tests.cxx.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ae4e2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae4e2.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_ae4e2.dir/feature_tests.cxx.o  -o cmTC_ae4e2 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_45b09/fast"
+/usr/bin/make -f CMakeFiles/cmTC_45b09.dir/build.make CMakeFiles/cmTC_45b09.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_45b09.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_45b09.dir/feature_tests.cxx.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_45b09
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45b09.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_45b09.dir/feature_tests.cxx.o  -o cmTC_45b09 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -630,253 +630,253 @@ make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experimen
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_87e21/fast"
-/usr/bin/make -f CMakeFiles/cmTC_87e21.dir/build.make CMakeFiles/cmTC_87e21.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_87e21.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_87e21.dir/CheckIncludeFile.c.o   -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_87e21
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87e21.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_87e21.dir/CheckIncludeFile.c.o  -o cmTC_87e21 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f6cdf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f6cdf.dir/build.make CMakeFiles/cmTC_f6cdf.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6cdf.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f6cdf.dir/CheckIncludeFile.c.o   -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f6cdf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6cdf.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f6cdf.dir/CheckIncludeFile.c.o  -o cmTC_f6cdf 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_55288/fast"
-/usr/bin/make -f CMakeFiles/cmTC_55288.dir/build.make CMakeFiles/cmTC_55288.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_55288.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_55288.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_55288
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55288.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_55288.dir/CheckFunctionExists.c.o  -o cmTC_55288 -lpthread 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4bc03/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4bc03.dir/build.make CMakeFiles/cmTC_4bc03.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4bc03.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4bc03.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4bc03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bc03.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_4bc03.dir/CheckFunctionExists.c.o  -o cmTC_4bc03 -lpthread 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function dgemm_ exists passed with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7e603/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7e603.dir/build.make CMakeFiles/cmTC_7e603.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7e603.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dgemm_   -o CMakeFiles/cmTC_7e603.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_7e603
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e603.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dgemm_    CMakeFiles/cmTC_7e603.dir/CheckFunctionExists.c.o  -o cmTC_7e603 /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5faee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5faee.dir/build.make CMakeFiles/cmTC_5faee.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5faee.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dgemm_   -o CMakeFiles/cmTC_5faee.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5faee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5faee.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dgemm_    CMakeFiles/cmTC_5faee.dir/CheckFunctionExists.c.o  -o cmTC_5faee /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function cheev_ exists passed with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2e270/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2e270.dir/build.make CMakeFiles/cmTC_2e270.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2e270.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_   -o CMakeFiles/cmTC_2e270.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_2e270
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e270.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_    CMakeFiles/cmTC_2e270.dir/CheckFunctionExists.c.o  -o cmTC_2e270 /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1cee6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1cee6.dir/build.make CMakeFiles/cmTC_1cee6.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1cee6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_   -o CMakeFiles/cmTC_1cee6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1cee6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cee6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_    CMakeFiles/cmTC_1cee6.dir/CheckFunctionExists.c.o  -o cmTC_1cee6 /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_STD_CXX11 succeeded with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_61ec1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_61ec1.dir/build.make CMakeFiles/cmTC_61ec1.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_61ec1.dir/src.cxx.o
-/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native  -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11   -std=c++11 -o CMakeFiles/cmTC_61ec1.dir/src.cxx.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_61ec1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61ec1.dir/link.txt --verbose=1
-/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native  -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11    CMakeFiles/cmTC_61ec1.dir/src.cxx.o  -o cmTC_61ec1 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_6136d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6136d.dir/build.make CMakeFiles/cmTC_6136d.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6136d.dir/src.cxx.o
+/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native  -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11   -std=c++11 -o CMakeFiles/cmTC_6136d.dir/src.cxx.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6136d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6136d.dir/link.txt --verbose=1
+/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native  -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11    CMakeFiles/cmTC_6136d.dir/src.cxx.o  -o cmTC_6136d 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_39b24/fast"
-/usr/bin/make -f CMakeFiles/cmTC_39b24.dir/build.make CMakeFiles/cmTC_39b24.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_39b24.dir/src.cxx.o
-/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11 -DHAVE_CXX_FLAG_WALL  -Wall   -Wall -o CMakeFiles/cmTC_39b24.dir/src.cxx.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_39b24
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39b24.dir/link.txt --verbose=1
-/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11 -DHAVE_CXX_FLAG_WALL  -Wall    CMakeFiles/cmTC_39b24.dir/src.cxx.o  -o cmTC_39b24 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_bd875/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bd875.dir/build.make CMakeFiles/cmTC_bd875.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bd875.dir/src.cxx.o
+/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11 -DHAVE_CXX_FLAG_WALL  -Wall   -Wall -o CMakeFiles/cmTC_bd875.dir/src.cxx.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bd875
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd875.dir/link.txt --verbose=1
+/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11 -DHAVE_CXX_FLAG_WALL  -Wall    CMakeFiles/cmTC_bd875.dir/src.cxx.o  -o cmTC_bd875 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e2523/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e2523.dir/build.make CMakeFiles/cmTC_e2523.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e2523.dir/src.cxx.o
-/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra   -Wextra -o CMakeFiles/cmTC_e2523.dir/src.cxx.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_e2523
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2523.dir/link.txt --verbose=1
-/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra    CMakeFiles/cmTC_e2523.dir/src.cxx.o  -o cmTC_e2523 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d014b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d014b.dir/build.make CMakeFiles/cmTC_d014b.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d014b.dir/src.cxx.o
+/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra   -Wextra -o CMakeFiles/cmTC_d014b.dir/src.cxx.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d014b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d014b.dir/link.txt --verbose=1
+/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra    CMakeFiles/cmTC_d014b.dir/src.cxx.o  -o cmTC_d014b 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0c2bd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0c2bd.dir/build.make CMakeFiles/cmTC_0c2bd.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0c2bd.dir/src.cxx.o
-/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow   -Wshadow -o CMakeFiles/cmTC_0c2bd.dir/src.cxx.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_0c2bd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c2bd.dir/link.txt --verbose=1
-/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow    CMakeFiles/cmTC_0c2bd.dir/src.cxx.o  -o cmTC_0c2bd 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_fdbd8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fdbd8.dir/build.make CMakeFiles/cmTC_fdbd8.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fdbd8.dir/src.cxx.o
+/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow   -Wshadow -o CMakeFiles/cmTC_fdbd8.dir/src.cxx.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fdbd8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdbd8.dir/link.txt --verbose=1
+/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow    CMakeFiles/cmTC_fdbd8.dir/src.cxx.o  -o cmTC_fdbd8 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WERROR succeeded with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_add8d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_add8d.dir/build.make CMakeFiles/cmTC_add8d.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_add8d.dir/src.cxx.o
-/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WERROR  -Werror   -Werror -o CMakeFiles/cmTC_add8d.dir/src.cxx.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_add8d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_add8d.dir/link.txt --verbose=1
-/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WERROR  -Werror    CMakeFiles/cmTC_add8d.dir/src.cxx.o  -o cmTC_add8d 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1bc1a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1bc1a.dir/build.make CMakeFiles/cmTC_1bc1a.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1bc1a.dir/src.cxx.o
+/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WERROR  -Werror   -Werror -o CMakeFiles/cmTC_1bc1a.dir/src.cxx.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1bc1a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bc1a.dir/link.txt --verbose=1
+/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WERROR  -Werror    CMakeFiles/cmTC_1bc1a.dir/src.cxx.o  -o cmTC_1bc1a 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_80184/fast"
-/usr/bin/make -f CMakeFiles/cmTC_80184.dir/build.make CMakeFiles/cmTC_80184.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_80184.dir/src.cxx.o
-/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_PEDANTIC  -pedantic   -pedantic -o CMakeFiles/cmTC_80184.dir/src.cxx.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_80184
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80184.dir/link.txt --verbose=1
-/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_PEDANTIC  -pedantic    CMakeFiles/cmTC_80184.dir/src.cxx.o  -o cmTC_80184 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ee3df/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ee3df.dir/build.make CMakeFiles/cmTC_ee3df.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ee3df.dir/src.cxx.o
+/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_PEDANTIC  -pedantic   -pedantic -o CMakeFiles/cmTC_ee3df.dir/src.cxx.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ee3df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee3df.dir/link.txt --verbose=1
+/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_PEDANTIC  -pedantic    CMakeFiles/cmTC_ee3df.dir/src.cxx.o  -o cmTC_ee3df 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_be195/fast"
-/usr/bin/make -f CMakeFiles/cmTC_be195.dir/build.make CMakeFiles/cmTC_be195.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_be195.dir/src.cxx.o
-/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -pedantic-errors   -pedantic-errors -o CMakeFiles/cmTC_be195.dir/src.cxx.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_be195
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be195.dir/link.txt --verbose=1
-/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -pedantic-errors    CMakeFiles/cmTC_be195.dir/src.cxx.o  -o cmTC_be195 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a7b57/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7b57.dir/build.make CMakeFiles/cmTC_a7b57.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a7b57.dir/src.cxx.o
+/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -pedantic-errors   -pedantic-errors -o CMakeFiles/cmTC_a7b57.dir/src.cxx.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a7b57
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7b57.dir/link.txt --verbose=1
+/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -pedantic-errors    CMakeFiles/cmTC_a7b57.dir/src.cxx.o  -o cmTC_a7b57 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_764aa/fast"
-/usr/bin/make -f CMakeFiles/cmTC_764aa.dir/build.make CMakeFiles/cmTC_764aa.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_764aa.dir/src.cxx.o
-/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing   -fstrict-aliasing -o CMakeFiles/cmTC_764aa.dir/src.cxx.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_764aa
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_764aa.dir/link.txt --verbose=1
-/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing    CMakeFiles/cmTC_764aa.dir/src.cxx.o  -o cmTC_764aa 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c0983/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c0983.dir/build.make CMakeFiles/cmTC_c0983.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c0983.dir/src.cxx.o
+/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing   -fstrict-aliasing -o CMakeFiles/cmTC_c0983.dir/src.cxx.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c0983
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0983.dir/link.txt --verbose=1
+/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing    CMakeFiles/cmTC_c0983.dir/src.cxx.o  -o cmTC_c0983 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS succeeded with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cae7f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cae7f.dir/build.make CMakeFiles/cmTC_cae7f.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cae7f.dir/src.cxx.o
-/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wno-deprecated-declarations   -Wno-deprecated-declarations -o CMakeFiles/cmTC_cae7f.dir/src.cxx.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_cae7f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cae7f.dir/link.txt --verbose=1
-/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wno-deprecated-declarations    CMakeFiles/cmTC_cae7f.dir/src.cxx.o  -o cmTC_cae7f 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_dc536/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc536.dir/build.make CMakeFiles/cmTC_dc536.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dc536.dir/src.cxx.o
+/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wno-deprecated-declarations   -Wno-deprecated-declarations -o CMakeFiles/cmTC_dc536.dir/src.cxx.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_dc536
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc536.dir/link.txt --verbose=1
+/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wno-deprecated-declarations    CMakeFiles/cmTC_dc536.dir/src.cxx.o  -o cmTC_dc536 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED succeeded with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_36dfd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_36dfd.dir/build.make CMakeFiles/cmTC_36dfd.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_36dfd.dir/src.cxx.o
-/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wno-deprecated   -Wno-deprecated -o CMakeFiles/cmTC_36dfd.dir/src.cxx.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_36dfd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36dfd.dir/link.txt --verbose=1
-/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wno-deprecated    CMakeFiles/cmTC_36dfd.dir/src.cxx.o  -o cmTC_36dfd 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_aaa8b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aaa8b.dir/build.make CMakeFiles/cmTC_aaa8b.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aaa8b.dir/src.cxx.o
+/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wno-deprecated   -Wno-deprecated -o CMakeFiles/cmTC_aaa8b.dir/src.cxx.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_aaa8b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aaa8b.dir/link.txt --verbose=1
+/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wno-deprecated    CMakeFiles/cmTC_aaa8b.dir/src.cxx.o  -o cmTC_aaa8b 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FNO_EXCEPTIONS succeeded with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_70a89/fast"
-/usr/bin/make -f CMakeFiles/cmTC_70a89.dir/build.make CMakeFiles/cmTC_70a89.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_70a89.dir/src.cxx.o
-/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fno-exceptions   -fno-exceptions -o CMakeFiles/cmTC_70a89.dir/src.cxx.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_70a89
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70a89.dir/link.txt --verbose=1
-/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fno-exceptions    CMakeFiles/cmTC_70a89.dir/src.cxx.o  -o cmTC_70a89 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1e823/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e823.dir/build.make CMakeFiles/cmTC_1e823.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1e823.dir/src.cxx.o
+/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fno-exceptions   -fno-exceptions -o CMakeFiles/cmTC_1e823.dir/src.cxx.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1e823
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e823.dir/link.txt --verbose=1
+/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fno-exceptions    CMakeFiles/cmTC_1e823.dir/src.cxx.o  -o cmTC_1e823 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bea49/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bea49.dir/build.make CMakeFiles/cmTC_bea49.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_bea49.dir/src.cxx.o
-/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing   -Wstrict-aliasing -o CMakeFiles/cmTC_bea49.dir/src.cxx.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_bea49
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bea49.dir/link.txt --verbose=1
-/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing    CMakeFiles/cmTC_bea49.dir/src.cxx.o  -o cmTC_bea49 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_aad13/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aad13.dir/build.make CMakeFiles/cmTC_aad13.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aad13.dir/src.cxx.o
+/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing   -Wstrict-aliasing -o CMakeFiles/cmTC_aad13.dir/src.cxx.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_aad13
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aad13.dir/link.txt --verbose=1
+/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing    CMakeFiles/cmTC_aad13.dir/src.cxx.o  -o cmTC_aad13 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
-Change Dir: /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_951ae/fast"
-/usr/bin/make -f CMakeFiles/cmTC_951ae.dir/build.make CMakeFiles/cmTC_951ae.dir/build
-make[1]: Entering directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_951ae.dir/src.cxx.o
-/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage   --coverage -o CMakeFiles/cmTC_951ae.dir/src.cxx.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_951ae
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_951ae.dir/link.txt --verbose=1
-/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage    CMakeFiles/cmTC_951ae.dir/src.cxx.o  -o cmTC_951ae 
-make[1]: Leaving directory '/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_af6f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af6f8.dir/build.make CMakeFiles/cmTC_af6f8.dir/build
+make[1]: Entering directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_af6f8.dir/src.cxx.o
+/usr/bin/c++    -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage   --coverage -o CMakeFiles/cmTC_af6f8.dir/src.cxx.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_af6f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af6f8.dir/link.txt --verbose=1
+/usr/bin/c++   -ftemplate-backtrace-limit=0 -Wall -Wsign-compare -march=native   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage    CMakeFiles/cmTC_af6f8.dir/src.cxx.o  -o cmTC_af6f8 
+make[1]: Leaving directory '/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }

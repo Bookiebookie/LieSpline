@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lyu/Documents/catkin_evis/lie-spline-experiments
+CMAKE_SOURCE_DIR = /home/lu/Desktop/PanoMotionEst/LieSpline
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lyu/Documents/catkin_evis/lie-spline-experiments/build
+CMAKE_BINARY_DIR = /home/lu/Desktop/PanoMotionEst/LieSpline/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/eval_calib.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/lyu/Documents/catkin_evis/lie-spline-experiments/build
 CMakeFiles/eval_calib.dir/all:
 	$(MAKE) -f CMakeFiles/eval_calib.dir/build.make CMakeFiles/eval_calib.dir/depend
 	$(MAKE) -f CMakeFiles/eval_calib.dir/build.make CMakeFiles/eval_calib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles --progress-num=24,25,26 "Built target eval_calib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles --progress-num=24,25,26 "Built target eval_calib"
 .PHONY : CMakeFiles/eval_calib.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/eval_calib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/eval_calib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/eval_calib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 0
 .PHONY : CMakeFiles/eval_calib.dir/rule
 
 # Convenience name for target.
@@ -103,7 +103,7 @@ clean: CMakeFiles/eval_calib.dir/clean
 CMakeFiles/eval_lie_spline.dir/all:
 	$(MAKE) -f CMakeFiles/eval_lie_spline.dir/build.make CMakeFiles/eval_lie_spline.dir/depend
 	$(MAKE) -f CMakeFiles/eval_lie_spline.dir/build.make CMakeFiles/eval_lie_spline.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles --progress-num=27,28 "Built target eval_lie_spline"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles --progress-num=27,28 "Built target eval_lie_spline"
 .PHONY : CMakeFiles/eval_lie_spline.dir/all
 
 # Include target in all.
@@ -113,9 +113,9 @@ all: CMakeFiles/eval_lie_spline.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/eval_lie_spline.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/eval_lie_spline.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 0
 .PHONY : CMakeFiles/eval_lie_spline.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ thirdparty/basalt/thirdparty/basalt-headers/test/preinstall: thirdparty/basalt/t
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/all: thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles/benchmark.dir/all
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/depend
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles --progress-num=20,21 "Built target benchmark_camera"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles --progress-num=20,21 "Built target benchmark_camera"
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/all
 
 # Include target in all.
@@ -187,9 +187,9 @@ all: thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camer
 
 # Build rule for subdir invocation for target.
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 21
 	$(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 0
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/rule
 
 # Convenience name for target.
@@ -215,7 +215,7 @@ thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_he
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/all: thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/depend
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles --progress-num=39,40 "Built target test_ceres_spline_helper"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles --progress-num=39,40 "Built target test_ceres_spline_helper"
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/all
 
 # Include target in all.
@@ -225,9 +225,9 @@ all: thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spli
 
 # Build rule for subdir invocation for target.
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 0
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_ceres_spline_helper.dir/rule
 
 # Convenience name for target.
@@ -253,7 +253,7 @@ thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/all:
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/all: thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/depend
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles --progress-num=49,50 "Built target test_spline"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles --progress-num=49,50 "Built target test_spline"
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/all
 
 # Include target in all.
@@ -263,9 +263,9 @@ all: thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir
 
 # Build rule for subdir invocation for target.
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 0
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline.dir/rule
 
 # Convenience name for target.
@@ -291,7 +291,7 @@ thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/all:
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/all: thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/depend
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles --progress-num=47,48 "Built target test_sophus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles --progress-num=47,48 "Built target test_sophus"
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/all
 
 # Include target in all.
@@ -301,9 +301,9 @@ all: thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir
 
 # Build rule for subdir invocation for target.
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 0
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_sophus.dir/rule
 
 # Convenience name for target.
@@ -329,7 +329,7 @@ thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/all: 
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/all: thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/depend
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles --progress-num=43,44 "Built target test_image"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles --progress-num=43,44 "Built target test_image"
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/all
 
 # Include target in all.
@@ -339,9 +339,9 @@ all: thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/
 
 # Build rule for subdir invocation for target.
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 0
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_image.dir/rule
 
 # Convenience name for target.
@@ -367,7 +367,7 @@ thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/all:
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/all: thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/depend
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles --progress-num=37,38 "Built target test_camera"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles --progress-num=37,38 "Built target test_camera"
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/all
 
 # Include target in all.
@@ -377,9 +377,9 @@ all: thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir
 
 # Build rule for subdir invocation for target.
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 0
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_camera.dir/rule
 
 # Convenience name for target.
@@ -405,7 +405,7 @@ thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/all: thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/depend
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles --progress-num=51,52 "Built target test_spline_se3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles --progress-num=51,52 "Built target test_spline_se3"
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/all
 
 # Include target in all.
@@ -415,9 +415,9 @@ all: thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3
 
 # Build rule for subdir invocation for target.
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 0
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_spline_se3.dir/rule
 
 # Convenience name for target.
@@ -443,7 +443,7 @@ thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/all: thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/depend
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles --progress-num=45,46 "Built target test_preintegration"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles --progress-num=45,46 "Built target test_preintegration"
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/all
 
 # Include target in all.
@@ -453,9 +453,9 @@ all: thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegra
 
 # Build rule for subdir invocation for target.
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 0
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/test_preintegration.dir/rule
 
 # Convenience name for target.
@@ -521,14 +521,14 @@ thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googlemock/CMakeFile
 thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googlemock/CMakeFiles/gmock_main.dir/all: thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles --progress-num=31,32 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles --progress-num=31,32 "Built target gmock_main"
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 0
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -553,14 +553,14 @@ clean: thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googlemock/CM
 thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googlemock/CMakeFiles/gmock.dir/all: thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googlemock/CMakeFiles/gmock.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googlemock/CMakeFiles/gmock.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles --progress-num=29,30 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles --progress-num=29,30 "Built target gmock"
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 0
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -605,14 +605,14 @@ thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/preinstal
 thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest_main.dir/all: thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest_main.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest_main.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles --progress-num=35,36 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles --progress-num=35,36 "Built target gtest_main"
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 0
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -637,14 +637,14 @@ clean: thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CM
 thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles --progress-num=33,34 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles --progress-num=33,34 "Built target gtest"
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 0
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -707,7 +707,7 @@ thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/preinstall:
 thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles/benchmark_main.dir/all: thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles/benchmark.dir/all
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles/benchmark_main.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles/benchmark_main.dir/depend
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles/benchmark_main.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles/benchmark_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles --progress-num=22,23 "Built target benchmark_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles --progress-num=22,23 "Built target benchmark_main"
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles/benchmark_main.dir/all
 
 # Include target in all.
@@ -717,9 +717,9 @@ all: thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles/b
 
 # Build rule for subdir invocation for target.
 thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles/benchmark_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 21
 	$(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles/benchmark_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 0
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles/benchmark_main.dir/rule
 
 # Convenience name for target.
@@ -744,7 +744,7 @@ clean: thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles
 thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles/benchmark.dir/all:
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles/benchmark.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles/benchmark.dir/depend
 	$(MAKE) -f thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles/benchmark.dir/build.make thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles/benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target benchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target benchmark"
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles/benchmark.dir/all
 
 # Include target in all.
@@ -754,9 +754,9 @@ all: thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles/b
 
 # Build rule for subdir invocation for target.
 thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles/benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles/benchmark.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 0
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/CMakeFiles/benchmark.dir/rule
 
 # Convenience name for target.
@@ -800,7 +800,7 @@ test/CMakeFiles/test_ceres_spline_helper_old.dir/all: thirdparty/basalt/thirdpar
 test/CMakeFiles/test_ceres_spline_helper_old.dir/all: thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/CMakeFiles/test_ceres_spline_helper_old.dir/build.make test/CMakeFiles/test_ceres_spline_helper_old.dir/depend
 	$(MAKE) -f test/CMakeFiles/test_ceres_spline_helper_old.dir/build.make test/CMakeFiles/test_ceres_spline_helper_old.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles --progress-num=41,42 "Built target test_ceres_spline_helper_old"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles --progress-num=41,42 "Built target test_ceres_spline_helper_old"
 .PHONY : test/CMakeFiles/test_ceres_spline_helper_old.dir/all
 
 # Include target in all.
@@ -810,9 +810,9 @@ all: test/CMakeFiles/test_ceres_spline_helper_old.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/test_ceres_spline_helper_old.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/test_ceres_spline_helper_old.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles 0
 .PHONY : test/CMakeFiles/test_ceres_spline_helper_old.dir/rule
 
 # Convenience name for target.

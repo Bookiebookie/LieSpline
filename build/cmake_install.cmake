@@ -1,4 +1,4 @@
-# Install script for directory: /home/lyu/Documents/catkin_evis/lie-spline-experiments
+# Install script for directory: /home/lu/Desktop/PanoMotionEst/LieSpline
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/thirdparty/basalt/thirdparty/basalt-headers/test/cmake_install.cmake")
-  include("/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/test/cmake_install.cmake")
+  include("/home/lu/Desktop/PanoMotionEst/LieSpline/build/thirdparty/basalt/thirdparty/basalt-headers/test/cmake_install.cmake")
+  include("/home/lu/Desktop/PanoMotionEst/LieSpline/build/test/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lu/Desktop/PanoMotionEst/LieSpline/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

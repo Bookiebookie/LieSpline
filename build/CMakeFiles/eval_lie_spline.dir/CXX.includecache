@@ -1908,7 +1908,7 @@ ceres/internal/reenable_warnings.h
 
 ../thirdparty/ceres-solver/include/ceres/version.h
 
-/home/lyu/Documents/catkin_evis/lie-spline-experiments/src/eval_lie_spline.cpp
+/home/lu/Desktop/PanoMotionEst/LieSpline/src/eval_lie_spline.cpp
 ceres/ceres.h
 -
 iomanip

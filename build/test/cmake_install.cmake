@@ -1,4 +1,4 @@
-# Install script for directory: /home/lyu/Documents/catkin_evis/lie-spline-experiments/test
+# Install script for directory: /home/lu/Desktop/PanoMotionEst/LieSpline/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

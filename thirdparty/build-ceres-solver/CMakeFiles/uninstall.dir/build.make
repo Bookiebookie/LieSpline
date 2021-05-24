@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver
+CMAKE_SOURCE_DIR = /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver
+CMAKE_BINARY_DIR = /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdp
 include CMakeFiles/uninstall.dir/progress.make
 
 CMakeFiles/uninstall:
-	/usr/bin/cmake -P /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/cmake/uninstall.cmake
+	/usr/bin/cmake -P /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/cmake/uninstall.cmake
 
 uninstall: CMakeFiles/uninstall
 uninstall: CMakeFiles/uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

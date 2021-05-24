@@ -3046,7 +3046,7 @@ ceres/internal/reenable_warnings.h
 
 ../thirdparty/ceres-solver/include/ceres/version.h
 
-/home/lyu/Documents/catkin_evis/lie-spline-experiments/src/eval_calib.cpp
+/home/lu/Desktop/PanoMotionEst/LieSpline/src/eval_calib.cpp
 ceres_calib_spline_se3.h
 -
 ceres_calib_spline_split.h
@@ -3068,7 +3068,7 @@ tbb/global_control.h
 sophus/average.hpp
 -
 
-/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/basalt/src/calibration/aprilgrid.cpp
+/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/basalt/src/calibration/aprilgrid.cpp
 fstream
 -
 basalt/calibration/aprilgrid.h

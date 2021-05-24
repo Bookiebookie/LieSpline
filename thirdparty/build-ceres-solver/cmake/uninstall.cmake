@@ -29,12 +29,12 @@
 # Author: arnaudgelas@gmail.com (Arnaud Gelas)
 #         alexs.mac@gmail.com (Alex Stewart)
 
-if (NOT EXISTS "/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/install_manifest.txt")
+if (NOT EXISTS "/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/install_manifest.txt")
   message(FATAL_ERROR "Cannot find install manifest: "
-                      "\"/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/install_manifest.txt\"")
-endif (NOT EXISTS "/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/install_manifest.txt")
+                      "\"/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/install_manifest.txt\"")
+endif (NOT EXISTS "/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/install_manifest.txt")
 
-file(READ "/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/install_manifest.txt" INSTALL_MANIFEST)
+file(READ "/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/install_manifest.txt" INSTALL_MANIFEST)
 string(REGEX REPLACE "\n" ";" INSTALL_MANIFEST "${INSTALL_MANIFEST}")
 list(REVERSE INSTALL_MANIFEST)
 

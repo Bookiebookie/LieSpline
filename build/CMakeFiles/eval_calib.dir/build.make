@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lyu/Documents/catkin_evis/lie-spline-experiments
+CMAKE_SOURCE_DIR = /home/lu/Desktop/PanoMotionEst/LieSpline
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lyu/Documents/catkin_evis/lie-spline-experiments/build
+CMAKE_BINARY_DIR = /home/lu/Desktop/PanoMotionEst/LieSpline/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/eval_calib.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/eval_calib.dir/flags.make
 
 CMakeFiles/eval_calib.dir/src/eval_calib.cpp.o: CMakeFiles/eval_calib.dir/flags.make
 CMakeFiles/eval_calib.dir/src/eval_calib.cpp.o: ../src/eval_calib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/eval_calib.dir/src/eval_calib.cpp.o"
-	/usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/eval_calib.dir/src/eval_calib.cpp.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/src/eval_calib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/eval_calib.dir/src/eval_calib.cpp.o"
+	/usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/eval_calib.dir/src/eval_calib.cpp.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/src/eval_calib.cpp
 
 CMakeFiles/eval_calib.dir/src/eval_calib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/eval_calib.dir/src/eval_calib.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/src/eval_calib.cpp > CMakeFiles/eval_calib.dir/src/eval_calib.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/src/eval_calib.cpp > CMakeFiles/eval_calib.dir/src/eval_calib.cpp.i
 
 CMakeFiles/eval_calib.dir/src/eval_calib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eval_calib.dir/src/eval_calib.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/src/eval_calib.cpp -o CMakeFiles/eval_calib.dir/src/eval_calib.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/src/eval_calib.cpp -o CMakeFiles/eval_calib.dir/src/eval_calib.cpp.s
 
 CMakeFiles/eval_calib.dir/src/eval_calib.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/eval_calib.dir/src/eval_calib.cpp.o.provides.build: CMakeFiles/eval_c
 
 CMakeFiles/eval_calib.dir/thirdparty/basalt/src/calibration/aprilgrid.cpp.o: CMakeFiles/eval_calib.dir/flags.make
 CMakeFiles/eval_calib.dir/thirdparty/basalt/src/calibration/aprilgrid.cpp.o: ../thirdparty/basalt/src/calibration/aprilgrid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/eval_calib.dir/thirdparty/basalt/src/calibration/aprilgrid.cpp.o"
-	/usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/eval_calib.dir/thirdparty/basalt/src/calibration/aprilgrid.cpp.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/basalt/src/calibration/aprilgrid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/eval_calib.dir/thirdparty/basalt/src/calibration/aprilgrid.cpp.o"
+	/usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/eval_calib.dir/thirdparty/basalt/src/calibration/aprilgrid.cpp.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/basalt/src/calibration/aprilgrid.cpp
 
 CMakeFiles/eval_calib.dir/thirdparty/basalt/src/calibration/aprilgrid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/eval_calib.dir/thirdparty/basalt/src/calibration/aprilgrid.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/basalt/src/calibration/aprilgrid.cpp > CMakeFiles/eval_calib.dir/thirdparty/basalt/src/calibration/aprilgrid.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/basalt/src/calibration/aprilgrid.cpp > CMakeFiles/eval_calib.dir/thirdparty/basalt/src/calibration/aprilgrid.cpp.i
 
 CMakeFiles/eval_calib.dir/thirdparty/basalt/src/calibration/aprilgrid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eval_calib.dir/thirdparty/basalt/src/calibration/aprilgrid.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/basalt/src/calibration/aprilgrid.cpp -o CMakeFiles/eval_calib.dir/thirdparty/basalt/src/calibration/aprilgrid.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/basalt/src/calibration/aprilgrid.cpp -o CMakeFiles/eval_calib.dir/thirdparty/basalt/src/calibration/aprilgrid.cpp.s
 
 CMakeFiles/eval_calib.dir/thirdparty/basalt/src/calibration/aprilgrid.cpp.o.requires:
 
@@ -145,7 +145,7 @@ eval_calib: /usr/lib/x86_64-linux-gnu/libatlas.so
 eval_calib: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
 eval_calib: /usr/lib/x86_64-linux-gnu/librt.so
 eval_calib: CMakeFiles/eval_calib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable eval_calib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable eval_calib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eval_calib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -163,6 +163,6 @@ CMakeFiles/eval_calib.dir/clean:
 .PHONY : CMakeFiles/eval_calib.dir/clean
 
 CMakeFiles/eval_calib.dir/depend:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lyu/Documents/catkin_evis/lie-spline-experiments /home/lyu/Documents/catkin_evis/lie-spline-experiments /home/lyu/Documents/catkin_evis/lie-spline-experiments/build /home/lyu/Documents/catkin_evis/lie-spline-experiments/build /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles/eval_calib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lu/Desktop/PanoMotionEst/LieSpline /home/lu/Desktop/PanoMotionEst/LieSpline /home/lu/Desktop/PanoMotionEst/LieSpline/build /home/lu/Desktop/PanoMotionEst/LieSpline/build /home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles/eval_calib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/eval_calib.dir/depend
 

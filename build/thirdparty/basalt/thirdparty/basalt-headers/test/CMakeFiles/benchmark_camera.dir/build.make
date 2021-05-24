@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lyu/Documents/catkin_evis/lie-spline-experiments
+CMAKE_SOURCE_DIR = /home/lu/Desktop/PanoMotionEst/LieSpline
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lyu/Documents/catkin_evis/lie-spline-experiments/build
+CMAKE_BINARY_DIR = /home/lu/Desktop/PanoMotionEst/LieSpline/build
 
 # Include any dependencies generated for this target.
 include thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/depend.make
@@ -59,16 +59,16 @@ include thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_ca
 
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/src/benchmark_camera.cpp.o: thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/flags.make
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/src/benchmark_camera.cpp.o: ../thirdparty/basalt/thirdparty/basalt-headers/test/src/benchmark_camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/src/benchmark_camera.cpp.o"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/thirdparty/basalt/thirdparty/basalt-headers/test && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark_camera.dir/src/benchmark_camera.cpp.o -c /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/basalt/thirdparty/basalt-headers/test/src/benchmark_camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/src/benchmark_camera.cpp.o"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build/thirdparty/basalt/thirdparty/basalt-headers/test && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark_camera.dir/src/benchmark_camera.cpp.o -c /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/basalt/thirdparty/basalt-headers/test/src/benchmark_camera.cpp
 
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/src/benchmark_camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/benchmark_camera.dir/src/benchmark_camera.cpp.i"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/thirdparty/basalt/thirdparty/basalt-headers/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/basalt/thirdparty/basalt-headers/test/src/benchmark_camera.cpp > CMakeFiles/benchmark_camera.dir/src/benchmark_camera.cpp.i
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build/thirdparty/basalt/thirdparty/basalt-headers/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/basalt/thirdparty/basalt-headers/test/src/benchmark_camera.cpp > CMakeFiles/benchmark_camera.dir/src/benchmark_camera.cpp.i
 
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/src/benchmark_camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/benchmark_camera.dir/src/benchmark_camera.cpp.s"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/thirdparty/basalt/thirdparty/basalt-headers/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/basalt/thirdparty/basalt-headers/test/src/benchmark_camera.cpp -o CMakeFiles/benchmark_camera.dir/src/benchmark_camera.cpp.s
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build/thirdparty/basalt/thirdparty/basalt-headers/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/basalt/thirdparty/basalt-headers/test/src/benchmark_camera.cpp -o CMakeFiles/benchmark_camera.dir/src/benchmark_camera.cpp.s
 
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/src/benchmark_camera.cpp.o.requires:
 
@@ -93,8 +93,8 @@ thirdparty/basalt/thirdparty/basalt-headers/test/benchmark_camera: thirdparty/ba
 thirdparty/basalt/thirdparty/basalt-headers/test/benchmark_camera: thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src/libbenchmark.a
 thirdparty/basalt/thirdparty/basalt-headers/test/benchmark_camera: /usr/lib/x86_64-linux-gnu/librt.so
 thirdparty/basalt/thirdparty/basalt-headers/test/benchmark_camera: thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable benchmark_camera"
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/thirdparty/basalt/thirdparty/basalt-headers/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/benchmark_camera.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lu/Desktop/PanoMotionEst/LieSpline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable benchmark_camera"
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build/thirdparty/basalt/thirdparty/basalt-headers/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/benchmark_camera.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/build: thirdparty/basalt/thirdparty/basalt-headers/test/benchmark_camera
@@ -106,10 +106,10 @@ thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/requires
 
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/clean:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/thirdparty/basalt/thirdparty/basalt-headers/test && $(CMAKE_COMMAND) -P CMakeFiles/benchmark_camera.dir/cmake_clean.cmake
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build/thirdparty/basalt/thirdparty/basalt-headers/test && $(CMAKE_COMMAND) -P CMakeFiles/benchmark_camera.dir/cmake_clean.cmake
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/clean
 
 thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/depend:
-	cd /home/lyu/Documents/catkin_evis/lie-spline-experiments/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lyu/Documents/catkin_evis/lie-spline-experiments /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/basalt/thirdparty/basalt-headers/test /home/lyu/Documents/catkin_evis/lie-spline-experiments/build /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/thirdparty/basalt/thirdparty/basalt-headers/test /home/lyu/Documents/catkin_evis/lie-spline-experiments/build/thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lu/Desktop/PanoMotionEst/LieSpline/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lu/Desktop/PanoMotionEst/LieSpline /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/basalt/thirdparty/basalt-headers/test /home/lu/Desktop/PanoMotionEst/LieSpline/build /home/lu/Desktop/PanoMotionEst/LieSpline/build/thirdparty/basalt/thirdparty/basalt-headers/test /home/lu/Desktop/PanoMotionEst/LieSpline/build/thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : thirdparty/basalt/thirdparty/basalt-headers/test/CMakeFiles/benchmark_camera.dir/depend
 

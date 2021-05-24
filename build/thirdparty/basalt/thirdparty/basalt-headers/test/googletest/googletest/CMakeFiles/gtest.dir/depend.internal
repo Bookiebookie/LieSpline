@@ -33,4 +33,4 @@ thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/CMakeFile
  ../thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/src/gtest-test-part.cc
  ../thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/src/gtest-typed-test.cc
  ../thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/src/gtest.cc
- /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/src/gtest-all.cc
+ /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/basalt/thirdparty/basalt-headers/test/googletest/googletest/src/gtest-all.cc

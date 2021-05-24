@@ -1,4 +1,4 @@
-# Install script for directory: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src
+# Install script for directory: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

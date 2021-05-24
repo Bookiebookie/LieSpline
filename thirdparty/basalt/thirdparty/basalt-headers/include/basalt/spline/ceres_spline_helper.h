@@ -91,7 +91,7 @@ struct CeresSplineHelper {
   /// @brief Evaluate Lie group cummulative B-spline and time derivatives.
   ///
   /// @param[in] sKnots array of pointers of the spline knots. The size of each
-  /// knot should be GroupT::num_parameters: 4 for SO(3) and 7 for SE(3).
+  /// knot should be GroupT::num_parameters: 4 for SO(3) and 7 for SE(3). why 4 and 7??? should be 3 and 6
   /// @param[in] u normalized time to compute value of the spline
   /// @param[in] inv_dt inverse of the time spacing in seconds between spline
   /// knots

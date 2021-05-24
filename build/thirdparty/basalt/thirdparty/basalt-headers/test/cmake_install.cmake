@@ -1,4 +1,4 @@
-# Install script for directory: /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/basalt/thirdparty/basalt-headers/test
+# Install script for directory: /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/basalt/thirdparty/basalt-headers/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/cmake_install.cmake")
+  include("/home/lu/Desktop/PanoMotionEst/LieSpline/build/thirdparty/basalt/thirdparty/basalt-headers/test/benchmark/cmake_install.cmake")
 
 endif()
 

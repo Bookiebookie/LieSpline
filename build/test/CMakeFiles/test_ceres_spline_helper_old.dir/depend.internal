@@ -251,4 +251,4 @@ test/CMakeFiles/test_ceres_spline_helper_old.dir/src/test_ceres_spline_helper_ol
  ../thirdparty/basalt/thirdparty/basalt-headers/thirdparty/eigen/Eigen/src/plugins/CommonCwiseUnaryOps.h
  ../thirdparty/basalt/thirdparty/basalt-headers/thirdparty/eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.h
  ../thirdparty/basalt/thirdparty/basalt-headers/thirdparty/eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h
- /home/lyu/Documents/catkin_evis/lie-spline-experiments/test/src/test_ceres_spline_helper_old.cpp
+ /home/lu/Desktop/PanoMotionEst/LieSpline/test/src/test_ceres_spline_helper_old.cpp

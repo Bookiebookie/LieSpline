@@ -294,4 +294,4 @@ CMakeFiles/eval_lie_spline.dir/src/eval_lie_spline.cpp.o
  ../thirdparty/ceres-solver/include/ceres/solver.h
  ../thirdparty/ceres-solver/include/ceres/types.h
  ../thirdparty/ceres-solver/include/ceres/version.h
- /home/lyu/Documents/catkin_evis/lie-spline-experiments/src/eval_lie_spline.cpp
+ /home/lu/Desktop/PanoMotionEst/LieSpline/src/eval_lie_spline.cpp

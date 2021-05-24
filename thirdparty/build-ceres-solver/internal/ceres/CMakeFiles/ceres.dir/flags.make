@@ -6,5 +6,5 @@ CXX_FLAGS = -march=native -O3 -Wno-deprecated-declarations -Wno-null-pointer-ari
 
 CXX_DEFINES = -DCERES_CXSPARSE_VERSION=\"3.1.9\" -DCERES_SUITESPARSE_VERSION=\"5.1.2\" -DGFLAGS_IS_A_DLL=0
 
-CXX_INCLUDES = -I/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/config -I/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/internal -I/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/include -I/usr/include/suitesparse -isystem /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/basalt/thirdparty/basalt-headers/thirdparty/eigen 
+CXX_INCLUDES = -I/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/config -I/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/internal -I/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/include -I/usr/include/suitesparse -isystem /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/basalt/thirdparty/basalt-headers/thirdparty/eigen 
 

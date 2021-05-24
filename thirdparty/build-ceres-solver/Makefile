@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver
+CMAKE_SOURCE_DIR = /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver
+CMAKE_BINARY_DIR = /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

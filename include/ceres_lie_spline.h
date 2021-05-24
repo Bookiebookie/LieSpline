@@ -76,6 +76,7 @@ class CeresLieGroupSpline {
                                                              << " knots.size() "
                                                              << knots.size());
 
+    // set the cost Function, the deriv of ceres_spline_helper
     using FunctorT = LieGroupSplineValueCostFunctor<N, GroupT>;
     FunctorT* functor = new FunctorT(meas, u);
 
@@ -89,6 +90,7 @@ class CeresLieGroupSpline {
 
     std::vector<double*> vec;
     for (int i = 0; i < N; i++) {
+      //not understood, why N knots here, and what excatly is knot??? control points or timeline?
       vec.emplace_back(knots[s + i].data());
     }
 

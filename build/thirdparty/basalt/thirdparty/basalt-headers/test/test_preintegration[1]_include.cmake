@@ -1,5 +1,5 @@
-if(EXISTS "/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/thirdparty/basalt/thirdparty/basalt-headers/test/test_preintegration[1]_tests.cmake")
-  include("/home/lyu/Documents/catkin_evis/lie-spline-experiments/build/thirdparty/basalt/thirdparty/basalt-headers/test/test_preintegration[1]_tests.cmake")
+if(EXISTS "/home/lu/Desktop/PanoMotionEst/LieSpline/build/thirdparty/basalt/thirdparty/basalt-headers/test/test_preintegration[1]_tests.cmake")
+  include("/home/lu/Desktop/PanoMotionEst/LieSpline/build/thirdparty/basalt/thirdparty/basalt-headers/test/test_preintegration[1]_tests.cmake")
 else()
   add_test(test_preintegration_NOT_BUILT test_preintegration_NOT_BUILT)
 endif()

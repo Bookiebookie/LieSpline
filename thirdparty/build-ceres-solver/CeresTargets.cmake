@@ -46,7 +46,7 @@ add_library(Ceres::ceres STATIC IMPORTED)
 
 set_target_properties(Ceres::ceres PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_14"
-  INTERFACE_INCLUDE_DIRECTORIES "/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/config;/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/ceres-solver/include;/usr/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/config;/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/ceres-solver/include;/usr/include"
   INTERFACE_LINK_LIBRARIES "Threads::Threads;/usr/lib/x86_64-linux-gnu/libglog.so;gflags;/usr/lib/x86_64-linux-gnu/libspqr.so;\$<\$<NOT:\$<CONFIG:DEBUG>>:/usr/lib/x86_64-linux-gnu/libtbb.so>;\$<\$<CONFIG:DEBUG>:/usr/lib/x86_64-linux-gnu/libtbb.so>;/usr/lib/x86_64-linux-gnu/libcholmod.so;/usr/lib/x86_64-linux-gnu/libccolamd.so;/usr/lib/x86_64-linux-gnu/libcamd.so;/usr/lib/x86_64-linux-gnu/libcolamd.so;/usr/lib/x86_64-linux-gnu/libamd.so;/usr/lib/x86_64-linux-gnu/liblapack.so;/usr/lib/x86_64-linux-gnu/libf77blas.so;/usr/lib/x86_64-linux-gnu/libatlas.so;/usr/lib/x86_64-linux-gnu/libf77blas.so;/usr/lib/x86_64-linux-gnu/libatlas.so;/usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so;/usr/lib/x86_64-linux-gnu/librt.so;/usr/lib/x86_64-linux-gnu/libcxsparse.so;/usr/lib/x86_64-linux-gnu/liblapack.so;/usr/lib/x86_64-linux-gnu/libf77blas.so;/usr/lib/x86_64-linux-gnu/libatlas.so;Eigen3::Eigen"
 )
 
@@ -54,7 +54,7 @@ set_target_properties(Ceres::ceres PROPERTIES
 set_property(TARGET Ceres::ceres APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(Ceres::ceres PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/build-ceres-solver/lib/libceres.a"
+  IMPORTED_LOCATION_RELEASE "/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/build-ceres-solver/lib/libceres.a"
   )
 
 # This file does not depend on other imported targets which have

@@ -1552,13 +1552,13 @@ lapacke_mangling.h
 
 ../thirdparty/basalt/thirdparty/basalt-headers/thirdparty/eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h
 
-/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/basalt/thirdparty/basalt-headers/test/src/test_ceres_spline_helper.cpp
+/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/basalt/thirdparty/basalt-headers/test/src/test_ceres_spline_helper.cpp
 iostream
 -
 gtest/gtest.h
-/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/basalt/thirdparty/basalt-headers/test/src/gtest/gtest.h
+/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/basalt/thirdparty/basalt-headers/test/src/gtest/gtest.h
 test_utils.h
-/home/lyu/Documents/catkin_evis/lie-spline-experiments/thirdparty/basalt/thirdparty/basalt-headers/test/src/test_utils.h
+/home/lu/Desktop/PanoMotionEst/LieSpline/thirdparty/basalt/thirdparty/basalt-headers/test/src/test_utils.h
 sophus/sim3.hpp
 -
 basalt/spline/ceres_spline_helper.h
