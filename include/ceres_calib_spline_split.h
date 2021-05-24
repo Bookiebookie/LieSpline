@@ -267,12 +267,14 @@ class CeresCalibrationSplineSplit {
 
     using FunctorT = CalibReprojectionCostFunctorSplit<N>;
 
+    // compute the residual
     FunctorT* functor = new FunctorT(corners, aprilgrid.get(),
                                      calib.intrinsics[cam_id], u, inv_dt);
 
     ceres::DynamicAutoDiffCostFunction<FunctorT>* cost_function =
         new ceres::DynamicAutoDiffCostFunction<FunctorT>(functor);
 
+    // allocate the memory
     for (int i = 0; i < N; i++) {
       cost_function->AddParameterBlock(4);
     }
@@ -284,6 +286,7 @@ class CeresCalibrationSplineSplit {
 
     cost_function->SetNumResiduals(corners->corner_ids.size() * 2);
 
+    // Sophus .data() returns a pointer
     std::vector<double*> vec;
     for (int i = 0; i < N; i++) {
       vec.emplace_back(so3_knots[s + i].data());
@@ -374,7 +377,7 @@ class CeresCalibrationSplineSplit {
           Eigen::Vector2d res_point = residual.segment<2>(2 * i);
 
           if (res_point[0] != 0.0 && res_point[1] != 0.0) {
-            sum_error += res_point.norm();
+            sum_error += res_point.norm();// thas wht it is called meanReprojection
             num_points += 1;
           }
         }

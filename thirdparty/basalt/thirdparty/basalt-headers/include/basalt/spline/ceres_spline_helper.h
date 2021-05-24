@@ -101,8 +101,8 @@ struct CeresSplineHelper {
   /// @param[out] accel_out if not nullptr acceleration (second time derivative)
   /// in the body frame
   template <class T, template <class> class GroupT>
-  static inline void evaluate_lie(
-      T const* const* sKnots, const double u, const double inv_dt,
+  static inline void evaluate_lie(// why it's inline? queit complicated.
+      T const* const* sKnots, const double u, const double inv_dt,// what does two consecutive const* mean?
       GroupT<T>* transform_out = nullptr,
       typename GroupT<T>::Tangent* vel_out = nullptr,
       typename GroupT<T>::Tangent* accel_out = nullptr,
@@ -149,24 +149,24 @@ struct CeresSplineHelper {
       Eigen::Map<Group const> const p1(sKnots[i + 1]);
 
       Group r01 = p0.inverse() * p1;
-      Tangent delta = r01.log();
+      Tangent delta = r01.log();//eq 23
 
-      Group exp_kdelta = Group::exp(delta * coeff[i + 1]);
+      Group exp_kdelta = Group::exp(delta * coeff[i + 1]);// eq 25
 
-      if (transform_out) (*transform_out) *= exp_kdelta;
+      if (transform_out) (*transform_out) *= exp_kdelta;// eq 26
 
       if (vel_out || accel_out || jerk_out) {
         Adjoint A = exp_kdelta.inverse().Adj();
 
         rot_vel = A * rot_vel;
         Tangent rot_vel_current = delta * dcoeff[i + 1];
-        rot_vel += rot_vel_current;
+        rot_vel += rot_vel_current; // eq 34
 
         if (accel_out || jerk_out) {
           rot_accel = A * rot_accel;
           Tangent accel_lie_bracket =
               Group::lieBracket(rot_vel, rot_vel_current);
-          rot_accel += ddcoeff[i + 1] * delta + accel_lie_bracket;
+          rot_accel += ddcoeff[i + 1] * delta + accel_lie_bracket;// eq 37
 
           if (jerk_out) {
             rot_jerk = A * rot_jerk;
@@ -174,7 +174,7 @@ struct CeresSplineHelper {
                         Group::lieBracket(ddcoeff[i + 1] * rot_vel +
                                               2 * dcoeff[i + 1] * rot_accel -
                                               dcoeff[i + 1] * accel_lie_bracket,
-                                          delta);
+                                          delta);// eq 57
           }
         }
       }

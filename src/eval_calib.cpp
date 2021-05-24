@@ -75,6 +75,7 @@ void run_calibration(const basalt::VioDatasetPtr& vio_dataset,
     const auto cp_it = calib_init_poses.find(tcid);
 
     if (cp_it != calib_init_poses.end()) {
+      // linear interpolation
       Sophus::SE3d T_a_i = cp_it->second.T_a_c * calib.T_i_c[0].inverse();
 
       if (!g_initialized) {
@@ -91,6 +92,7 @@ void run_calibration(const basalt::VioDatasetPtr& vio_dataset,
       }
     }
   }
+  // set gravity
   calib_spline.setG(g_a_init);
 
   int num_gyro = 0;
@@ -112,6 +114,7 @@ void run_calibration(const basalt::VioDatasetPtr& vio_dataset,
     }
   }
 
+  // done
   for (const auto& kv : calib_corners) {
     if (kv.first.frame_id >= start_t_ns && kv.first.frame_id < end_t_ns) {
       calib_spline.addCornersMeasurement(&kv.second, kv.first.cam_id,
@@ -176,10 +179,12 @@ void run_calibration_custom(const basalt::VioDatasetPtr& vio_dataset,
   constexpr int N = 5;
   const int64_t dt_ns = 1e7;
 
+  //设定开始时间
   int64_t start_t_ns =
       std::max(vio_dataset->get_image_timestamps().front(),
                vio_dataset->get_gyro_data().front().timestamp_ns);
 
+  //设定结束时间
   int64_t end_t_ns = std::min(vio_dataset->get_image_timestamps().back(),
                               vio_dataset->get_gyro_data().back().timestamp_ns);
 

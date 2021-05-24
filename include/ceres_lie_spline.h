@@ -199,6 +199,7 @@ class CeresLieGroupSpline {
     }
 
     Groupd res;
+    std::cout<<"tets1"<<*vec[0]<<std::endl;
     CeresSplineHelper<N>::template evaluate_lie<double, GroupT>(&vec[0], u,
                                                                 inv_dt, &res);
 

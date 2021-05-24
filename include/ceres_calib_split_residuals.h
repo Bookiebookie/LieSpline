@@ -140,9 +140,12 @@ struct CalibReprojectionCostFunctorSplit : public CeresSplineHelper<_N> {
 
     basalt::GenericCamera<T> cam_t = cam.template cast<T>();
 
+
+    // through first camera 内参和外参 to get the 3d coordinate of corner point, then project it to the second camera
     std::visit(
-        [&](const auto& cam_tt) {
+        [&](const auto& cam_tt) {// anonymous function
           for (size_t i = 0; i < corners->corner_ids.size(); i++) {
+            //3d coordinates of each corner point
             Vector4 p3d =
                 T_c_w_matrix *
                 aprilgrid->aprilgrid_corner_pos_3d[corners->corner_ids[i]]
@@ -151,11 +154,12 @@ struct CalibReprojectionCostFunctorSplit : public CeresSplineHelper<_N> {
             Vector2 proj;
             bool success = cam_tt.project(p3d, proj);
 
+            //compute the reprojection error
             if (success) {
               sResiduals[2 * i + 0] = proj[0] - corners->corners[i][0];
               sResiduals[2 * i + 1] = proj[1] - corners->corners[i][1];
             } else {
-              sResiduals[2 * i + 0] = T(0);
+              sResiduals[2 * i + 0] = T(0);//double(0)
               sResiduals[2 * i + 1] = T(0);
             }
           }
